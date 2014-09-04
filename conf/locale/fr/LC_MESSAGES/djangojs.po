@@ -209,6 +209,7 @@ msgstr "Chargement en cours"
 msgid "Name"
 msgstr "Nom"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/manage_users_and_roles.js
@@ -1197,9 +1198,12 @@ msgstr "Nouveau document"
 msgid "New window"
 msgstr "Nouvelle fenêtre"
 
+#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
+#: cms/templates/js/paging-footer.underscore
+#: cms/templates/js/paging-header.underscore
 msgid "Next"
 msgstr "Suivant"
 
@@ -1902,6 +1906,7 @@ msgid "Show Discussion"
 msgstr "Afficher la discussion"
 
 #: common/static/coffee/src/discussion/discussion_module_view.js
+#: common/static/coffee/src/discussion/utils.js
 #: common/static/coffee/src/discussion/utils.js
 #: common/static/coffee/src/discussion/views/discussion_thread_list_view.js
 #: common/static/coffee/src/discussion/views/discussion_thread_view.js
@@ -6046,6 +6051,9 @@ msgstr ""
 msgid ""
 "ID-Verification is not required for this Professional Education course."
 msgstr ""
+"Si l'unité a déjà été publiée et diffusée aux étudiants, tous les "
+"changements apportés à l'unité pendant qu' elle était cachée seront "
+"désormais visibles par les étudiants. Voulez-vous continuer?"
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
@@ -6947,6 +6955,9 @@ msgid ""
 "to see its content after the release date has passed and you have published "
 "the unit."
 msgstr ""
+"Si vous rendez ce %(xblockType)s visible pour les étudiants, les étudiants "
+"seront en mesure de voir son contenu après la date de sortie et la "
+"publication de l'unité(s)."
 
 #: cms/templates/js/staff-lock-editor.underscore
 msgid ""
@@ -6968,6 +6979,8 @@ msgstr ""
 #: cms/templates/js/team-member.underscore
 msgid "Current Role:"
 msgstr ""
+"Veuillez vérifier les commentaires de validation suivants et en tenir compte"
+" dans les paramètres de votre cours:"
 
 #: cms/templates/js/team-member.underscore
 msgid "You!"
