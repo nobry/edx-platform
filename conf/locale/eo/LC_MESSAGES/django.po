@@ -171,6 +171,14 @@ msgstr ""
 "Lïst öf dömäïns thät äré ällöwéd tö mäké çröss-dömäïn réqüésts tö thïs sïté."
 "  Pléäsé lïst éäçh dömäïn ön ïts öwn lïné. Ⱡ'σяєм ιρѕυм #"
 
+#: common/djangoapps/course_groups/views.py
+msgid "Requested page must be numeric"
+msgstr "Réqüéstéd pägé müst ßé nümérïç Ⱡ'σяєм #"
+
+#: common/djangoapps/course_groups/views.py
+msgid "Requested page must be greater than zero"
+msgstr "Réqüéstéd pägé müst ßé gréätér thän zérö Ⱡ'σяєм ιρѕυ#"
+
 #: common/djangoapps/course_modes/models.py
 msgid "Honor Code Certificate"
 msgstr "Hönör Çödé Çértïfïçäté Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢#"
@@ -1861,6 +1869,7 @@ msgid "Attempted"
 msgstr "Àttémptéd Ⱡ'σяєм ιρѕυм ∂σł#"
 
 #: common/lib/xmodule/xmodule/capa_base.py
+#: lms/templates/discussion/_underscore_templates.html
 msgid "Closed"
 msgstr "Çlöséd Ⱡ'σяєм ιρѕυ#"
 
@@ -4110,6 +4119,45 @@ msgstr ""
 "Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυ#"
 
 #: common/lib/xmodule/xmodule/lti_module.py
+msgid "Request user's username"
+msgstr "Réqüést üsér's üsérnämé Ⱡ'σяє#"
+
+#: common/lib/xmodule/xmodule/lti_module.py
+msgid ""
+"Requesting user's username will only work if 'Open in a new page' is set to "
+"True"
+msgstr ""
+"Réqüéstïng üsér's üsérnämé wïll önlý wörk ïf 'Öpén ïn ä néw pägé' ïs sét tö "
+"Trüé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
+
+#: common/lib/xmodule/xmodule/lti_module.py
+msgid "Request user's email"
+msgstr "Réqüést üsér's émäïl Ⱡ'σя#"
+
+#: common/lib/xmodule/xmodule/lti_module.py
+msgid ""
+"Requesting user's email will only work if 'Open in a new page' is set to "
+"True"
+msgstr ""
+"Réqüéstïng üsér's émäïl wïll önlý wörk ïf 'Öpén ïn ä néw pägé' ïs sét tö "
+"Trüé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт #"
+
+#: common/lib/xmodule/xmodule/lti_module.py
+msgid "LTI Application Information"
+msgstr "LTÌ Àpplïçätïön Ìnförmätïön Ⱡ'σяєм#"
+
+#: common/lib/xmodule/xmodule/lti_module.py
+msgid ""
+"Provide a description of the third party application. If requesting username"
+" and/or email, use this text box to inform users that their username and/or "
+"email will be forwarded to a third party application."
+msgstr ""
+"Prövïdé ä désçrïptïön öf thé thïrd pärtý äpplïçätïön. Ìf réqüéstïng üsérnämé"
+" änd/ör émäïl, üsé thïs téxt ßöx tö ïnförm üsérs thät théïr üsérnämé änd/ör "
+"émäïl wïll ßé förwärdéd tö ä thïrd pärtý äpplïçätïön. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт"
+" αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ#"
+
+#: common/lib/xmodule/xmodule/lti_module.py
 msgid ""
 "Could not parse custom parameter: {custom_parameter}. Should be \"x=y\" "
 "string."
@@ -4277,6 +4325,10 @@ msgstr ""
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "{group_name} (inactive)"
 msgstr "{group_name} (ïnäçtïvé) Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт#"
+
+#: common/lib/xmodule/xmodule/split_test_module.py
+msgid "{group_name} (inactive)"
+msgstr "{group_name} (ïnäçtïvé) Ⱡ'#"
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "The experiment is not associated with a group configuration."
@@ -12286,6 +12338,45 @@ msgstr "Ýöü dö nöt hävé äný nötés. Ⱡ'σяєм ιρѕυм ∂σłσ�
 msgid "your answer"
 msgstr "ýöür änswér Ⱡ'σяєм ιρѕυм ∂σłσя #"
 
+#: lms/templates/original_edx_footer.html
+msgid "edX Logo"
+msgstr "édX Lögö #"
+
+#: lms/templates/original_edx_footer.html
+msgid ""
+"{EdX} is a non-profit created by founding partners {Harvard} and {MIT} whose"
+" mission is to bring the best of higher education to students of all ages "
+"anywhere in the world, wherever there is Internet access. {EdX}'s free "
+"online MOOCs are interactive and subjects include computer science, public "
+"health, and artificial intelligence."
+msgstr ""
+"{EdX} ïs ä nön-pröfït çréätéd ßý föündïng pärtnérs {Harvard} änd {MIT} whösé"
+" mïssïön ïs tö ßrïng thé ßést öf hïghér édüçätïön tö stüdénts öf äll ägés "
+"änýwhéré ïn thé wörld, whérévér théré ïs Ìntérnét äççéss. {EdX}'s fréé "
+"önlïné MÖÖÇs äré ïntéräçtïvé änd süßjéçts ïnçlüdé çömpütér sçïénçé, püßlïç "
+"héälth, änd ärtïfïçïäl ïntéllïgénçé. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
+"¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє є#"
+
+#: lms/templates/original_edx_footer.html
+msgid "&copy; 2014 edX, some rights reserved."
+msgstr "&copy; 2014 édX, sömé rïghts résérvéd. Ⱡ'σяєм ιρ#"
+
+#: lms/templates/original_navigation.html
+#: lms/templates/sysadmin_dashboard.html
+#: lms/templates/sysadmin_dashboard_gitlogs.html
+#: lms/templates/courseware/courses.html
+msgid "Courses"
+msgstr "Çöürsés #"
+
+#: lms/templates/original_navigation.html
+msgid "Schools"
+msgstr "Sçhööls #"
+
+#: lms/templates/original_navigation.html
+#: lms/templates/original_navigation.html
+msgid "Register Now"
+msgstr "Régïstér Nöw Ⱡ#"
+
 #: lms/templates/problem.html
 msgid "Hint"
 msgstr "Hïnt Ⱡ'σяєм ι#"
@@ -12359,6 +12450,7 @@ msgstr ""
 "ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α#"
 
 #: lms/templates/register-shib.html lms/templates/register.html
+#: lms/templates/register.html
 msgid ""
 "Required fields are noted by <strong class=\"indicator\">bold text and an "
 "asterisk (*)</strong>."
@@ -14782,6 +14874,7 @@ msgid "{course_number} {course_name} Home Page"
 msgstr "{course_number} {course_name} Hömé Pägé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
+#: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "{course_number} {course_name} Cover Image"
 msgstr ""
 "{course_number} {course_name} Çövér Ìmägé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт,#"
@@ -15263,6 +15356,9 @@ msgstr "Çölläpsé dïsçüssïön Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт 
 msgid "Editing post"
 msgstr "Édïtïng pöst Ⱡ'σяєм ιρѕυм ∂σłσя ѕ#"
 
+#. Translators: post_type describes the kind of post this is
+#. (e.g. "question" or "discussion"); time_ago is how much time
+#. has passed since the post was created (e.g. "4 hours ago")
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Edit post title"
 msgstr "Édït pöst tïtlé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт α#"
@@ -15336,6 +15432,18 @@ msgstr "ünänswéréd qüéstïön Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт �
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Pinned"
 msgstr "Pïnnéd Ⱡ'σяєм ιρѕυ#"
+
+#: lms/templates/discussion/_underscore_templates.html
+msgid "discussion"
+msgstr "dïsçüssïön Ⱡ#"
+
+#: lms/templates/discussion/_underscore_templates.html
+msgid "answered question"
+msgstr "änswéréd qüéstïön Ⱡ'σ#"
+
+#: lms/templates/discussion/_underscore_templates.html
+msgid "unanswered question"
+msgstr "ünänswéréd qüéstïön Ⱡ'σя#"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "By: Staff"
@@ -15433,6 +15541,13 @@ msgstr "Vïsïßlé Tö: Ⱡ'σяєм ιρѕυм ∂σłσя #"
 msgid "All Groups"
 msgstr "Àll Gröüps Ⱡ'σяєм ιρѕυм ∂σłσ#"
 
+#. Translators: This is the label for a control to
+#. select a forum post type
+#: lms/templates/discussion/_underscore_templates.html
+msgid "Post type:"
+msgstr "Pöst týpé: Ⱡ#"
+
+#. Translators: This is a forum post type
 #: lms/templates/discussion/_underscore_templates.html
 msgid ""
 "Discussion admins, moderators, and TAs can make their posts visible to all "
@@ -15724,6 +15839,10 @@ msgid "Thank you for signing up for {platform_name}."
 msgstr ""
 "Thänk ýöü för sïgnïng üp för {platform_name}. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
 "¢σηѕє¢тє#"
+
+#: lms/templates/emails/activation_email.txt
+msgid "Thank you for signing up for {platform_name}."
+msgstr "Thänk ýöü för sïgnïng üp för {platform_name}. Ⱡ'σяєм ι#"
 
 #: lms/templates/emails/activation_email.txt
 msgid ""
@@ -16126,6 +16245,17 @@ msgstr ""
 "¢σηѕєqυαт. ∂υιѕ αυтє ιяυяє ∂σłσя ιη яєρяєнєη∂єяιт ιη νσłυρтαтє νєłιт єѕѕє "
 "¢ιłłυм ∂σłσяє єυ ƒυgιαт ηυłłα ραяιαтυя. єχ¢єρтєυя ѕι#"
 
+#: lms/templates/emails/email_change.txt
+msgid ""
+"If you didn't request this, you don't need to do anything; you won't receive"
+" any more email from us. Please do not reply to this e-mail; if you require "
+"assistance, check the help section of the {platform_name} web site."
+msgstr ""
+"Ìf ýöü dïdn't réqüést thïs, ýöü dön't nééd tö dö änýthïng; ýöü wön't réçéïvé"
+" äný möré émäïl fröm üs. Pléäsé dö nöt réplý tö thïs é-mäïl; ïf ýöü réqüïré "
+"ässïstänçé, çhéçk thé hélp séçtïön öf thé {platform_name} wéß sïté. Ⱡ'σяєм "
+"ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ #"
+
 #: lms/templates/emails/email_change_subject.txt
 msgid "Request to change {platform_name} account e-mail"
 msgstr ""
@@ -16420,6 +16550,128 @@ msgid "For payment questions, contact {contact_email}"
 msgstr ""
 "För päýmént qüéstïöns, çöntäçt {contact_email} Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
 "¢σηѕє¢тєт#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Professional Education Invoicing Center"
+msgstr "Pröféssïönäl Édüçätïön Ìnvöïçïng Çéntér Ⱡ'σяєм ιρѕ#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Portland Street, "
+msgstr "Pörtländ Stréét,  Ⱡ'σ#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "9th floor Cambridge, MA,"
+msgstr "9th flöör Çämßrïdgé, MÀ, Ⱡ'σяє#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "02139 finance@edx.org"
+msgstr "02139 fïnänçé@édx.örg Ⱡ'σя#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "---------------------------------"
+msgstr "--------------------------------- Ⱡ'σяєм ι#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Bill To:"
+msgstr "Bïll Tö: #"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "{company_name}"
+msgstr "{company_name} Ⱡ'σя#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "{purchaser_name}"
+msgstr "{purchaser_name} Ⱡ'σя#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Customer Reference Number: {customer_reference_number}"
+msgstr "Çüstömér Référénçé Nümßér: {customer_reference_number} Ⱡ'σяєм #"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Registration codes:"
+msgstr "Régïsträtïön çödés: Ⱡ'σя#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid ""
+"Please distribute one of the following registration codes to each student "
+"who is going to enroll in the class."
+msgstr ""
+"Pléäsé dïstrïßüté öné öf thé föllöwïng régïsträtïön çödés tö éäçh stüdént "
+"whö ïs göïng tö énröll ïn thé çläss. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid ""
+"A student can redeem one of these codes by registering an account on "
+"({site_name}.edx.org), starting the purchase"
+msgstr ""
+"À stüdént çän rédéém öné öf thésé çödés ßý régïstérïng än äççöünt ön "
+"({site_name}.édx.örg), stärtïng thé pürçhäsé Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, "
+"¢ση#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid ""
+"process on this course by adding it to their shopping cart from this page "
+"({course_url}), and"
+msgstr ""
+"pröçéss ön thïs çöürsé ßý äddïng ït tö théïr shöppïng çärt fröm thïs pägé "
+"({course_url}), änd Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αм#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "entering their registration code while in the shopping cart."
+msgstr ""
+"éntérïng théïr régïsträtïön çödé whïlé ïn thé shöppïng çärt. Ⱡ'σяєм ιρѕυм "
+"∂σłσ#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid ""
+"Thank you for your purchase! Failure to pay this invoice will result the "
+"invalidation of student enrollments"
+msgstr ""
+"Thänk ýöü för ýöür pürçhäsé! Fäïlüré tö päý thïs ïnvöïçé wïll résült thé "
+"ïnvälïdätïön öf stüdént énröllménts Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕ#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid ""
+"that use these codes. All purchases are final. Please refer to the "
+"cancellation policy"
+msgstr ""
+"thät üsé thésé çödés. Àll pürçhäsés äré fïnäl. Pléäsé référ tö thé "
+"çänçéllätïön pölïçý Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмє#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "on {site_name} for more information."
+msgstr "ön {site_name} för möré ïnförmätïön. Ⱡ'σяєм #"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Course: {course_name} {start_date} - {end_date}"
+msgstr "Çöürsé: {course_name} {start_date} - {end_date} Ⱡ'σя#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Price:     ${price}"
+msgstr "Prïçé:     ${price} Ⱡ'#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Quantity:  ${quantity}"
+msgstr "Qüäntïtý:  ${quantity} Ⱡ'#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Sub-Total: ${sub_total}"
+msgstr "Süß-Tötäl: ${sub_total} Ⱡ'#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Discount:  ${discount}"
+msgstr "Dïsçöünt:  ${discount} Ⱡ'#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "---------  ------"
+msgstr "---------  ------ Ⱡ'σ#"
+
+#: lms/templates/emails/registration_codes_sale_invoice.txt
+msgid "Total Due: ${total_price}"
+msgstr "Tötäl Düé: ${total_price} Ⱡ'#"
 
 #: lms/templates/emails/reject_name_change.txt
 msgid ""
