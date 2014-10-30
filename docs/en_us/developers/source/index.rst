@@ -27,6 +27,7 @@ Contents:
     testing/index
     code-considerations
     deploy-new-service
+    split-mongo
 
 APIs
 -----
