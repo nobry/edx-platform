@@ -7,8 +7,9 @@ See:
 * `Overview`_
 * `Split Mongo Data Model`_
 * `Split Mongo Capabilities`_
-* `Split Mongo Course Keys`_
 * `Split Mongo and Other edX Modulestores`_
+* `Configuring Modulestores`_ 
+
 
 ************************
 Overview
@@ -26,7 +27,6 @@ information:
 
 This separation of identity, structure, and content enables course authors to
 use more advanced capabilities when developing and managing courses.
-
 
 .. _mongoDB website: http://www.mongodb.org
 
@@ -53,20 +53,26 @@ The course index supports multiple branches of a course.  The index can store
 multiple entries for a course ID, with each entry pointing to a different
 course structure that corresponds to a different branch.
 
-As currently implemented in the edX Platform, for each course, there is an
-branch for both the published and draft versions of the course. 
+.. SHOW A DATABASE VIEW?
 
-SHOW A DATABASE VIEW?
+As currently implemented, for each course, there is a branch for both the
+published and draft versions of the course. The published and draft branches of
+the course point to different structures.
 
-The published and draft branches of the course point to different structures.
+In the edX Platform:
 
 *  Students using the LMS see and interact with the published version of the
    course.
 
 *  Course staff using edX Studio make changes to the draft version of the
-   course. When course staff publish units, they make that version of the
-   course the published version. When course staff begins another set of
-   changes, the draft branch is updated.
+   course. 
+
+   *  When the user saves a change to a section or subsection, the draft branch
+      is automatically published; that is, it becomes the published branch.
+   
+   *  For units and components, changes are saved in the draft branch. The user
+      must publish the unit to make the draft branch the published branch. When
+      the user begins another set of changes, the draft branch is updated.
 
 ==========================
 Course Structures
@@ -84,13 +90,12 @@ Each block in the course structure points to a :ref:`definition <XBlock
 Definitions>`. Different blocks, in different structures, can point to the same
 definition.
 
-SHOW A DATABASE VIEW?
+.. SHOW A DATABASE VIEW?
 
 Course structures, and each block within a structure, are versioned. That is,
-when a course author changes a course [DETAILS ON BOUNDARIES NEEDED?], a new
-course structure is saved; the previous course structure remains in the
-database and is not modified. A new version of the block(s) the course author
-changed is also saved.
+when a course author changes a course, a new course structure is saved; the
+previous course structure remains in the database and is not modified. A new
+version of the block(s) the course author changed is also saved.
 
 
 .. _XBlock Definitions:
@@ -104,50 +109,113 @@ sections and subsections, the definition consists of the block's display name.
 For components, such as HTML or exercises, the definition also contains the
 content of the object. A definition can be referenced by multiple blocks.
 
-SHOW A DATABASE VIEW?
+.. SHOW A DATABASE VIEW?
 
 Course definitions are versioned. That is, when a course author changes
 content, a new course definition for that object is saved; the previous
 definition remains in the database and is not modified.
 
-
-
 ************************
 Split Mongo Capabilities
 ************************
 
-Abilities enabled for applications
+The Split Mongo data model enables the edX Platform to implement advanced
+content management functionality. Specifically, Split Mongo is designed to
+enable:
 
+* `Multiple Course Branches`_
+* `Versioning`_
+* `Content Reuse`_
+  
+While these capabilities are not fully implemented in the edX Platform, Split
+Mongo is designed to allow future enhancements that enable these content
+management capabilities.
+
+========================
+Multiple Course Branches
+========================
+
+Split Mongo enables multiple branches of a course. The `course index <Course
+Index`>_ can have multiple entries for a course ID, each of which points to a
+different structure.
+
+The edX Platform currently uses a draft and a published branch for a course.
+Future enhancements may use other branches.
+
+.. ANYTHING ABOUT RERUNS HERE?
+
+============
 Versioning
+============
 
-Drafts/Publishing
+In Split Mongo, every change to a course or a block within the course is saved,
+with the time and user recorded.
 
-Reuse
+Versioning enables future enhancements such as allowing course authors to
+revert a course or block to a previous version.
 
+==============
+Content Reuse
+==============
 
-************************
-Split Mongo Course Keys
-************************
+By using pointers to reference XBlocks definitions from `course structures
+<Course Structures>`_, Split Mongo enables content reuse. A single `XBlock
+definition <XBlock Definition>`_ can be referenced from multiple course
+structures.
 
-
-Locators - Course, Block, Definition
-
-
+Future enhancements to the edX Platform can allow course authors to reuse an
+XBlock in multiple contexts, streamling course development and maintenance.
 
 ***************************************
 Split Mongo and Other edX Modulestores
 ***************************************
 
+Split Mongo is the latest modulestore developed for the edX Platform.  There
+have been three previous modulestores:
 
-1 - Course is tree of flat XML files
+* `XMLModuleStore`_
+* `DraftModuleStore`_
+* `MixedModuleStore`_
 
-2 - Course is a tree of XBlocks. Each XBlock is a document in Mongo.
+==============
+XMLModuleStore
+==============
 
-3 - Tree of XBlocks.  1 Document for entire course. Pointers to shared XBlocks.
+The XMLModuleStore was the first modulestore used for the edX Platform.
 
+XMLModuleStore used a file system that stored XML-based courses.  When the LMS
+server started, XMLModuleStore loaded every block for every course into memory.
 
-==========================
+XMLModuleStore was read only and did not enable users to change a course
+without restarting the server.
+
+=================
+DraftModuleStore
+=================
+
+The DraftModuleStore was the next generation modulestore and provides greater
+scalability by allowing random access to course blocks and loading blocks on
+requests.
+
+The DraftModuleStore allowed editing of courses without restarting the server.
+
+In addition, the DraftModuleStore stored a draft version of some types of
+block.
+
+=================
+MixedModuleStore
+=================
+
+The MixedModuleStore provides a common API for all modulestore functions and
+routes requests to the correct modulestore.
+
+In addition, the MixedModuleStore can handle some conversions from one
+modulestore to another.
+
+.. CAN WE BE MORE SPECIFIC HERE?
+
+*************************
 Configuring Modulestores 
-==========================
+*************************
 
 TBP
