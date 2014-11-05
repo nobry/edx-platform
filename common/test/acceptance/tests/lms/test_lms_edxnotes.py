@@ -205,3 +205,24 @@ class EdxNotesTest(UniqueCourseTest):
         self.course_nav.go_to_sequential_position(1)
         components = self.note_page.components
         self.assert_notes_are_removed(components)
+
+    def test_toggle_single_notes(self):
+        """
+        Scenario: User can toggle a single notes.
+        Given I have a course with a component with notes
+        When I click on highlighted text
+        And I move mouse out of the note
+        Then I see that the note is still shown
+        When I click outside the note
+        Then I see the the note is closed
+        """
+        self._add_notes()
+        self.note_page.visit()
+
+        note = self.note_page.notes[0]
+
+        note.click_on_highlight()
+        self.note_page.move_mouse_to('body')
+        self.assertTrue(note.is_visible)
+        self.note_page.click('body')
+        self.assertFalse(note.is_visible)

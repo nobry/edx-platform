@@ -1,4 +1,5 @@
 from .course_page import CoursePage
+from ...tests.helpers import disable_animations
 from selenium.webdriver.common.action_chains import ActionChains
 
 SELECTORS = {
@@ -29,6 +30,21 @@ class EdxNotesUnitPage(CoursePage):
 
     def is_browser_on_page(self):
         return self.q(css=self.edxnotes_selector).present
+
+    def move_mouse_to(self, selector):
+        """
+        Moves mouse to the element that matches `selector(str)`.
+        """
+        body = self.q(css=selector)[0]
+        ActionChains(self.browser).move_to_element(body).release().perform()
+        return self
+
+    def click(self, selector):
+        """
+        Clicks on the element that matches `selector(str)`.
+        """
+        self.q(css=selector).first.click()
+        return self
 
     @property
     def components(self):
@@ -122,6 +138,14 @@ class EdxNote(NotesMixin):
         self.browser = page.browser
         self.element = element
         self.id = parent_id
+        disable_animations(self.page)
+
+    @property
+    def is_visible(self):
+        """
+        Returns True if the note is visible.
+        """
+        return self.find_css(self._bounded_selector(SELECTORS['popup'])).first.visible
 
     def wait_for_adder_visibility(self):
         """
@@ -162,6 +186,14 @@ class EdxNote(NotesMixin):
         self.wait_for_adder_visibility()
         self.find_css(SELECTORS['adder']).first.click()
         self.wait_for_editor_visibility()
+        return self
+
+    def click_on_highlight(self):
+        """
+        Clicks on the highlighted text.
+        """
+        ActionChains(self.browser).move_to_element(self.element).click().release().perform()
+        self.wait_for_viewer_visibility()
         return self
 
     def show(self):
