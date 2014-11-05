@@ -1,3 +1,5 @@
+.. _Split Mongo Modulestore:
+
 ############################
 Split Mongo Modulestore
 ############################
