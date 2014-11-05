@@ -7,6 +7,7 @@ import logging
 
 from django.conf import settings
 from django.http import HttpResponse, Http404
+from django.views.decorators.http import require_POST
 from django.utils.translation import ugettext as _
 
 from opaque_keys.edx.locations import SlashSeparatedCourseKey
@@ -238,6 +239,7 @@ def _check_access(user, course_id):
     return
 
 
+@require_POST
 def get_next(request, course_id):
     """
     Get the next thing to grade for course_id and with the location specified
@@ -264,8 +266,6 @@ def get_next(request, course_id):
     _check_access(request.user, course_key)
 
     required = set(['location'])
-    if request.method != 'POST':
-        raise Http404
     actual = set(request.POST.keys())
     missing = required - actual
     if len(missing) > 0:
@@ -277,6 +277,7 @@ def get_next(request, course_id):
 
     return HttpResponse(json.dumps(_get_next(course_key, grader_id, location)),
                         mimetype="application/json")
+
 
 def get_problem_list(request, course_id):
     """
@@ -361,6 +362,7 @@ def _get_next(course_id, grader_id, location):
                            'error': STAFF_ERROR_MESSAGE})
 
 
+@require_POST
 def save_grade(request, course_id):
     """
     Save the grade and feedback for a submission, and, if all goes well, return
@@ -378,8 +380,6 @@ def save_grade(request, course_id):
     course_key = SlashSeparatedCourseKey.from_deprecated_string(course_id)
     _check_access(request.user, course_key)
 
-    if request.method != 'POST':
-        raise Http404
     p = request.POST
     required = set(['score', 'feedback', 'submission_id', 'location', 'submission_flagged'])
     skipped = 'skipped' in p

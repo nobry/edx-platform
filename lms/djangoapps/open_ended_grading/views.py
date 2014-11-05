@@ -18,6 +18,7 @@ from opaque_keys.edx.locations import SlashSeparatedCourseKey
 from xmodule.modulestore.exceptions import NoPathToItem
 
 from django.http import HttpResponse, Http404, HttpResponseRedirect
+from django.views.decorators.http import require_POST
 from django.utils.translation import ugettext as _
 
 from open_ended_grading.utils import (
@@ -297,14 +298,13 @@ def combined_notifications(request, course_id):
 
 
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
+@require_POST
 def take_action_on_flags(request, course_id):
     """
     Takes action on student flagged submissions.
     Currently, only support unflag and ban actions.
     """
     course_key = SlashSeparatedCourseKey.from_deprecated_string(course_id)
-    if request.method != 'POST':
-        raise Http404
 
     required = ['submission_id', 'action_type', 'student_id']
     for key in required:
