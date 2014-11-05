@@ -19,6 +19,7 @@ Contents:
     browsers.rst
     overview.rst
     extending_platform/index
+    modulestores/index
     xblocks.rst
     pavelib.rst
     public_sandboxes.rst
@@ -27,7 +28,6 @@ Contents:
     testing/index
     code-considerations
     deploy-new-service
-    split-mongo
 
 APIs
 -----
