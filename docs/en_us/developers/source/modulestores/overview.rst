@@ -9,7 +9,7 @@ See:
 
 * `XMLModuleStore`_
 * `DraftModuleStore`_
-* `Split Mongo Modulestore`_
+* :ref:`Split Mongo Modulestore`
 
 ***************
 XMLModuleStore
@@ -39,5 +39,5 @@ In addition, DraftModuleStore stores a draft version of some types of blocks.
 Split Mongo
 *****************
 
-Split Mongo is the newest modulestore.  See the `Split Mongo Modulestore`_
+Split Mongo is the newest modulestore.  See the :ref:`Split Mongo Modulestore`
 chapter for more information.

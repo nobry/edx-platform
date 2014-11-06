@@ -10,4 +10,3 @@ edX Modulestores
     overview
     mixedmodulestore
     split-mongo
-    configuring

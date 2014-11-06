@@ -40,8 +40,6 @@ In the Split Mongo data model, edX courses are split into three collections:
 * `Course Structures`_
 * `XBlock Definitions`_
 
-GRAPHIC TBP
-
 =============
 Course Index
 =============
@@ -52,8 +50,6 @@ to a course structure.
 The course index supports multiple branches of a course.  The index can store
 multiple entries for a course ID, with each entry pointing to a different
 course structure that corresponds to a different branch.
-
-.. SHOW A DATABASE VIEW?
 
 As currently implemented, for each course, there is a branch for both the
 published and draft versions of the course. The published and draft branches of
