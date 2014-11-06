@@ -49,7 +49,7 @@
         proto.onHighlightClick = function(event) {
             var _this = this;
             // First click or repeated click on same highlighted text
-            if (proto.target === null || event.target === proto.target) {
+            if (this.target === null || event.target === this.target) {
                 if (this.mouseoutEnabled) {
                     // Add a click event listener to document to re-enable
                     // mouseon if click happens outside of highlighted text.
@@ -70,12 +70,16 @@
             else {
                 // We have to define exactly what behavior has to be implemented
                 // here. For the moment, it behaves the same as a mouse click on
-                // any part of the document: remove focus and (hide all notes
-                // --> hiding is not yet implemented).
+                // any part of the document: remove focus and hide all notes.
                 $(event.target).blur();
+                // Close other note
+                $(document).trigger('mousedown');
+                this.mouseIsDown = false;
+                // Reinitialize
+                this.mouseoutEnabled = true;
             }
 
-            proto.target = event.target;
+            this.target = event.target;
             event.stopPropagation();
             event.preventDefault();
         };
