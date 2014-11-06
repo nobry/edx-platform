@@ -64,8 +64,7 @@ class SplitTestModuleTest(XModuleXmlImportTest):
                 UserPartition(0, 'first_partition', 'First Partition', [Group("0", 'alpha'), Group("1", 'beta')]),
                 UserPartition(1, 'second_partition', 'Second Partition', [Group("0", 'abel'), Group("1", 'baker'), Group("2", 'charlie')])
             ],
-            user_tags_service=self.tags_service,
-            course_id=self.course.id,
+            runtime=self.module_system,
             track_function=Mock(name='track_function'),
         )
         self.module_system._services['partitions'] = self.partitions_service  # pylint: disable=protected-access

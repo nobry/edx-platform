@@ -15,8 +15,6 @@ class MemoryUserService(object):
     """
     An implementation of a user service that uses an in-memory dictionary for storage
     """
-    COURSE_SCOPE = 'course'
-
     def __init__(self):
         self._tags = defaultdict(dict)
 

@@ -3,11 +3,12 @@ Test the partitions and partitions service
 
 """
 
-from collections import defaultdict
 from unittest import TestCase
 from mock import Mock
 
-from xmodule.partitions.partitions import Group, UserPartition, UserPartitionError
+from stevedore.extension import Extension, ExtensionManager
+
+from xmodule.partitions.partitions import Group, UserPartition, UserPartitionError, USER_PARTITION_SCHEME_NAMESPACE
 from xmodule.partitions.partitions_service import PartitionService
 from xmodule.tests import get_test_system
 
@@ -86,14 +87,12 @@ class MockUserPartitionScheme(object):
     """
     Mock user partition scheme
     """
-    def __init__(self, current_group=None, **kwargs):
+    def __init__(self, name="mock", current_group=None, **kwargs):
         super(MockUserPartitionScheme, self).__init__(**kwargs)
+        self.name = name
         self.current_group = current_group
 
-    name = "mock"
-    IS_DYNAMIC = True
-
-    def get_group_for_user(self, runtime, user, user_partition, track_function=None):  # pylint: disable=unused-argument
+    def get_group_for_user(self, course_id, user, user_partition, track_function=None):  # pylint: disable=unused-argument
         """
         Returns the group to which the current user should be assigned.
         """
@@ -109,9 +108,22 @@ class TestUserPartition(TestCase):
     MOCK_GROUPS = [Group(0, 'Group 1'), Group(1, 'Group 2')]
     MOCK_SCHEME = "mock"
 
+    def setUp(self):
+        UserPartition.scheme_extensions = ExtensionManager.make_test_instance(
+            [
+                Extension(
+                    "random", USER_PARTITION_SCHEME_NAMESPACE, MockUserPartitionScheme("random"), None
+                ),
+                Extension(
+                    self.MOCK_SCHEME, USER_PARTITION_SCHEME_NAMESPACE, MockUserPartitionScheme(self.MOCK_SCHEME), None
+                ),
+            ],
+            namespace=USER_PARTITION_SCHEME_NAMESPACE
+        )
+
     def test_construct(self):
         user_partition = UserPartition(
-            self.MOCK_ID, self.MOCK_NAME, self.MOCK_DESCRIPTION, self.MOCK_GROUPS
+            self.MOCK_ID, self.MOCK_NAME, self.MOCK_DESCRIPTION, self.MOCK_GROUPS,
         )
         self.assertEqual(user_partition.id, self.MOCK_ID)    # pylint: disable=no-member
         self.assertEqual(user_partition.name, self.MOCK_NAME)
@@ -148,7 +160,7 @@ class TestUserPartition(TestCase):
             "description": self.MOCK_DESCRIPTION,
             "groups": [group.to_json() for group in self.MOCK_GROUPS],
             "version": UserPartition.VERSION,
-            "scheme": "random",
+            "scheme": "mock",
         }
         user_partition = UserPartition.from_json(jsonified)
         self.assertEqual(user_partition.id, self.MOCK_ID)    # pylint: disable=no-member
@@ -227,7 +239,7 @@ class TestUserPartition(TestCase):
             "description": self.MOCK_DESCRIPTION,
             "groups": [group.to_json() for group in self.MOCK_GROUPS],
             "version": UserPartition.VERSION,
-            "scheme": "random",
+            "scheme": "mock",
             "programmer": "Cale",
         }
         user_partition = UserPartition.from_json(jsonified)
@@ -247,36 +259,13 @@ class StaticPartitionService(PartitionService):
         return self._partitions
 
 
-class MemoryUserService(object):
-    """
-    An implementation of a user service that uses an in-memory dictionary for storage
-    """
-    COURSE_SCOPE = 'course'
-
-    def __init__(self):
-        self._tags = defaultdict(dict)
-
-    def get_course_tag(self, __, course_id, key):
-        """Sets the value of ``key`` to ``value``"""
-        return self._tags[course_id].get(key)
-
-    def set_course_tag(self, __, course_id, key, value):
-        """Gets the value of ``key``"""
-        self._tags[course_id][key] = value
-
-
 class TestPartitionService(TestCase):
     """
     Test getting a user's group out of a partition
     """
 
     def setUp(self):
-        groups = [Group(0, 'Group 1'), Group(1, 'Group 2')]
-        self.partition_id = 0
-
-        user_partition = UserPartition(self.partition_id, 'Test Partition', 'for testing purposes', groups)
-
-        self.mock_partition_id = 1
+        self.mock_partition_id = 0
         self.mock_partition = UserPartition(
             self.mock_partition_id,
             'Mock Partition',
@@ -284,16 +273,11 @@ class TestPartitionService(TestCase):
             [Group(0, 'Group 1'), Group(1, 'Group 2')],
             MockUserPartitionScheme()
         )
-
         self.partition_service = StaticPartitionService(
-            [user_partition, self.mock_partition],
+            [self.mock_partition],
             runtime=get_test_system(),
-            course_id=Mock(),
             track_function=Mock()
         )
-
-        # Install MemoryUserService to persist choices
-        UserPartition.get_scheme("random").user_tags_service = MemoryUserService()
 
     def test_get_user_group_id_for_partition(self):
         # assign the first group to be returned

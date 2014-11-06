@@ -37,19 +37,19 @@ class RandomUserPartitionScheme(object):
             # persist the value as a course tag
             cls.user_tags_service.set_course_tag(user, course_id, partition_key, group.id)
 
-            # emit event for analytics
-            # FYI - context is always user ID that is logged in, NOT the user id that is
-            # being operated on. If instructor can move user explicitly, then we should
-            # put in event_info the user id that is being operated on.
-            event_info = {
-                'group_id': group.id,
-                'group_name': group.name,
-                'partition_id': user_partition.id,
-                'partition_name': user_partition.name
-            }
-            # pylint: disable=fixme
-            # TODO: Use the XBlock publish api instead
             if track_function:
+                # emit event for analytics
+                # FYI - context is always user ID that is logged in, NOT the user id that is
+                # being operated on. If instructor can move user explicitly, then we should
+                # put in event_info the user id that is being operated on.
+                event_info = {
+                    'group_id': group.id,
+                    'group_name': group.name,
+                    'partition_id': user_partition.id,
+                    'partition_name': user_partition.name
+                }
+                # pylint: disable=fixme
+                # TODO: Use the XBlock publish api instead
                 track_function('xmodule.partitions.assigned_user_to_partition', event_info)
 
         return group
