@@ -1,6 +1,6 @@
-############################
-Overview of edX Modulestore
-############################
+#################################
+Overview of the edX Modulestores
+#################################
 
 The edX Platform uses several different modulestores to store course data. Each
 of these modulestores is in use on edx.org.
@@ -9,6 +9,7 @@ See:
 
 * `XMLModuleStore`_
 * `DraftModuleStore`_
+* `Split Mongo Modulestore`_
 
 ***************
 XMLModuleStore
@@ -33,3 +34,10 @@ requests.
 DraftModuleStore allows editing of courses without restarting the server.
 
 In addition, DraftModuleStore stores a draft version of some types of blocks.
+
+*****************
+Split Mongo
+*****************
+
+Split Mongo is the newest modulestore.  See the `Split Mongo Modulestore`_
+chapter for more information.
