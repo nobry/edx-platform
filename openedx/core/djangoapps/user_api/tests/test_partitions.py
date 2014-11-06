@@ -2,8 +2,8 @@
 Test the partitions and partitions service
 
 """
-
 from collections import defaultdict
+from mock import patch
 from unittest import TestCase
 
 from openedx.core.djangoapps.user_api.partitions import RandomUserPartitionScheme, UserPartitionError
@@ -38,7 +38,6 @@ class TestRandomUserPartitionScheme(TestCase):
         groups = [Group(0, 'Group 1'), Group(1, 'Group 2')]
         self.partition_id = 0
 
-        RandomUserPartitionScheme.user_tags_service = MemoryUserService()
         self.user_partition = UserPartition(
             self.partition_id,
             'Test Partition',
@@ -49,6 +48,7 @@ class TestRandomUserPartitionScheme(TestCase):
 
         self.user = UserFactory.create()
 
+    @patch('openedx.core.djangoapps.user_api.partitions.user_service', MemoryUserService())
     def test_get_group_for_user(self):
         # get a group assigned to the user
         group1_id = RandomUserPartitionScheme.get_group_for_user(self.MOCK_COURSE_ID, self.user, self.user_partition)
@@ -58,6 +58,7 @@ class TestRandomUserPartitionScheme(TestCase):
             group2_id = RandomUserPartitionScheme.get_group_for_user(self.MOCK_COURSE_ID, self.user, self.user_partition)
             self.assertEqual(group1_id, group2_id)
 
+    @patch('openedx.core.djangoapps.user_api.partitions.user_service', MemoryUserService())
     def test_empty_partition(self):
         empty_partition = UserPartition(
             self.partition_id,
@@ -70,6 +71,7 @@ class TestRandomUserPartitionScheme(TestCase):
         with self.assertRaisesRegexp(UserPartitionError, "Cannot assign user to an empty user partition"):
             RandomUserPartitionScheme.get_group_for_user(self.MOCK_COURSE_ID, self.user, empty_partition)
 
+    @patch('openedx.core.djangoapps.user_api.partitions.user_service', MemoryUserService())
     def test_user_in_deleted_group(self):
         # get a group assigned to the user - should be group 0 or 1
         old_group = RandomUserPartitionScheme.get_group_for_user(self.MOCK_COURSE_ID, self.user, self.user_partition)
@@ -87,6 +89,7 @@ class TestRandomUserPartitionScheme(TestCase):
         new_group_2 = RandomUserPartitionScheme.get_group_for_user(self.MOCK_COURSE_ID, self.user, user_partition)
         self.assertEqual(new_group, new_group_2)
 
+    @patch('openedx.core.djangoapps.user_api.partitions.user_service', MemoryUserService())
     def test_change_group_name(self):
         # Changing the name of the group shouldn't affect anything
         # get a group assigned to the user - should be group 0 or 1
