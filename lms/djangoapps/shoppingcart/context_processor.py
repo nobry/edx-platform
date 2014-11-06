@@ -16,15 +16,24 @@ def user_has_cart_context_processor(request):
     be displayed.  Anonymous users don't.
     Adds `display_shopping_cart` to the context
     """
-    return {'display_shopping_cart': (
-        request.user.is_authenticated() and                                # user is logged in and
+    display_shopping_cart = (
+        # user is logged in and
+        request.user.is_authenticated() and
+        # settings enable paid course reg
         microsite.get_value(
             'ENABLE_PAID_COURSE_REGISTRATION',
             settings.FEATURES.get('ENABLE_PAID_COURSE_REGISTRATION')
-        ) and  # settings enable paid course reg and
-        settings.FEATURES.get('ENABLE_SHOPPING_CART') and             # settings enable shopping cart and
+        ) and
+        # settings enable shopping cart
+        microsite.get_value(
+            'ENABLE_SHOPPING_CART',
+            settings.FEATURES.get('ENABLE_SHOPPING_CART')
+        ) and
+        # user's cart has PaidCourseRegistrations
         shoppingcart.models.Order.user_cart_has_items(
             request.user,
             [shoppingcart.models.PaidCourseRegistration, shoppingcart.models.CourseRegCodeItem]
-        )  # user's cart has PaidCourseRegistrations
-    )}
+        )
+    )
+
+    return {'display_shopping_cart': display_shopping_cart}
