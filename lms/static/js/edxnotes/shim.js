@@ -73,7 +73,6 @@
                 // any part of the document: remove focus and (hide all notes
                 // --> hiding is not yet implemented).
                 $(event.target).blur();
-                proto.target.trigger('mouseout');
             }
 
             proto.target = event.target;
