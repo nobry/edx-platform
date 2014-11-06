@@ -132,10 +132,12 @@ class TestStaffGradingService(ModuleStoreTestCase, LoginEnrollmentTestCase):
         """
         self.login(self.student, self.password)
 
-        # both get and post should return 404
+        # GET requests return 405 Method Not Allowed.
+        # POST requests return 404 Not Found. (Should be 403 Forbidden to match
+        # the HTTP spec, but changing this is difficult and potentially risky.)
         for view_name in ('staff_grading_get_next', 'staff_grading_save_grade'):
             url = reverse(view_name, kwargs={'course_id': self.course_id.to_deprecated_string()})
-            self.assert_request_status_code(404, url, method="GET")
+            self.assert_request_status_code(405, url, method="GET")
             self.assert_request_status_code(404, url, method="POST")
 
     def test_get_next(self):
