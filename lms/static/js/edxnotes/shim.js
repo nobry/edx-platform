@@ -45,19 +45,19 @@
             isFrozen: false,
 
             onHighlightClick: function (event) {
-                event.stopPropagation();
                 Annotator.Util.preventEventDefault(event);
 
                 if (!this.isFrozen) {
+                    event.stopPropagation();
                     this.onHighlightMouseover.call(this, event);
                 }
-                this.freeze.call(this);
+                _.invoke(Annotator._instances, 'freeze');
             },
 
             onNoteClick: function (event) {
                 event.stopPropagation();
                 Annotator.Util.preventEventDefault(event);
-                this.freeze.call(this);
+                _.invoke(Annotator._instances, 'freeze');
             },
 
             freeze: function() {
