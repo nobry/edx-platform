@@ -1,7 +1,7 @@
 ;(function (define, $, _, undefined) {
     'use strict';
     define(['annotator'], function (Annotator) {
-        var _t = Annotator._t, proto;
+        var _t = Annotator._t;
 
         /**
          * Modifies Annotator.highlightRange to add a "tabindex=0" attribute
