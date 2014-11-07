@@ -31,7 +31,7 @@ class VideoUploadTestCase(CourseTestCase):
     @patch('boto.s3.key.Key')
     def test_success_mock_storage_service(self, s3_key, s3_connection):
         self.course.video_upload_pipeline = {
-            'Institute_Name': 'Test University',
+            'Institute_Name': 'TestUniversity',
             'Access_Token': 'xxx',
         }
         self.store.update_item(self.course, self.user.id)
