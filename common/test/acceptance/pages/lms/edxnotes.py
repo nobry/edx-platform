@@ -195,7 +195,6 @@ class EdxNote(NotesMixin):
         Clicks on the highlighted text.
         """
         ActionChains(self.browser).move_to_element(self.element).click().release().perform()
-        self.wait_for_viewer_visibility()
         return self
 
     def click_on_viewer(self):
