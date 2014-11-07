@@ -38,20 +38,34 @@
 
         $.extend(true, Annotator.prototype, {
             events: {
-                '.annotator-hl click': 'freeze',
-                '.annotator-outer click': 'freeze'
+                '.annotator-hl click': 'onHighlightClick',
+                '.annotator-outer click': 'onNoteClick'
             },
 
             isFrozen: false,
 
-            freeze: function(event) {
+            onHighlightClick: function (event) {
+                event.stopPropagation();
+                Annotator.Util.preventEventDefault(event);
+
+                if (!this.isFrozen) {
+                    this.onHighlightMouseover.call(this, event);
+                }
+                this.freeze.call(this);
+            },
+
+            onNoteClick: function (event) {
+                event.stopPropagation();
+                Annotator.Util.preventEventDefault(event);
+                this.freeze.call(this);
+            },
+
+            freeze: function() {
                 if (!this.isFrozen) {
                     // Remove default events
                     this.removeEvents();
                     this.viewer.element.unbind('mouseover mouseout');
-                    $(document).click(this.unfreeze.bind(this));
-                    event.stopPropagation();
-                    Annotator.Util.preventEventDefault(event);
+                    $(document).on('click.edxnotes:freeze', this.unfreeze.bind(this));
                     this.isFrozen = true;
                 }
             },
@@ -65,6 +79,7 @@
                         'mouseout':  this.startViewerHideTimer
                     });
                     this.viewer.hide();
+                    $(document).off('click.edxnotes:freeze');
                     this.isFrozen = false;
                 }
             }
