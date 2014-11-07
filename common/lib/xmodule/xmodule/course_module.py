@@ -1056,6 +1056,10 @@ class CourseDescriptor(CourseFields, SequenceDescriptor):
         return True
 
     @property
+    def run(self):
+        return self.location.run
+
+    @property
     def number(self):
         return self.location.course
 

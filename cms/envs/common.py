@@ -109,7 +109,7 @@ FEATURES = {
     'DEFAULT_STORE_FOR_NEW_COURSE': None,
 
     # Turn off Video Upload Pipeline through Studio, by default
-    'ENABLE_VIDEO_UPLOAD_PIPELINE': True,
+    'ENABLE_VIDEO_UPLOAD_PIPELINE': False,
 }
 ENABLE_JASMINE = False
 
@@ -558,6 +558,8 @@ VIDEO_UPLOAD_PIPELINE = {
     'BUCKET': 'edx-raw-videos',
     'ROOT_PATH': '',
 }
+AWS_ACCESS_KEY_ID = ""
+AWS_SECRET_ACCESS_KEY = ""
 
 ############################ APPS #####################################
 

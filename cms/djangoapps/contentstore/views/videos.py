@@ -15,16 +15,13 @@ from opaque_keys.edx.keys import CourseKey
 from xmodule.modulestore.django import modulestore
 from util.json_request import expect_json, JsonResponse
 from .access import has_course_access
-
-from boto.s3.connection import S3Connection
-from boto.s3.key import Key
+from boto import s3
 
 __all__ = ['videos_handler']
 
 
 @expect_json
 @login_required
-@ensure_csrf_cookie
 @require_http_methods(("GET", "POST", "PUT"))
 def videos_handler(request, course_key_string):
     """
@@ -93,7 +90,7 @@ def videos_post(course, request):
         ]
     }
     """
-    file_upload_urls = {}
+    return_files = []
     bucket = storage_service_bucket()
     institute_name = course.video_upload_pipeline['Institute_Name']
 
@@ -109,23 +106,26 @@ def videos_post(course, request):
         )
 
         # 3. set meta data for the file
-        for accessor, key_name, metadata_name in [
-            (course.video_upload_pipeline.get, 'Institute_Name', 'institute'),
-            (course.video_upload_pipeline.get, 'Access_Token', 'institute_token'),
-            (file.get, 'file_name', 'user_supplied_file_name'),
-            (course.get_attr, 'org', 'course_org'),
-            (course.get_attr, 'course', 'course_number'),
-            (course.get_attr, 'run', 'course_run'),
+        for metadata_name, value in [
+            ('institute', course.video_upload_pipeline['Institute_Name']),
+            ('institute_token', course.video_upload_pipeline['Access_Token']),
+            ('user_supplied_file_name', file['file_name']),
+            ('course_org', course.org),
+            ('course_number', course.number),
+            ('course_run', course.run),
         ]:
-            key.set_metadata(metadata_name, accessor(key_name))
+            key.set_metadata(metadata_name, value)
 
         # 4. generate URL
         KEY_EXPIRATION_IN_SECONDS = 3600
-        file_upload_urls[file['file_name']] = key.generate_url(KEY_EXPIRATION_IN_SECONDS, 'PUT')
+        return_files.append({
+            'file_name': file['file_name'],
+            'upload-url': key.generate_url(KEY_EXPIRATION_IN_SECONDS, 'PUT')
+        })
 
         # TODO 5. persist edx_video_id
 
-    return file_upload_urls
+    return JsonResponse({'files': return_files}, status=200)
 
 
 def generate_edx_video_id(institute_name):
@@ -139,7 +139,7 @@ def storage_service_bucket():
     """
     Returns a bucket in a cloud-based storage service for video uploads.
     """
-    conn = S3Connection(
+    conn = s3.connection.S3Connection(
         settings.AWS_ACCESS_KEY_ID,
         settings.AWS_SECRET_ACCESS_KEY
     )
@@ -155,4 +155,4 @@ def storage_service_key(bucket, folder_name, file_name):
         folder_name,
         file_name
     )
-    return Key(bucket, key_name)
+    return s3.key.Key(bucket, key_name)
