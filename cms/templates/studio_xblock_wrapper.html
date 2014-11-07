@@ -26,7 +26,7 @@ messages = json.dumps(xblock.validate().to_json())
             ${messages},
             "${xblock.location | h}",
             "${xblock_url}",
-             $.parseJSON("${is_root}".toLowerCase())
+             $.parseJSON("${is_root == True}".toLowerCase())
         );
     });
 </script>
