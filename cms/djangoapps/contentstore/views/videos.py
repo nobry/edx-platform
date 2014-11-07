@@ -2,7 +2,10 @@
 Views related to the video upload feature
 """
 
+from boto import s3
+from pytz import UTC
 from uuid import uuid4
+from datetime import datetime
 
 from django.conf import settings
 from django.contrib.auth.decorators import login_required
@@ -13,9 +16,9 @@ from django.views.decorators.http import require_http_methods
 from opaque_keys.edx.keys import CourseKey
 
 from xmodule.modulestore.django import modulestore
+from xmodule.assetstore import AssetMetadata
 from util.json_request import expect_json, JsonResponse
 from .access import has_course_access
-from boto import s3
 
 __all__ = ['videos_handler']
 
@@ -95,6 +98,8 @@ def videos_post(course, request):
     institute_name = course.video_upload_pipeline['Institute_Name']
 
     for file in request.json['files']:
+        file_name = file['file_name']
+
         # 1. generate edx_video_id
         edx_video_id = generate_edx_video_id(institute_name)
 
@@ -109,7 +114,7 @@ def videos_post(course, request):
         for metadata_name, value in [
             ('institute', course.video_upload_pipeline['Institute_Name']),
             ('institute_token', course.video_upload_pipeline['Access_Token']),
-            ('user_supplied_file_name', file['file_name']),
+            ('user_supplied_file_name', file_name),
             ('course_org', course.org),
             ('course_number', course.number),
             ('course_run', course.run),
@@ -119,11 +124,20 @@ def videos_post(course, request):
         # 4. generate URL
         KEY_EXPIRATION_IN_SECONDS = 3600
         return_files.append({
-            'file_name': file['file_name'],
+            'file_name': file_name,
             'upload-url': key.generate_url(KEY_EXPIRATION_IN_SECONDS, 'PUT')
         })
 
-        # TODO 5. persist edx_video_id
+        # 5. persist edx_video_id
+        video_meta_data = AssetMetadata(
+            course.id.make_asset_key('video', edx_video_id),
+            fields={
+                'file_name': file_name,
+                'upload_timestamp': datetime.now(UTC),
+                'status': 'Uploading'
+            }
+        )
+        modulestore().save_asset_metadata(video_meta_data, request.user.id)
 
     return JsonResponse({'files': return_files}, status=200)
 
