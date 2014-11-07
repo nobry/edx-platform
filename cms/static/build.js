@@ -12,12 +12,22 @@
         return module;
     };
 
-    var getModulesList = function (modules) {
-        var result = [getModule('js/factories/common_deps')];
-        return result.concat(modules.map(function (moduleName) {
+//    var getModulesList = function (modules) {
+//        var result = [getModule('js/factories/common_deps')];
+//        return result.concat(modules.map(function (moduleName) {
+//            return getModule(moduleName, true);
+//        }));
+//    };
+
+    var getModulesList = function (modules, modulesWithoutExclCommonDeps) {
+        var result = ['js/factories/common_deps'].concat(modulesWithoutExclCommonDeps);
+
+        return result.map(function (moduleName) {
+            return getModule(moduleName, false);
+        }).concat(modules.map(function (moduleName) {
             return getModule(moduleName, true);
-        }));
-    };
+    }));
+};
 
     return {
         /**
@@ -46,7 +56,9 @@
             'js/factories/settings_advanced',
             'js/factories/settings_graders',
             'js/factories/textbooks'
-        ]),
+            ],
+            ['js/factories/xblock_validation']
+        ),
         /**
          * By default all the configuration for optimization happens from the command
          * line or by properties in the config file, and configuration that was
