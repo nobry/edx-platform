@@ -145,7 +145,9 @@ class EdxNote(NotesMixin):
         """
         Returns True if the note is visible.
         """
-        return self.find_css(self._bounded_selector(SELECTORS['popup'])).first.visible
+        viewer_is_visible = self.find_css(SELECTORS['viewer']).visible
+        editor_is_visible = self.find_css(SELECTORS['editor']).visible
+        return viewer_is_visible or editor_is_visible
 
     def wait_for_adder_visibility(self):
         """
@@ -194,6 +196,13 @@ class EdxNote(NotesMixin):
         """
         ActionChains(self.browser).move_to_element(self.element).click().release().perform()
         self.wait_for_viewer_visibility()
+        return self
+
+    def click_on_viewer(self):
+        """
+        Clicks on the highlighted text.
+        """
+        self.find_css(SELECTORS['viewer']).first.click()
         return self
 
     def show(self):
