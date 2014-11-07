@@ -1,4 +1,4 @@
-require(["jquery", "js/views/xblock_validation", "js/models/xblock_validation"],
+define(["jquery", "js/views/xblock_validation", "js/models/xblock_validation"],
 function ($, XBlockValidationView, XBlockValidationModel) {
     'use strict';
     return function (validationMessages, xblock_url, is_root) {
