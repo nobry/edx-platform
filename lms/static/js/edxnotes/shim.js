@@ -39,7 +39,7 @@
         $.extend(true, Annotator.prototype, {
             events: {
                 '.annotator-hl click': 'onHighlightClick',
-                '.annotator-outer click': 'onNoteClick'
+                '.annotator-viewer click': 'onNoteClick'
             },
 
             isFrozen: false,
