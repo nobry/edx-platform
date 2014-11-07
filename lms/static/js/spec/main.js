@@ -280,7 +280,8 @@
         'lms/include/js/spec/student_account/account.js',
         'lms/include/js/spec/student_profile/profile.js',
         'lms/include/js/spec/edxnotes/logger_spec.js',
-        'lms/include/js/spec/edxnotes/notes_spec.js'
+        'lms/include/js/spec/edxnotes/notes_spec.js',
+        'lms/include/js/spec/edxnotes/shim_spec.js'
     ]);
 
 }).call(this, requirejs, define);
