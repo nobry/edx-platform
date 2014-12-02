@@ -4,7 +4,7 @@ Loaded by Django's settings mechanism. Consequently, this module must not
 invoke the Django armature.
 """
 
-from social.backends import google, linkedin, facebook
+from social.backends import twitter, google, linkedin, facebook
 
 _DEFAULT_ICON_CLASS = 'icon-signin'
 
@@ -109,7 +109,6 @@ class BaseProvider(object):
         for key, value in cls.SETTINGS.iteritems():
             setattr(settings, key, value)
 
-
 class GoogleOauth2(BaseProvider):
     """Provider for Google's Oauth2 auth system."""
 
@@ -168,6 +167,26 @@ class FacebookOauth2(BaseProvider):
     @classmethod
     def get_name(cls, provider_details):
         return provider_details.get('fullname')
+
+class TwitterOauth(BaseProvider):
+    """Provider for LinkedIn's Oauth2 auth system."""
+
+    BACKEND_CLASS = twitter.TwitterOAuth
+    ICON_CLASS = 'icon-twitter'
+    NAME = 'Twitter'
+    SETTINGS = {
+        'SOCIAL_AUTH_TWITTER_KEY': None,
+        'SOCIAL_AUTH_TWITTER_SECRET': None,
+    }
+
+    @classmethod
+    def get_email(cls, provider_details):
+        return provider_details.get('email')
+
+    @classmethod
+    def get_name(cls, provider_details):
+        return provider_details.get('fullname')
+
 
 
 class Registry(object):
