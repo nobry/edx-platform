@@ -2537,6 +2537,22 @@ msgstr "Läst Ûpdätéd: <%= timestamp %> Ⱡ'σяєм ιρѕυм ∂σłσя �
 msgid "<%= num_students %> students scored."
 msgstr "<%= num_students %> stüdénts sçöréd. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, #"
 
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "Unavailable metric display."
+msgstr "Ûnäväïläßlé métrïç dïspläý. Ⱡ'σяєм#"
+
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "Error fetching grade distributions."
+msgstr "Érrör fétçhïng grädé dïstrïßütïöns. Ⱡ'σяєм ιρ#"
+
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "Last Updated: <%= timestamp %>"
+msgstr "Läst Ûpdätéd: <%= timestamp %> Ⱡ'σ#"
+
+#: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
+msgid "<%= num_students %> students scored."
+msgstr "<%= num_students %> stüdénts sçöréd. Ⱡ'σя#"
+
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 #: lms/static/js/student_account/views/account_settings_factory.js
 #: lms/static/js/student_profile/views/learner_profile_factory.js
