@@ -37,8 +37,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-"POT-Creation-Date: 2014-09-04 12:40-0400\n"
-"PO-Revision-Date: 2014-09-04 16:40:37.576012\n"
+"POT-Creation-Date: 2014-12-03 01:39+0000\n"
+"PO-Revision-Date: 2014-12-03 01:39:49.382498\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -12257,10 +12257,6 @@ msgid "+ Add Coupon"
 msgstr "+ Àdd Çöüpön Ⱡ#"
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
-msgid "Course_id"
-msgstr "Çöürsé_ïd #"
-
-#: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
 msgid "Discount (%)"
 msgstr "Dïsçöünt (%) Ⱡ#"
 
@@ -13467,8 +13463,8 @@ msgstr ""
 "réçéïvéd ä réçéïpt ïn ýöür émäïl. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σ#"
 
 #: lms/templates/shoppingcart/receipt.html
-msgid " () Electronic Receipt"
-msgstr " () Éléçtrönïç Réçéïpt Ⱡ'σяє#"
+msgid "{platform_name} ({site_name}) Electronic Receipt"
+msgstr "{platform_name} ({site_name}) Éléçtrönïç Réçéïpt Ⱡ'σяєм #"
 
 #: lms/templates/shoppingcart/receipt.html
 msgid "Order #"
@@ -13724,19 +13720,20 @@ msgstr "Thïs Çöürsé Ûnäväïläßlé Ìn Ýöür Çöüntrý Ⱡ'σяєм
 
 #: lms/templates/static_templates/embargo.html
 msgid ""
-"Our system indicates that you are trying to access an edX course from a "
-"country currently subject to U.S. economic and trade sanctions. "
-"Unfortunately, at this time edX must comply with export controls, and we "
-"cannot allow you to access this particular course. Feel free to browse our "
-"catalogue to find other courses you may be interested in taking."
+"Our system indicates that you are trying to access an edX course from an IP "
+"address associated with a country currently subjected to U.S. economic and "
+"trade sanctions. Unfortunately, at this time edX must comply with export "
+"controls, and we cannot allow you to access this particular course. Feel "
+"free to browse our catalogue to find other courses you may be interested in "
+"taking."
 msgstr ""
-"Öür sýstém ïndïçätés thät ýöü äré trýïng tö äççéss än édX çöürsé fröm ä "
-"çöüntrý çürréntlý süßjéçt tö Û.S. éçönömïç änd trädé sänçtïöns. "
-"Ûnförtünätélý, ät thïs tïmé édX müst çömplý wïth éxpört çöntröls, änd wé "
-"çännöt ällöw ýöü tö äççéss thïs pärtïçülär çöürsé. Féél fréé tö ßröwsé öür "
-"çätälögüé tö fïnd öthér çöürsés ýöü mäý ßé ïntéréstéd ïn täkïng. Ⱡ'σяєм "
-"ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ єιυѕмσ∂ тємρσя "
-"ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє #"
+"Öür sýstém ïndïçätés thät ýöü äré trýïng tö äççéss än édX çöürsé fröm än ÌP "
+"äddréss ässöçïätéd wïth ä çöüntrý çürréntlý süßjéçtéd tö Û.S. éçönömïç änd "
+"trädé sänçtïöns. Ûnförtünätélý, ät thïs tïmé édX müst çömplý wïth éxpört "
+"çöntröls, änd wé çännöt ällöw ýöü tö äççéss thïs pärtïçülär çöürsé. Féél "
+"fréé tö ßröwsé öür çätälögüé tö fïnd öthér çöürsés ýöü mäý ßé ïntéréstéd ïn "
+"täkïng. Ⱡ'σяєм ιρѕυм ∂σłσя ѕιт αмєт, ¢σηѕє¢тєтυя α∂ιριѕι¢ιηg єłιт, ѕє∂ ∂σ "
+"єιυѕмσ∂ тємρσя ιη¢ι∂ι∂υηт υт łαвσяє єт ∂σłσяє мαgηα αłιqυ#"
 
 #: lms/templates/static_templates/media-kit.html
 #: lms/templates/static_templates/media-kit.html
