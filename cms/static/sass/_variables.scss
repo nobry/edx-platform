@@ -15,8 +15,10 @@ $fg-min-width: 900px;
 // ====================
 
 // fonts
+//@import url(http://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&subset=latin,latin-ext);
+
 $f-serif: 'Bree Serif', Georgia, Cambria, 'Times New Roman', Times, serif;
-$f-sans-serif: 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+$f-sans-serif: 'PT Sans', 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
 $f-decorative: '';
 $f-monospace: 'Bitstream Vera Sans Mono', Consolas, Courier, monospace;
 
