@@ -42,6 +42,8 @@ from dealer.git import git
 ############################ FEATURE CONFIGURATION #############################
 
 FEATURES = {
+    'DISABLE_COURSE_CREATION': True,
+
     'USE_DJANGO_PIPELINE': True,
 
     'GITHUB_PUSH': False,
