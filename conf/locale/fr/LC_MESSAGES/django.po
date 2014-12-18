@@ -6732,7 +6732,7 @@ msgid ""
 " user account at edx.org."
 msgstr ""
 "Vous recevez ce courriel parce que vous avez demandé une réinitialisation du"
-" mot de passe de votre compte sur edx.org."
+" mot de passe de votre compte sur EDUlib.org."
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
@@ -6753,7 +6753,7 @@ msgstr "Merci d'utiliser notre site !"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The edX Team"
-msgstr "L'équipe edX"
+msgstr "L'équipe EDUlib"
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
