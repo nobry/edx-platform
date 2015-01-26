@@ -9,7 +9,7 @@
 <%
   homepage_overlay_html = microsite.get_value('homepage_overlay_html')
 
-  show_homepage_promo_video = microsite.get_value('show_homepage_promo_video', True)
+  show_homepage_promo_video = microsite.get_value('show_homepage_promo_video', False)
   homepage_promo_video_youtube_id = microsite.get_value('homepage_promo_video_youtube_id', "XNaiOGxWeto")
 
   show_partners = microsite.get_value('show_partners', True)
@@ -27,9 +27,8 @@
             % if self.stanford_theme_enabled():
               <h1>${_("Free courses from <strong>{university_name}</strong>").format(university_name="Stanford")}</h1>
             % else:
-              <h1>${_("The Future of Online Education")}</h1>
+              <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
             % endif
-            <h2>${_("For anyone, anywhere, anytime")}</h2>
           % endif
         </hgroup>
 
@@ -74,9 +73,11 @@
         <section class="courses">
             <ul class="courses-listing">
             %for course in courses:
-              <li class="courses-listing-item">
-                <%include file="course.html" args="course=course" />
-              </li>
+                % if not course.has_ended():
+                   <li class="courses-listing-item">
+                      <%include file="course.html" args="course=course" />
+                   </li>
+                % endif
             %endfor
             </ul>
         </section>
