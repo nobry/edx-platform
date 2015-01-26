@@ -29,10 +29,7 @@ from microsite_configuration import microsite
               <h1>${_("Free courses from <strong>{university_name}</strong>").format(university_name="Stanford")}</h1>
               <h2>${_("For anyone, anywhere, anytime")}</h2>
             % else:
-              ## Translators: 'Open edX' is a brand, please keep this untranslated. See http://openedx.org for more information.
-              <h1>${_("Welcome to Open edX!")}</h1>
-              ## Translators: 'Open edX' is a brand, please keep this untranslated. See http://openedx.org for more information.
-              <h2>${_("It works! This is the default homepage for this Open edX instance.")}</h2>
+              <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
             % endif
           % endif
         </hgroup>
@@ -65,11 +62,19 @@ from microsite_configuration import microsite
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <section class="courses">
             <ul class="courses-listing">
-            ## limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
-            %for course in courses[:settings.HOMEPAGE_COURSE_MAX]:
-              <li class="courses-listing-item">
-                <%include file="course.html" args="course=course" />
-              </li>
+            #### new code cypress
+            ####### limiting the course number by using HOMEPAGE_COURSE_MAX as the maximum number of courses
+            #####%for course in courses[:settings.HOMEPAGE_COURSE_MAX]:
+            #####  <li class="courses-listing-item">
+            #####    <%include file="course.html" args="course=course" />
+            #####  </li>
+            #### new code cypress
+            %for course in courses:
+                % if not course.has_ended():
+                   <li class="courses-listing-item">
+                      <%include file="course.html" args="course=course" />
+                   </li>
+                % endif
             %endfor
             </ul>
         </section>
