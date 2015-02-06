@@ -6580,6 +6580,10 @@ msgstr "Moment de complétion : "
 msgid "Refund Request Time:"
 msgstr "Heure de la demande de remboursement :"
 
+#: lms/templates/registration/activate_account_notice.html
+msgid "Your account is not active yet. An activation link has been sent to {email}, along with instructions for activating your account."
+msgstr "Votre compte n'est pas encore activé. Un lien d'activation a été envoyé à l'adresse {email} avec les instructions pour l'activation de votre compte."
+
 #: lms/templates/registration/password_reset_complete.html
 #: lms/templates/registration/password_reset_complete.html
 msgid "Your Password Reset is Complete"
@@ -7595,8 +7599,7 @@ msgstr "Ce compte a déjà été activé."
 #: cms/templates/registration/activation_complete.html
 #: lms/templates/registration/activation_complete.html
 msgid "Visit your {link_start}dashboard{link_end} to see your courses."
-msgstr ""
-"Accédez à votre {link_start}tableau de bord{link_end} pour voir vos cours."
+msgstr "Accédez à votre {link_start}tableau de bord{link_end} pour voir vos cours."
 
 #: cms/templates/widgets/footer.html lms/templates/footer-edx-new.html
 #: lms/templates/footer-legacy.html lms/templates/footer.html
@@ -7877,12 +7880,12 @@ msgid "Current Courses"
 msgstr "Mes cours"
 
 #: lms/templates/dashboard.html lms/templates/dashboard.html
-msgid "Looks like you haven't enrolled in any courses yet."
-msgstr ""
+msgid "Looks like you haven't registered for any courses yet."
+msgstr "Il semble que vous n'êtes inscrit à aucun cours pour le moment."
 
-#: lms/templates/dashboard.html
+#: lms/templates/dashboard.html:319
 msgid "Find courses now!"
-msgstr "Découvrir nos cours"
+msgstr "Découvrez nos cours!"
 
 #: lms/templates/dashboard.html
 msgid "Course-loading errors"
@@ -8878,8 +8881,8 @@ msgstr ""
 "Vous allez recevoir un mail d'activation. Vous devrez cliquer sur le lien "
 "d'activation pour compléter l'inscription. Vous ne voyez pas le mail ? "
 "Vérifiez votre dossier de spam et marquez les mails provenant de "
-"class.stanford.edu comme n'étant pas du spam, puisque vous voudrez pouvoir "
-"recevoir des emails provenant de nos cours."
+"oper.edulib@gmail.com comme n'étant pas du spam, puisque vous voudrez pouvoir "
+"recevoir des emails provenant de nos cours. À EDUlib, nous communiquons essentiellement par courriel."
 
 #: lms/templates/register-sidebar.html
 msgid ""
@@ -9801,11 +9804,11 @@ msgstr ""
 
 #: lms/templates/courseware/courses.html
 msgid "Explore free courses from leading universities."
-msgstr "Consultez les formations proposées par les meilleurs établissements."
+msgstr "Notre expertise, <strong>vos compétences</strong>."
 
 #: lms/templates/courseware/courses.html
 msgid "Explore free courses from {university_name}."
-msgstr "Consultez les formations offertes par {university_name}."
+msgstr "Notre expertise, <strong>vos compétences</strong>."
 
 #: lms/templates/courseware/courseware-error.html
 msgid ""
@@ -13497,8 +13500,8 @@ msgid "Go Back"
 msgstr "Retour"
 
 #: lms/templates/registration/activate_account_notice.html
-msgid "Thanks for Registering!"
-msgstr ""
+msgid "Thanks For Registering!"
+msgstr "Merci de vous être inscrit!"
 
 #: lms/templates/registration/activate_account_notice.html
 msgid ""
@@ -14218,6 +14221,7 @@ msgid ""
 "You can begin your course as soon as you complete the following form. "
 "Required fields are marked with an asterisk (*)."
 msgstr ""
+"Les champs requis sont indiqués par <strong class=\"indicator\">des caractères gras et un astérisque (*)</strong>."
 
 #: lms/templates/survey/survey.html
 msgid "You are missing the following required fields:"
