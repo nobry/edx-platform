@@ -11671,6 +11671,19 @@ msgstr "Emplacement du dépôt"
 msgid "Repo Branch (optional)"
 msgstr "Branche du dépôt (optionnelle) "
 
+#: lms/templates/register-sidebar.html
+msgid ""
+"As part of joining {platform_name}, you will receive an activation email.  "
+"You must click on the activation link to complete the process.  Don't see "
+"the email?  Check your spam folder and mark {platform_name} emails as 'not "
+"spam'.  At {platform_name}, we communicate mostly through email."
+msgstr ""
+"En rejoignant {platform_name}, vous recevrez un courriel d'activation. Vous "
+"devrez cliquer sur le lien d'activation pour compléter l'inscription. Vous "
+"ne voyez pas le courriel? Vérifiez votre dossier de pourriel et marquez les courriels "
+"provenant de {platform_name} comme n'étant pas du pourriel. À {platform_name}, "
+"nous communiquons essentiellement par courriel."
+
 #. Translators: Github is a popular website for hosting code
 #: lms/templates/sysadmin_dashboard.html
 msgid "Load new course from github"
