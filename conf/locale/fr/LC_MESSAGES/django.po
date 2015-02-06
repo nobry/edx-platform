@@ -7299,6 +7299,15 @@ msgstr "Vérificateur automatique"
 msgid "Instructor Assessment"
 msgstr "Évaluation de l'instructeur"
 
+#: lms/templates/registration/activate_account_notice.html
+msgid "Your account is not active yet. An activation link has been sent to {email}, along with instructions for activating your account."
+msgstr "Votre compte n'est pas encore activé. Un lien d'activation a été envoyé à l'adresse {email} avec les instructions pour l'activation de votre compte."
+
+#: lms/templates/registration/password_reset_complete.html
+#: lms/templates/registration/password_reset_complete.html
+msgid "Your Password Reset is Complete"
+msgstr "Votre mot de passe a été réinitialisé"
+
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid ""
 "Error occurred while contacting the grading service.  Please notify course "
@@ -10195,8 +10204,7 @@ msgstr "Ce compte a déjà été activé."
 #: cms/templates/registration/activation_complete.html
 #: lms/templates/registration/activation_complete.html
 msgid "Visit your {link_start}dashboard{link_end} to see your courses."
-msgstr ""
-"Accédez à votre {link_start}tableau de bord{link_end} pour voir vos cours."
+msgstr "Accédez à votre {link_start}tableau de bord{link_end} pour voir vos cours."
 
 #: cms/templates/widgets/header.html lms/templates/courseware/courseware.html
 msgid "Course Navigation"
@@ -10700,6 +10708,26 @@ msgstr ""
 #: lms/templates/help_modal.html
 msgid "suggestion"
 msgstr "suggestion"
+
+#: lms/templates/dashboard.html lms/templates/dashboard.html
+msgid "Looks like you haven't registered for any courses yet."
+msgstr "Il semble que vous n'êtes inscrit à aucun cours pour le moment."
+
+#: lms/templates/dashboard.html:319
+msgid "Find courses now!"
+msgstr "Découvrez nos cours!"
+
+#: lms/templates/dashboard.html
+msgid "Course-loading errors"
+msgstr "Erreurs de chargement du cours"
+
+#: lms/templates/dashboard.html
+msgid "Email Settings for {course_number}"
+msgstr "Paramètres de messagerie pour {course_number}"
+
+#: lms/templates/dashboard.html
+msgid "Receive course emails"
+msgstr "Recevoir les e-mails du cours"
 
 #: lms/templates/help_modal.html
 msgid "Make a Suggestion"
@@ -16489,6 +16517,10 @@ msgstr "Ajouter un enseignant"
 msgid "Beta Testers"
 msgstr "Beta testeurs"
 
+#: lms/templates/registration/activate_account_notice.html
+msgid "Thanks For Registering!"
+msgstr "Merci de vous être inscrit!"
+
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "Beta testers can see course content before the rest of the students. They "
@@ -17295,6 +17327,7 @@ msgid ""
 "If no additional billing details are populated the payment confirmation will"
 " be sent to the user making the purchase."
 msgstr ""
+"Les champs requis sont indiqués par <strong class=\"indicator\">des caractères gras et un astérisque (*)</strong>."
 
 #: lms/templates/shoppingcart/billing_details.html
 msgid "Payment processing occurs on a separate secure site."
