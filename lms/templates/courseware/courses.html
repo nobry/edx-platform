@@ -48,11 +48,8 @@
     else:
       default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
 
-    logo_file = microsite.get_value(
-      'course_index_overlay_logo_file', default_image_url
-    )
-
-    logo_alt_text = _("{platform_name} Logo").format(platform_name=platform_name)
+  logo_file = microsite.get_value(
+    'course_index_overlay_logo_file', settings.STATIC_URL + 'images/edulib_nb.png')
 %>
 
 <section class="find-courses">
@@ -63,7 +60,11 @@
         <div class="logo">
           <img src="${logo_file}" alt="${logo_alt_text}" />
         </div>
-        <h2>${course_index_overlay_text}</h2>
+        % if self.stanford_theme_enabled():
+          <h2>${_("Explore free courses from {university_name}.")}</h2>
+        % else:
+          <h2>${course_index_overlay_text}</h2>
+        % endif
       </hgroup>
     </div>
   </header>
