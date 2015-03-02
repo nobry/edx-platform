@@ -710,7 +710,8 @@ msgstr "Trop de tentatives de connexion échouées. Réessayez plus tard."
 
 #: common/djangoapps/student/views.py lms/templates/provider_login.html
 msgid "Email or password is incorrect."
-msgstr "Adresse mail ou mot de passe incorrect."
+msgstr ""
+"L'adresse courriel ou le mot de passe est incorrect."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -10553,12 +10554,6 @@ msgstr "A propos d'edX"
 msgid "Legal"
 msgstr "Légal"
 
-#. Translators: 'Open edX' is a brand, please keep this untranslated. See
-#. http://openedx.org for more information.
-#: lms/templates/footer.html
-msgid "Powered by Open edX"
-msgstr ""
-
 #: lms/templates/forgot_password_modal.html
 msgid "Password Reset"
 msgstr "Réinitialisation du mot de passe"
@@ -13672,25 +13667,6 @@ msgstr ""
 "Le compte {provider_name} choisi est déjà lié à un autre compte "
 "{platform_name}."
 
-#: lms/templates/dashboard/_dashboard_third_party_error.html
-msgid "Could Not Link Accounts"
-msgstr ""
-
-#. Translators: this message is displayed when a user tries to link their
-#. account with a third-party authentication provider (for example, Google or
-#. LinkedIn) with a given edX account, but their third-party account is
-#. already
-#. associated with another edX account. provider_name is the name of the
-#. third-party authentication provider, and platform_name is the name of the
-#. edX deployment.
-#: lms/templates/dashboard/_dashboard_third_party_error.html
-msgid ""
-"The {provider_name} account you selected is already linked to another "
-"{platform_name} account."
-msgstr ""
-"Le compte {provider_name} choisi est déjà lié à un autre compte "
-"{platform_name}."
-
 #: lms/templates/debug/run_python_form.html
 msgid "Results:"
 msgstr "Résultats :"
@@ -13908,10 +13884,6 @@ msgstr "Question avec réponse"
 #: lms/templates/discussion/_underscore_templates.html
 msgid "unanswered question"
 msgstr "Question sans réponse"
-
-#: lms/templates/discussion/_underscore_templates.html
-msgid "Pinned"
-msgstr "Epinglé"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "By: Staff"
@@ -20863,10 +20835,6 @@ msgstr "Catégories et étiquettes pour tous les exercices soumis à notation"
 #: cms/templates/settings_graders.html
 msgid "New Assignment Type"
 msgstr "Nouveau type de travail"
-
-#: cms/templates/settings_graders.html
-msgid "What can I do on this page?"
-msgstr "Que puis-je faire sur cette page ?"
 
 #: cms/templates/settings_graders.html
 msgid ""
