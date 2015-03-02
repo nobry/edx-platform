@@ -65,14 +65,6 @@
 # This file is distributed under the GNU AFFERO GENERAL PUBLIC LICENSE.
 # 
 # Translators:
-<<<<<<< HEAD
-# bekairi tahar <tahar48omar@gmail.com>, 2014
-# Eric Fortin, 2014
-# Françoise Docq, 2014
-# Gérard Vidal <Gerard.Vidal@ens-lyon.fr>, 2014
-# Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
-# rafcha <raphael.chay@gmail.com>, 2014
-=======
 # Assyass Mahmoud <mahmoud.assyass@edu.uiz.ac.ma>, 2015
 # bekairi tahar <tahar48omar@gmail.com>, 2014
 # Eric Fortin, 2014
@@ -81,7 +73,6 @@
 # Marie-Andrée Coulombe <coulombe.ma@gmail.com>, 2014
 # moocit-france <contact@moocit.fr>, 2015
 # rafcha <raphael.chay@gmail.com>, 2014-2015
->>>>>>> named-release/birch
 # Steven BERNARD <steven.bernard@u-paris2.fr>, 2014
 # #-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#
 # edX translation file
@@ -98,13 +89,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: edx-platform\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-12-01 11:35-0500\n"
-"PO-Revision-Date: 2014-10-24 10:31+0000\n"
-=======
 "POT-Creation-Date: 2015-01-26 13:20+0000\n"
 "PO-Revision-Date: 2015-01-20 14:45+0000\n"
->>>>>>> named-release/birch
 "Last-Translator: Sarina Canelake <sarina@edx.org>\n"
 "Language-Team: French (http://www.transifex.com/projects/p/edx-platform/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -118,10 +104,7 @@ msgstr ""
 #. browser when a user needs to edit HTML
 #: cms/static/coffee/src/views/tabs.js cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 #: cms/static/js/views/course_info_update.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/static/coffee/src/discussion/utils.js
@@ -132,12 +115,8 @@ msgstr "OK"
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/coffee/src/views/tabs.js cms/static/js/factories/export.js
-<<<<<<< HEAD
-#: cms/static/js/factories/manage_users.js cms/static/js/views/asset.js
-=======
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js cms/static/js/views/asset.js
->>>>>>> named-release/birch
 #: cms/static/js/views/course_info_update.js
 #: cms/static/js/views/show_textbook.js cms/static/js/views/validation.js
 #: cms/static/js/views/modals/base_modal.js
@@ -152,11 +131,7 @@ msgstr "OK"
 #: cms/templates/js/group-configuration-editor.underscore
 #: cms/templates/js/section-name-edit.underscore
 #: cms/templates/js/xblock-string-field-editor.underscore
-<<<<<<< HEAD
-#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
-=======
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
->>>>>>> named-release/birch
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -168,25 +143,16 @@ msgstr ""
 "navigateur"
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 #: lms/static/coffee/src/instructor_dashboard/util.js
 #: lms/static/coffee/src/instructor_dashboard/util.js
 #: lms/static/coffee/src/instructor_dashboard/util.js
 msgid "Unknown"
 msgstr "Inconnu"
 
-<<<<<<< HEAD
-#: cms/static/js/factories/manage_users.js cms/static/js/views/asset.js
-#: cms/static/js/views/group_configuration_item.js
-#: cms/static/js/views/show_textbook.js
-=======
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js cms/static/js/views/asset.js
 #: cms/static/js/views/list_item.js cms/static/js/views/show_textbook.js
->>>>>>> named-release/birch
 #: common/static/js/vendor/ova/catch/js/catch.js
 #: common/static/js/vendor/ova/catch/js/catch.js
 #: cms/templates/js/course-outline.underscore
@@ -194,13 +160,8 @@ msgstr "Inconnu"
 #: cms/templates/js/course_grade_policy.underscore
 #: cms/templates/js/group-configuration-details.underscore
 #: cms/templates/js/group-configuration-details.underscore
-<<<<<<< HEAD
-#: cms/templates/js/group-configuration-edit.underscore
-#: cms/templates/js/group-configuration-edit.underscore
-=======
 #: cms/templates/js/group-configuration-editor.underscore
 #: cms/templates/js/group-configuration-editor.underscore
->>>>>>> named-release/birch
 #: cms/templates/js/show-textbook.underscore
 #: cms/templates/js/xblock-outline.underscore
 #: cms/templates/js/xblock-outline.underscore
@@ -217,8 +178,6 @@ msgstr "Supprimer"
 msgid "Name"
 msgstr "Nom"
 
-<<<<<<< HEAD
-=======
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
 msgstr ""
@@ -232,20 +191,11 @@ msgstr ""
 msgid "Error"
 msgstr ""
 
->>>>>>> named-release/birch
 #. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: cms/static/js/views/modals/base_modal.js
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-<<<<<<< HEAD
-#: cms/templates/js/course_info_handouts.underscore
-#: cms/templates/js/edit-textbook.underscore
-#: cms/templates/js/group-configuration-edit.underscore
-#: cms/templates/js/section-name-edit.underscore
-#: cms/templates/js/xblock-string-field-editor.underscore
-#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
-=======
 #: cms/templates/js/content-group-editor.underscore
 #: cms/templates/js/course_info_handouts.underscore
 #: cms/templates/js/edit-textbook.underscore
@@ -253,7 +203,6 @@ msgstr ""
 #: cms/templates/js/section-name-edit.underscore
 #: cms/templates/js/xblock-string-field-editor.underscore
 #: lms/templates/instructor/instructor_dashboard_2/cohort-form.underscore
->>>>>>> named-release/birch
 msgid "Save"
 msgstr "Enregistrer"
 
@@ -647,22 +596,6 @@ msgstr "Cercle"
 msgid "Clear formatting"
 msgstr "Effacer le formatage"
 
-<<<<<<< HEAD
-#. #-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/templates/js/image-modal.underscore
-#, fuzzy
-msgid "Close"
-msgstr ""
-"#-#-#-#-#  djangojs-partial.po (edx-platform)  #-#-#-#-#\n"
-"Fermer\n"
-"#-#-#-#-#  underscore.po (edx-platform)  #-#-#-#-#\n"
-"Proche"
-
-=======
->>>>>>> named-release/birch
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -781,12 +714,8 @@ msgstr "Supprimer le tableau"
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
-<<<<<<< HEAD
-#: cms/templates/js/group-configuration-edit.underscore
-=======
 #: cms/templates/js/group-configuration-editor.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
->>>>>>> named-release/birch
 msgid "Description"
 msgstr "Description"
 
@@ -825,18 +754,11 @@ msgstr "Editer le code HTML"
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
 #: common/static/js/vendor/ova/catch/js/catch.js
-<<<<<<< HEAD
-=======
 #: cms/templates/js/content-group-details.underscore
->>>>>>> named-release/birch
 #: cms/templates/js/course_info_handouts.underscore
 #: cms/templates/js/group-configuration-details.underscore
 #: cms/templates/js/show-textbook.underscore
 #: cms/templates/js/xblock-string-field-editor.underscore
-<<<<<<< HEAD
-#: cms/templates/js/mock/mock-container-page.underscore
-=======
->>>>>>> named-release/birch
 msgid "Edit"
 msgstr "Éditer"
 
@@ -2400,14 +2322,6 @@ msgstr "Fermer la calculatrice"
 msgid "Post body"
 msgstr "Corps du message"
 
-<<<<<<< HEAD
-#. Translators: "Distribution" refers to a grade distribution. This error
-#. message appears when there is an error getting the data on grade
-#. distribution.;
-#: lms/static/coffee/src/instructor_dashboard/analytics.js
-msgid "Error fetching distribution."
-msgstr "Erreur lors de la récupération de la distribution."
-=======
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error generating student profile information. Please try again."
 msgstr ""
@@ -2439,7 +2353,6 @@ msgid ""
 msgstr ""
 "Les liens sont générés sur demande et expirent dans les 5 minutes à cause de"
 " la nature sensible des informations concernant l'étudiant."
->>>>>>> named-release/birch
 
 #: lms/static/coffee/src/instructor_dashboard/instructor_analytics.js
 msgid "Unavailable metric display."
@@ -2457,42 +2370,6 @@ msgstr "Dernière mise à jour: <%= timestamp %>"
 msgid "<%= num_students %> students scored."
 msgstr "<%= num_students %> étudiants ont réussi."
 
-<<<<<<< HEAD
-#: lms/static/coffee/src/instructor_dashboard/data_download.js
-msgid "Error generating student profile information. Please try again."
-msgstr ""
-
-#: lms/static/coffee/src/instructor_dashboard/data_download.js
-#: cms/templates/js/mock/mock-group-configuration-page.underscore
-msgid "Loading..."
-msgstr "Chargement en cours..."
-
-#: lms/static/coffee/src/instructor_dashboard/data_download.js
-msgid "Error getting student list."
-msgstr "Erreur lors de la récupération de la liste des étudiants."
-
-#: lms/static/coffee/src/instructor_dashboard/data_download.js
-msgid "Error retrieving grading configuration."
-msgstr "Erreur lors de la récupération de la configuration de la notation."
-
-#: lms/static/coffee/src/instructor_dashboard/data_download.js
-msgid "Error generating grades. Please try again."
-msgstr "Erreur lors de la génération des notes. Merci d’essayer à nouveau."
-
-#: lms/static/coffee/src/instructor_dashboard/data_download.js
-msgid "File Name"
-msgstr "Nom du fichier"
-
-#: lms/static/coffee/src/instructor_dashboard/data_download.js
-msgid ""
-"Links are generated on demand and expire within 5 minutes due to the "
-"sensitive nature of student information."
-msgstr ""
-"Les liens sont générés sur demande et expirent dans les 5 minutes à cause de"
-" la nature sensible des informations concernant l'étudiant."
-
-=======
->>>>>>> named-release/birch
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Username"
 msgstr "Nom d'utilisateur"
@@ -2544,8 +2421,6 @@ msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Errors"
-<<<<<<< HEAD
-=======
 msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
@@ -2570,7 +2445,6 @@ msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Error adding/removing users as beta testers."
->>>>>>> named-release/birch
 msgstr ""
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
@@ -3266,8 +3140,6 @@ msgid ""
 "email to confirm your email address change."
 msgstr ""
 
-<<<<<<< HEAD
-=======
 #: lms/static/js/edxnotes/views/search_box.js
 #: lms/static/js/edxnotes/views/toggle_notes_factory.js
 msgid ""
@@ -3421,7 +3293,6 @@ msgid ""
 "Your file '{file}' has been uploaded. Allow a few minutes for processing."
 msgstr ""
 
->>>>>>> named-release/birch
 #: lms/static/js/student_account/account.js
 #: lms/static/js/student_profile/profile.js
 msgid "The data could not be saved."
@@ -3465,66 +3336,6 @@ msgstr ""
 msgid "Saved"
 msgstr ""
 
-<<<<<<< HEAD
-#: lms/static/js/views/cohort_editor.js
-msgid "Error adding students."
-msgstr ""
-
-#: lms/static/js/views/cohort_editor.js
-msgid "{numUsersAdded} student has been added to this cohort group"
-msgid_plural "{numUsersAdded} students have been added to this cohort group"
-msgstr[0] ""
-msgstr[1] ""
-
-#: lms/static/js/views/cohort_editor.js
-msgid "{numMoved} student was removed from {oldCohort}"
-msgid_plural "{numMoved} students were removed from {oldCohort}"
-msgstr[0] ""
-msgstr[1] ""
-
-#: lms/static/js/views/cohort_editor.js
-msgid "{numPresent} student was already in the cohort group"
-msgid_plural "{numPresent} students were already in the cohort group"
-msgstr[0] ""
-msgstr[1] ""
-
-#: lms/static/js/views/cohort_editor.js
-msgid "Unknown user: {user}"
-msgstr ""
-
-#: lms/static/js/views/cohort_editor.js
-msgid "There was an error when trying to add students:"
-msgid_plural "There were {numErrors} errors when trying to add students:"
-msgstr[0] ""
-msgstr[1] ""
-
-#: lms/static/js/views/cohort_editor.js
-msgid "View all errors"
-msgstr ""
-
-#: lms/static/js/views/cohorts.js
-msgid "You currently have no cohort groups configured"
-msgstr ""
-
-#: lms/static/js/views/cohorts.js
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
-msgid "Add Cohort Group"
-msgstr ""
-
-#: lms/static/js/views/cohorts.js
-msgid ""
-"The {cohortGroupName} cohort group has been created. You can manually add "
-"students to this group below."
-msgstr ""
-
-#: lms/static/js/views/cohorts.js
-msgid ""
-"We've encountered an error. Please refresh your browser and then try again."
-msgstr ""
-
-#: lms/static/js/views/cohorts.js
-msgid "Please enter a name for your new cohort group."
-=======
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "An error has occurred. Please try again."
 msgstr ""
@@ -3589,7 +3400,6 @@ msgstr ""
 
 #: lms/static/js/views/file_uploader.js
 msgid "Your upload of '{file}' failed."
->>>>>>> named-release/birch
 msgstr ""
 
 #: lms/templates/class_dashboard/all_section_metrics.js
@@ -3750,10 +3560,7 @@ msgid "Choose new file"
 msgstr "Choisir un nouveau fichier"
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 msgid "A valid email address is required"
 msgstr ""
 
@@ -3762,10 +3569,7 @@ msgid "You must enter a valid email address in order to add a new team member"
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 msgid "Return and add email address"
 msgstr ""
 
@@ -3774,14 +3578,6 @@ msgid "Already a course team member"
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-msgid ""
-"{email} is already on the “{course}” team. If you're trying to add a new "
-"member, please double-check the email address you provided."
-msgstr ""
-
-#: cms/static/js/factories/manage_users.js
-=======
 #: cms/static/js/factories/manage_users_lib.js
 msgid ""
 "{email} is already on the {course} team. Recheck the email address if you "
@@ -3790,23 +3586,16 @@ msgstr ""
 
 #: cms/static/js/factories/manage_users.js
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 msgid "Return to team listing"
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 msgid "Error adding user"
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 msgid "Are you sure?"
 msgstr ""
 
@@ -3816,18 +3605,12 @@ msgid ""
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 msgid "Error removing user"
 msgstr ""
 
 #: cms/static/js/factories/manage_users.js
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
->>>>>>> named-release/birch
 msgid "There was an error changing the user's role"
 msgstr ""
 
@@ -3835,8 +3618,6 @@ msgstr ""
 msgid "Try Again"
 msgstr ""
 
-<<<<<<< HEAD
-=======
 #: cms/static/js/factories/manage_users_lib.js
 msgid "You must enter a valid email address in order to add an instructor"
 msgstr ""
@@ -3849,7 +3630,6 @@ msgstr ""
 msgid "Are you sure you want to delete {email} from the library “{library}”?"
 msgstr ""
 
->>>>>>> named-release/birch
 #: cms/static/js/factories/settings_advanced.js
 msgid "Hide Deprecated Settings"
 msgstr ""
@@ -3865,8 +3645,6 @@ msgstr ""
 "Il reste des modifications non sauvegardées. Voulez-vous vraiment quitter "
 "cette page ?"
 
-<<<<<<< HEAD
-=======
 #. Translators: This is the status of a video upload that is queued
 #. waiting for other uploads to complete
 #: cms/static/js/models/active_video_upload.js
@@ -3889,7 +3667,6 @@ msgstr ""
 msgid "Upload failed"
 msgstr ""
 
->>>>>>> named-release/birch
 #: cms/static/js/models/course.js cms/static/js/models/section.js
 msgid "You must specify a name"
 msgstr "Vous devez indiquer un nom"
@@ -3917,13 +3694,10 @@ msgstr "il doit y avoir au moins un groupe."
 #: cms/static/js/models/group_configuration.js
 msgid "All groups must have a name."
 msgstr "Tous les groupes doivent avoir un nom."
-<<<<<<< HEAD
-=======
 
 #: cms/static/js/models/group_configuration.js
 msgid "All groups must have a unique name."
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/static/js/models/uploads.js
 msgid ""
@@ -4057,19 +3831,11 @@ msgstr ""
 msgid "Choose File"
 msgstr "Choisir le fichier"
 
-<<<<<<< HEAD
-#: cms/static/js/views/assets.js
-=======
 #: cms/static/js/views/assets.js cms/static/js/views/assets.js.c
->>>>>>> named-release/birch
 #: cms/templates/js/asset-upload-modal.underscore
-#, fuzzy
 msgid "Upload New File"
 msgstr ""
-"#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#\n"
 "Envoyer un nouveau fichier\n"
-"#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#\n"
-"Téléversez un nouveau fichier"
 
 #: cms/static/js/views/assets.js cms/static/js/views/assets.js.c
 msgid "Load Another File"
@@ -4234,8 +4000,6 @@ msgstr ""
 msgid "%(total_items)s total"
 msgstr "%(total_items)s en tout"
 
-<<<<<<< HEAD
-=======
 #. Translators: This is listed as the duration for a video
 #. that has not yet reached the point in its processing by
 #. the servers where its duration is determined.
@@ -4243,7 +4007,6 @@ msgstr "%(total_items)s en tout"
 msgid "Pending"
 msgstr ""
 
->>>>>>> named-release/birch
 #: cms/static/js/views/show_textbook.js
 msgid "Delete “<%= name %>”?"
 msgstr "Supprimer « <%= name %> » ?"
@@ -4316,16 +4079,6 @@ msgstr "Nouveau %(component_type)s"
 #. e.g. "Warning: this component has not been configured yet".
 #: cms/static/js/views/xblock_validation.js
 msgid "Warning"
-<<<<<<< HEAD
-msgstr ""
-
-#. Translators: This message will be added to the front of messages of type
-#. error,
-#. e.g. "Error: required field is missing".
-#: cms/static/js/views/xblock_validation.js
-msgid "Error"
-=======
->>>>>>> named-release/birch
 msgstr ""
 
 #: cms/static/js/views/components/add_xblock.js
@@ -4355,14 +4108,11 @@ msgstr "Publier toutes les modifications non publiées pour cet %(item)s ?"
 #: cms/templates/js/publish-xblock.underscore
 msgid "Publish"
 msgstr "Publier"
-<<<<<<< HEAD
-=======
 
 #. Translators: "title" is the name of the current component being edited.
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Editing: %(title)s"
 msgstr "Modification: %(title)s"
->>>>>>> named-release/birch
 
 #: cms/static/js/views/modals/edit_xblock.js
 msgid "Component"
@@ -4380,22 +4130,7 @@ msgstr "Annuler les modifications"
 msgid "Change Manually"
 msgstr "Changer manuellement"
 
-<<<<<<< HEAD
-#: cms/static/js/views/modals/validation_error_modal.js
-msgid "Validation Error While Saving"
-msgstr "Erreur de validation lors de la sauvegarde"
-
-#: cms/static/js/views/modals/validation_error_modal.js
-msgid "Undo Changes"
-msgstr "Annuler les modifications"
-
-#: cms/static/js/views/modals/validation_error_modal.js
-msgid "Change Manually"
-msgstr "Changer manuellement"
-
-=======
 #. Translators: "title" is the name of the current component being edited.
->>>>>>> named-release/birch
 #: cms/static/js/views/pages/container.js
 msgid "Editing visibility for: %(title)s"
 msgstr ""
@@ -4405,13 +4140,8 @@ msgid "Duplicating"
 msgstr ""
 
 #: cms/static/js/views/pages/container_subviews.js
-<<<<<<< HEAD
-msgid "Publishing&hellip;"
-msgstr "Publication"
-=======
 msgid "Publishing"
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/static/js/views/pages/container_subviews.js
 #: cms/static/js/views/pages/container_subviews.js
@@ -4428,22 +4158,6 @@ msgstr ""
 "Vous ne pouvez pas annuler cette action."
 
 #: cms/static/js/views/pages/container_subviews.js
-<<<<<<< HEAD
-msgid "Discarding Changes&hellip;"
-msgstr "Supprimer les modifications&hellip;"
-
-#: cms/static/js/views/pages/container_subviews.js
-msgid "Hiding from Students&hellip;"
-msgstr "Cacher aux étudiants&hellip;"
-
-#: cms/static/js/views/pages/container_subviews.js
-msgid "Explicitly Hiding from Students&hellip;"
-msgstr "Cacher explicitement aux étudiants&hellip;"
-
-#: cms/static/js/views/pages/container_subviews.js
-msgid "Inheriting Student Visibility&hellip;"
-msgstr "Hériter la visibilité pour les étudiants&hellip;"
-=======
 msgid "Discarding Changes"
 msgstr ""
 
@@ -4458,7 +4172,6 @@ msgstr ""
 #: cms/static/js/views/pages/container_subviews.js
 msgid "Inheriting Student Visibility"
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/static/js/views/pages/container_subviews.js
 #: cms/static/js/views/pages/container_subviews.js
@@ -4476,10 +4189,6 @@ msgstr ""
 "désormais visibles par les étudiants. Voulez-vous continuer?"
 
 #: cms/static/js/views/pages/container_subviews.js
-<<<<<<< HEAD
-msgid "Making Visible to Students&hellip;"
-msgstr "Rendre visible aux étudiants&hellip;"
-=======
 msgid "Making Visible to Students"
 msgstr ""
 
@@ -5238,7 +4947,6 @@ msgid ""
 "A driver's license, passport, or government-issued ID with your name and "
 "photo."
 msgstr ""
->>>>>>> named-release/birch
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
@@ -5261,19 +4969,9 @@ msgid ""
 "have provided."
 msgstr ""
 
-<<<<<<< HEAD
-#: cms/static/js/views/settings/main.js
-msgid "%(hours)s:%(minutes)s (current UTC time)"
-msgstr ""
-
-#: cms/static/js/views/settings/main.js
-msgid "Upload your course image."
-msgstr "Téléchargez votre image de cours."
-=======
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photo of %(fullName)s"
 msgstr ""
->>>>>>> named-release/birch
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photo of %(fullName)s's ID"
@@ -5295,35 +4993,6 @@ msgstr ""
 msgid "Is your name on your ID readable?"
 msgstr ""
 
-<<<<<<< HEAD
-#: cms/static/js/views/utils/xblock_utils.js
-msgid "component"
-msgstr "composant"
-
-#: cms/static/js/views/utils/xblock_utils.js
-msgid "Delete this %(xblock_type)s?"
-msgstr "Supprimer ce %(xblock_type)s?"
-
-#: cms/static/js/views/utils/xblock_utils.js
-msgid "Deleting this %(xblock_type)s is permanent and cannot be undone."
-msgstr "Supprimer ce %(xblock_type)s est permanent et ne peut être défait."
-
-#: cms/static/js/views/utils/xblock_utils.js
-msgid "Yes, delete this %(xblock_type)s"
-msgstr "Oui, supprimer ce %(xblock_type)s"
-
-#: cms/static/js/views/utils/xblock_utils.js
-msgid "section"
-msgstr "section"
-
-#: cms/static/js/views/utils/xblock_utils.js
-msgid "subsection"
-msgstr "sous-section"
-
-#: cms/static/js/views/utils/xblock_utils.js
-msgid "unit"
-msgstr "unité"
-=======
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the name on your ID match your account name: %(fullName)s?"
 msgstr ""
@@ -5352,7 +5021,6 @@ msgstr ""
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Confirm"
 msgstr ""
->>>>>>> named-release/birch
 
 #: lms/templates/verify_student/webcam_photo.underscore
 msgid ""
@@ -5654,14 +5322,9 @@ msgid "List of uploaded files and assets in this course"
 msgstr "Liste des fichiers et des activités téléchargés dans ce cours"
 
 #: cms/templates/js/asset-library.underscore
-<<<<<<< HEAD
-msgid "Embed URL"
-msgstr "URL embarquée"
-=======
 #: cms/templates/js/asset-library.underscore
 msgid "- Sortable"
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/templates/js/asset-library.underscore
 msgid "URL"
@@ -5683,23 +5346,14 @@ msgstr "Téléversez votre première ressource"
 #: cms/templates/js/asset-upload-modal.underscore
 msgid "close"
 msgstr "fermer"
-<<<<<<< HEAD
-=======
 
 #: cms/templates/js/asset.underscore
 msgid "No description available"
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/templates/js/asset.underscore
 msgid "Open/download this file"
 msgstr "Ouvrir/Télécharger ce fichier"
-<<<<<<< HEAD
-
-#: cms/templates/js/asset.underscore
-msgid "Delete this asset"
-msgstr "Supprimer cet actif"
-=======
 
 #: cms/templates/js/asset.underscore
 msgid "Studio:"
@@ -5708,7 +5362,6 @@ msgstr ""
 #: cms/templates/js/asset.underscore
 msgid "Web:"
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/templates/js/asset.underscore
 msgid "Delete this asset"
@@ -5735,10 +5388,6 @@ msgid ""
 "Caution: The last published version of this unit is live. By publishing "
 "changes you will change the student experience."
 msgstr ""
-<<<<<<< HEAD
-"Attention: La dernière version publiée de cette unité est acive.En publiant "
-"des modifications vous allez changer l'expérience des étudiants."
-=======
 "Attention: la dernière version publiée de cette unité est active. En "
 "publiant des modifications vous allez changer l'expérience des étudiants."
 
@@ -5760,7 +5409,6 @@ msgstr ""
 #: cms/templates/js/group-configuration-editor.underscore
 msgid "Create"
 msgstr "Créer"
->>>>>>> named-release/birch
 
 #: cms/templates/js/course-outline.underscore
 msgid "Contains staff only content"
@@ -5939,14 +5587,6 @@ msgstr "Téléverser un PDF"
 #: cms/templates/js/edit-chapter.underscore
 msgid "delete chapter"
 msgstr "effacer le chapitre"
-<<<<<<< HEAD
-
-#: cms/templates/js/edit-textbook.underscore
-#: cms/templates/js/group-configuration-edit.underscore
-msgid "error.message"
-msgstr "message.d'erreur"
-=======
->>>>>>> named-release/birch
 
 #: cms/templates/js/edit-textbook.underscore
 msgid "Textbook information"
@@ -6055,13 +5695,6 @@ msgstr ""
 "Cette configuration est actuellement utilisé dans des expériences de "
 "contenu. Si vous apportez des modifications aux groupes, vous devrez peut-"
 "être modifier ces expériences."
-<<<<<<< HEAD
-
-#: cms/templates/js/group-configuration-edit.underscore
-msgid "Create"
-msgstr "Créer"
-=======
->>>>>>> named-release/birch
 
 #: cms/templates/js/group-edit.underscore
 msgid "delete group"
@@ -6089,17 +5722,6 @@ msgstr "Effacer la valeur"
 #: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Download"
 msgstr "Télécharger"
-<<<<<<< HEAD
-
-#: cms/templates/js/no-group-configurations.underscore
-msgid "You haven't created any group configurations yet."
-msgstr "Vous n'avez pas encore créé de configuration des groupes."
-
-#: cms/templates/js/no-group-configurations.underscore
-msgid "Add your first Group Configuration"
-msgstr "Ajouter votre première configuration de groupe"
-=======
->>>>>>> named-release/birch
 
 #: cms/templates/js/no-textbooks.underscore
 msgid "You haven't added any textbooks to this course yet."
@@ -6117,8 +5739,6 @@ msgstr "Précédent"
 #: cms/templates/js/paging-footer.underscore
 msgid "Page number"
 msgstr "Numéro de page"
-<<<<<<< HEAD
-=======
 
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Previous Uploads"
@@ -6135,7 +5755,6 @@ msgstr ""
 #: cms/templates/js/previous-video-upload-list.underscore
 msgid "Video ID"
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/templates/js/publish-history.underscore
 msgid "Never published"
@@ -6205,13 +5824,10 @@ msgstr "Réservé au personnel"
 #: cms/templates/js/publish-xblock.underscore
 msgid "Staff and Students"
 msgstr "Personnel et étudiants"
-<<<<<<< HEAD
-=======
 
 #: cms/templates/js/publish-xblock.underscore
 msgid "Some content in this unit is visible only to particular content groups"
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/templates/js/publish-xblock.underscore
 #: cms/templates/js/staff-lock-editor.underscore
@@ -6287,7 +5903,6 @@ msgstr "Chargement du fichier réussi"
 msgid ""
 "There were {strong_start}{num_errors} validation error(s){strong_end} while "
 "trying to save the course setting(s) in the database."
-<<<<<<< HEAD
 msgstr ""
 "Il y a eu {strong_start}{num_errors} erreur(s) de validation{strong_end} "
 "lors de la tentative de sauvegarde des paramètre(s) du cours dans la base de"
@@ -6298,18 +5913,6 @@ msgid ""
 "Please check the following validation feedbacks and reflect them in your "
 "course settings:"
 msgstr ""
-=======
-msgstr ""
-"Il y a eu {strong_start}{num_errors} erreur(s) de validation{strong_end} "
-"lors de la tentative de sauvegarde des paramètre(s) du cours dans la base de"
-" données."
-
-#: cms/templates/js/validation-error-modal.underscore
-msgid ""
-"Please check the following validation feedbacks and reflect them in your "
-"course settings:"
-msgstr ""
->>>>>>> named-release/birch
 "Veuillez vérifier les commentaires de validation suivants et en tenir compte"
 " dans les paramètres de votre cours:"
 
@@ -6325,17 +5928,6 @@ msgstr "Modifier %(display_name)s (requis)"
 #: cms/templates/js/xblock-string-field-editor.underscore
 msgid "formLabel"
 msgstr "Étiquette du formulaire"
-<<<<<<< HEAD
-
-#: cms/templates/js/mock/mock-container-page.underscore
-msgid "View Live Version"
-msgstr "Aperçu temps réel"
-
-#: cms/templates/js/mock/mock-container-page.underscore
-msgid "Preview Changes"
-msgstr "Aperçu des changements"
-=======
->>>>>>> named-release/birch
 
 #: cms/templates/js/mock/mock-container-page.underscore
 msgid "Unit Location"
@@ -6348,24 +5940,6 @@ msgid ""
 msgstr ""
 "Utilisez cet ID lorsque vous créez des liens vers cette unité à partir de "
 "tout autre contenu du cours. Vous entrez l'ID dans le champ URL."
-<<<<<<< HEAD
-
-#: cms/templates/js/mock/mock-group-configuration-page.underscore
-msgid "Group Configurations"
-msgstr "Configuration des groupes."
-
-#: cms/templates/js/mock/mock-group-configuration-page.underscore
-msgid "Page Actions"
-msgstr "Actions de la Page"
-
-#: cms/templates/js/mock/mock-group-configuration-page.underscore
-msgid "New Group Configuration"
-msgstr "Nouvelle configuration du groupe"
-
-#: cms/templates/js/video/metadata-translations-item.underscore
-msgid "Remove"
-msgstr "Enlever"
-=======
 
 #: cms/templates/js/mock/mock-index-page.underscore
 msgid "Courses"
@@ -6382,7 +5956,6 @@ msgstr ""
 #: cms/templates/js/mock/mock-settings-page.underscore
 msgid "Require students to pass an exam before beginning the course."
 msgstr ""
->>>>>>> named-release/birch
 
 #: cms/templates/js/mock/mock-settings-page.underscore
 msgid "To create your course entrance exam, go to the"
