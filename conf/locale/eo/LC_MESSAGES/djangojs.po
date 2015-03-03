@@ -26,13 +26,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0.1a\n"
 "Report-Msgid-Bugs-To: openedx-translation@googlegroups.com\n"
-<<<<<<< HEAD
-"POT-Creation-Date: 2014-12-03 01:38+0000\n"
-"PO-Revision-Date: 2014-12-03 01:39:50.036075\n"
-=======
-"POT-Creation-Date: 2015-01-26 14:02+0000\n"
-"PO-Revision-Date: 2015-01-26 14:03:14.240646\n"
->>>>>>> named-release/birch
+"POT-Creation-Date: 2015-03-02 20:18-0500\n"
+"PO-Revision-Date: 2015-03-03 01:21:16.484241\n"
 "Last-Translator: \n"
 "Language-Team: openedx-translation <openedx-translation@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
@@ -537,17 +532,6 @@ msgstr "Çïrçlé Ⱡ'σяєм ιρѕ#"
 msgid "Clear formatting"
 msgstr "Çléär förmättïng Ⱡ'σ#"
 
-<<<<<<< HEAD
-#. #-#-#-#-#  djangojs-partial.po (0.1a)  #-#-#-#-#
-#. Translators: this is a message from the raw HTML editor displayed in the
-#. browser when a user needs to edit HTML
-#: common/lib/xmodule/xmodule/js/src/html/edit.js
-#: common/templates/js/image-modal.underscore
-msgid "Close"
-msgstr "Çlösé Ⱡ'σяєм ι#"
-
-=======
->>>>>>> named-release/birch
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -1881,7 +1865,6 @@ msgstr ""
 "Wé häd sömé tröüßlé rémövïng thïs éndörsémént.  Pléäsé trý ägäïn. Ⱡ'σяєм "
 "ιρѕυм ∂σłσя #"
 
-<<<<<<< HEAD
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
 msgid "We had some trouble saving your vote.  Please try again."
 msgstr ""
@@ -1919,45 +1902,6 @@ msgstr ""
 "∂σłσ#"
 
 #: common/static/coffee/src/discussion/views/discussion_content_view.js
-=======
-#: common/static/coffee/src/discussion/views/discussion_content_view.js
-msgid "We had some trouble saving your vote.  Please try again."
-msgstr ""
-"Wé häd sömé tröüßlé sävïng ýöür vöté.  Pléäsé trý ägäïn. Ⱡ'σяєм ιρѕυм ∂σł#"
-
-#: common/static/coffee/src/discussion/views/discussion_content_view.js
-msgid "We had some trouble pinning this thread. Please try again."
-msgstr ""
-"Wé häd sömé tröüßlé pïnnïng thïs thréäd. Pléäsé trý ägäïn. Ⱡ'σяєм ιρѕυм "
-"∂σłσ#"
-
-#: common/static/coffee/src/discussion/views/discussion_content_view.js
-msgid "We had some trouble unpinning this thread. Please try again."
-msgstr ""
-"Wé häd sömé tröüßlé ünpïnnïng thïs thréäd. Pléäsé trý ägäïn. Ⱡ'σяєм ιρѕυм "
-"∂σłσ#"
-
-#: common/static/coffee/src/discussion/views/discussion_content_view.js
-msgid ""
-"We had some trouble removing your flag on this post.  Please try again."
-msgstr ""
-"Wé häd sömé tröüßlé rémövïng ýöür fläg ön thïs pöst.  Pléäsé trý ägäïn. "
-"Ⱡ'σяєм ιρѕυм ∂σłσя ѕι#"
-
-#: common/static/coffee/src/discussion/views/discussion_content_view.js
-msgid "We had some trouble reporting this post.  Please try again."
-msgstr ""
-"Wé häd sömé tröüßlé répörtïng thïs pöst.  Pléäsé trý ägäïn. Ⱡ'σяєм ιρѕυм "
-"∂σłσ#"
-
-#: common/static/coffee/src/discussion/views/discussion_content_view.js
-msgid "We had some trouble closing this thread.  Please try again."
-msgstr ""
-"Wé häd sömé tröüßlé çlösïng thïs thréäd.  Pléäsé trý ägäïn. Ⱡ'σяєм ιρѕυм "
-"∂σłσ#"
-
-#: common/static/coffee/src/discussion/views/discussion_content_view.js
->>>>>>> named-release/birch
 msgid "We had some trouble reopening this thread.  Please try again."
 msgstr ""
 "Wé häd sömé tröüßlé réöpénïng thïs thréäd.  Pléäsé trý ägäïn. Ⱡ'σяєм ιρѕυм "
@@ -2325,15 +2269,12 @@ msgstr "Çlösé Çälçülätör Ⱡ'σ#"
 msgid "Post body"
 msgstr "Pöst ßödý #"
 
-<<<<<<< HEAD
-=======
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Error generating student profile information. Please try again."
 msgstr ""
 "Érrör générätïng stüdént pröfïlé ïnförmätïön. Pléäsé trý ägäïn. Ⱡ'σяєм ιρѕυм"
 " ∂σłσя#"
 
->>>>>>> named-release/birch
 #: lms/static/coffee/src/instructor_dashboard/data_download.js
 msgid "Loading"
 msgstr "Löädïng #"
@@ -4163,18 +4104,6 @@ msgstr "Çhängé Mänüällý Ⱡ'#"
 #: cms/static/js/views/pages/container.js
 msgid "Editing visibility for: %(title)s"
 msgstr "Édïtïng vïsïßïlïtý för: %(title)s Ⱡ'σяєм#"
-
-#: cms/static/js/views/modals/validation_error_modal.js
-msgid "Validation Error While Saving"
-msgstr "Välïdätïön Érrör Whïlé Sävïng Ⱡ'σяєм #"
-
-#: cms/static/js/views/modals/validation_error_modal.js
-msgid "Undo Changes"
-msgstr "Ûndö Çhängés Ⱡ#"
-
-#: cms/static/js/views/modals/validation_error_modal.js
-msgid "Change Manually"
-msgstr "Çhängé Mänüällý Ⱡ'#"
 
 #: cms/static/js/views/pages/container.js
 msgid "Duplicating"

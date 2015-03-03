@@ -1,7 +1,7 @@
 # Configuration for i18n workflow.
 
 locales:
-    - en  # English - Source Language
+#    - en  # English - Source Language
 #    - am  # Amharic
 #    - ar  # Arabic
 #    - az  # Azerbaijani
