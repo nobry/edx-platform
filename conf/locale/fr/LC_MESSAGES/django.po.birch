@@ -374,11 +374,11 @@ msgstr ""
 
 #: common/djangoapps/student/forms.py
 msgid "Username cannot be more than %(limit_value)s characters long"
-msgstr "Le nom d'utilisateur ne peut dépasser %(limit_value)s charactères"
+msgstr ""
 
 #: common/djangoapps/student/forms.py
 msgid "Email cannot be more than %(limit_value)s characters long"
-msgstr "Le courriel ne peut dépasser %(limit_value)s charactères"
+msgstr ""
 
 #: common/djangoapps/student/forms.py
 msgid "You must accept the terms of service."
@@ -398,7 +398,7 @@ msgstr "Votre année de naissance est requise"
 
 #: common/djangoapps/student/forms.py
 msgid "Your mailing address is required"
-msgstr "Votre adresse courriel est requise"
+msgstr "Votre adresse email est requise"
 
 #: common/djangoapps/student/forms.py
 msgid "A description of your goals is required"
@@ -573,7 +573,7 @@ msgstr ""
 msgid "There was an error receiving your login information. Please email us."
 msgstr ""
 "Il y a une erreur avec vos informations de connexion. Merci de nous envoyer "
-"un courriel."
+"un mail."
 
 #: common/djangoapps/student/views.py
 msgid ""
@@ -600,17 +600,19 @@ msgid "Too many failed login attempts. Try again later."
 msgstr "Trop de tentatives de connexion échouées. Réessayez plus tard."
 
 #: common/djangoapps/student/views.py lms/templates/provider_login.html
+#, fuzzy
 msgid "Email or password is incorrect."
-msgstr "Adresse courriel ou mot de passe incorrect."
+msgstr ""
+"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
+"L'adresse email ou le mot de passe est incorrect\n"
+"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
+"Adresse mail ou mot de passe incorrect."
 
 #: common/djangoapps/student/views.py
 msgid ""
 "This account has not been activated. We have sent another activation "
 "message. Please check your email for the activation instructions."
 msgstr ""
-"Ce compte n'a pas encore été activé. Nous vous avons envoyé un nouveau "
-"message pour l'activer. Merci de vérifier votre courriel entrant pour suivre"
-" les instructions d'activation."
 
 #: common/djangoapps/student/views.py
 msgid "Please enter a username"
@@ -642,12 +644,12 @@ msgstr "Un compte avec le même nom d'utilisateur '{username}' existe déjà."
 
 #: common/djangoapps/student/views.py
 msgid "An account with the Email '{email}' already exists."
-msgstr "Un compte avec l'adresse courriel '{email}' existe déjà."
+msgstr "Un compte avec l'adresse e-mail '{email}' existe déjà."
 
 #: common/djangoapps/student/views.py
 msgid "Unknown error. Please e-mail us to let us know how it happened."
 msgstr ""
-"Erreur inconnue. Merci de nous envoyer un courriel pour nous indiquer les "
+"Erreur inconnue. Merci de nous envoyer un e-mail pour nous indiquer les "
 "circonstances du problème rencontré."
 
 #: common/djangoapps/student/views.py
@@ -688,11 +690,11 @@ msgstr "La réinitialisation du mot de passe a échoué."
 
 #: common/djangoapps/student/views.py
 msgid "No inactive user with this e-mail exists"
-msgstr "Pas d'utilisateur inactif avec cette adresse courriel"
+msgstr "Pas d'utilisateur inactif avec cette adresse email"
 
 #: common/djangoapps/student/views.py
 msgid "Unable to send reactivation email"
-msgstr "Impossible d'envoyer le courriel de réactivation"
+msgstr "Impossible d'envoyer le mail de réactivation"
 
 #: common/djangoapps/student/views.py
 msgid "Invalid password"
@@ -704,16 +706,16 @@ msgstr "Une adresse courriel valide est requise."
 
 #: common/djangoapps/student/views.py
 msgid "Old email is the same as the new email."
-msgstr "Le nouveau courriel est identique à l'ancien."
+msgstr "Le nouvel email est identique à l'ancien."
 
 #: common/djangoapps/student/views.py
 msgid "An account with this e-mail already exists."
-msgstr "Un compte avec cette adresse courriel existe déjà."
+msgstr "Un compte avec cette adresse email existe déjà."
 
 #: common/djangoapps/student/views.py
 msgid "Unable to send email activation link. Please try again later."
 msgstr ""
-"Impossible d'envoyer le courriel contenant le lien d'activation. Veuillez "
+"Impossible d'envoyer l'email contenant le lien d'activation. Veuillez "
 "réessayer plus tard."
 
 #: common/djangoapps/student/views.py
@@ -3037,7 +3039,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "Email for 'Instructor' Annotations"
-msgstr "Courriel pour les annotations \"Enseignant\""
+msgstr "E-mail pour les annotations \"Enseignant\""
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
 #: common/lib/xmodule/xmodule/textannotation_module.py
@@ -3046,7 +3048,7 @@ msgid ""
 "Email of the user that will be attached to all annotations that will be "
 "found in 'Instructor' tab."
 msgstr ""
-"Courriel de l'utilisateur qui sera joint à toutes les annotations qui se "
+"E-mail de l'utilisateur qui sera joint à toutes les annotations qui se "
 "trouveront dans l'onglet «Enseignant»."
 
 #: common/lib/xmodule/xmodule/imageannotation_module.py
@@ -3067,7 +3069,7 @@ msgstr ""
 #: common/lib/xmodule/xmodule/textannotation_module.py
 #: common/lib/xmodule/xmodule/videoannotation_module.py
 msgid "No email address found."
-msgstr "Aucune adresse courriel trouvée"
+msgstr ""
 
 #: common/lib/xmodule/xmodule/library_content_module.py
 msgid "Any Type"
@@ -4673,14 +4675,19 @@ msgstr ""
 #: lms/templates/shoppingcart/billing_details.html
 #: lms/templates/shoppingcart/billing_details.html
 msgid "Email Address"
-msgstr "Adresse courriel"
+msgstr "Adresse e-mail"
 
 #: lms/djangoapps/dashboard/support.py
 #: lms/templates/sysadmin_dashboard_gitlogs.html
 #: lms/templates/instructor/instructor_dashboard_2/add_coupon_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/edit_coupon_modal.html
+#, fuzzy
 msgid "Course ID"
-msgstr "ID du cours"
+msgstr ""
+"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
+"ID du cours\n"
+"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
+"ID de Cours"
 
 #: lms/djangoapps/dashboard/support.py
 msgid "User not found"
@@ -4743,7 +4750,7 @@ msgstr "Vous devez fournir un nom complet"
 #. Translators: Domain is an email domain, such as "@gmail.com"
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Email address must end in {domain}"
-msgstr "L'adresse courriel doit se terminer par {domain}"
+msgstr "L'adresse e-mail doit se terminer par {domain}"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Failed - email {email_addr} already exists as {external_id}"
@@ -5082,8 +5089,13 @@ msgstr "ID de l'utilisateur"
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/generate_registarion_codes_modal.html
+#, fuzzy
 msgid "Email"
-msgstr "Courriel"
+msgstr ""
+"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
+"E-mail\n"
+"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
+"Email"
 
 #: lms/djangoapps/instructor/views/api.py
 msgid "Language"
@@ -5108,8 +5120,13 @@ msgstr "Genre"
 
 #: lms/djangoapps/instructor/views/api.py
 #: lms/templates/instructor/instructor_dashboard_2/instructor_analytics.html
+#, fuzzy
 msgid "Level of Education"
-msgstr "Niveau de Formation"
+msgstr ""
+"#-#-#-#-#  django-partial.po (edx-platform)  #-#-#-#-#\n"
+"Niveau de formation\n"
+"#-#-#-#-#  mako.po (edx-platform)  #-#-#-#-#\n"
+"Niveau de Formation"
 
 #: lms/djangoapps/instructor/views/api.py lms/templates/register.html
 msgid "Mailing Address"
@@ -5406,7 +5423,7 @@ msgstr "Nom de devoir '{name}' invalide "
 #: lms/djangoapps/instructor/views/legacy.py
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "External email"
-msgstr "Courriel externe"
+msgstr "Email externe"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Grades for assignment \"{name}\""
@@ -5482,7 +5499,7 @@ msgstr "Nom complet"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "edX email"
-msgstr "Courriel EDUlib"
+msgstr "E-mail edX"
 
 #: lms/djangoapps/instructor/views/legacy.py
 msgid "Enrollment of students"
@@ -5853,7 +5870,7 @@ msgid ""
 " point of contact."
 msgstr ""
 "Une erreur s'est produire lors de la connexion au service de notation. "
-"Veuillez prévenir votre contact EDUlib."
+"Veuillez prévenir votre contact edX."
 
 #: lms/djangoapps/open_ended_grading/utils.py
 msgid "for course {0} and student {1}."
@@ -7134,8 +7151,6 @@ msgid ""
 "You're receiving this e-mail because you requested a password reset for your"
 " user account at %(site_name)s."
 msgstr ""
-"Vous recevez ce courriel parce que vous avez demandé une réinitialisation du"
-" mot de passe de votre compte sur EDUlib.org."
 
 #: lms/templates/registration/password_reset_email.html
 msgid "Please go to the following page and choose a new password:"
@@ -7156,7 +7171,7 @@ msgstr "Merci d'utiliser notre site !"
 
 #: lms/templates/registration/password_reset_email.html
 msgid "The %(platform_name)s Team"
-msgstr "L'équipe EDUlib"
+msgstr ""
 
 #: lms/templates/wiki/article.html
 msgid "Last modified:"
@@ -8184,7 +8199,7 @@ msgstr "Cours"
 #: lms/templates/register.html lms/templates/signup_modal.html
 #: lms/templates/signup_modal.html
 msgid "E-mail"
-msgstr "Courriel"
+msgstr "Email"
 
 #. Translators: This is the placeholder text for a field that requests an
 #. email
@@ -8473,7 +8488,7 @@ msgstr "Enregistrer les paramètres"
 
 #: lms/templates/dashboard.html
 msgid "Password Reset Email Sent"
-msgstr "Courriel de réinitialisation de mot de passe envoyé"
+msgstr "Mail de réinitialisation de mot de passe envoyé"
 
 #: lms/templates/dashboard.html
 msgid ""
@@ -8485,7 +8500,7 @@ msgstr ""
 
 #: lms/templates/dashboard.html lms/templates/dashboard.html
 msgid "Change Email"
-msgstr "Changer l'adresse courriel"
+msgstr "Changer l'adresse email"
 
 #: lms/templates/dashboard.html
 msgid "Please enter your new email address:"
@@ -8557,7 +8572,7 @@ msgstr "Voir l'unité dans Studio"
 
 #: lms/templates/email_change_failed.html lms/templates/email_exists.html
 msgid "E-mail change failed"
-msgstr "Changement d'adresse courriel échoué"
+msgstr "Changement d'adresse email échoué"
 
 #: lms/templates/email_change_failed.html
 msgid "We were unable to send a confirmation email to {email}"
@@ -8571,7 +8586,7 @@ msgstr "Retour à {link_start}l'accueil{link_end}"
 #: lms/templates/email_change_successful.html
 #: lms/templates/emails_change_successful.html
 msgid "E-mail change successful!"
-msgstr "Adresse courriel modifiée avec succès !"
+msgstr "Adresse email modifiée avec succès !"
 
 #: lms/templates/email_change_successful.html
 #: lms/templates/emails_change_successful.html
@@ -8805,7 +8820,7 @@ msgstr ""
 
 #: lms/templates/forgot_password_modal.html
 msgid "Your E-mail Address"
-msgstr "Votre adresse courriel"
+msgstr "Votre adresse email"
 
 #: lms/templates/forgot_password_modal.html lms/templates/login.html
 msgid "This is the e-mail address you used to register with {platform}"
@@ -8819,7 +8834,7 @@ msgstr "Réinitialiser mon mot de passe"
 
 #: lms/templates/forgot_password_modal.html
 msgid "Email is incorrect."
-msgstr "L’adresse courriel est incorrecte."
+msgstr "L’adresse email est incorrecte."
 
 #: lms/templates/help_modal.html lms/templates/help_modal.html
 msgid "{platform_name} Help"
@@ -9443,11 +9458,11 @@ msgid ""
 "mark emails from class.stanford.edu as 'not spam', since you'll want to be "
 "able to receive email from your courses."
 msgstr ""
-"Vous allez recevoir un courriel d'activation. Vous devrez cliquer sur le lien "
-"d'activation pour compléter l'inscription. Vous ne voyez pas le courriel? "
-"Vérifiez votre dossier de pourriel et marquez les courriels provenant de "
-"oper.edulib@gmail.com comme n'étant pas du pourriel, puisque vous voudrez pouvoir "
-"recevoir des courriels provenant de nos cours. À EDUlib, nous communiquons essentiellement par courriel."
+"Vous allez recevoir un mail d'activation. Vous devrez cliquer sur le lien "
+"d'activation pour compléter l'inscription. Vous ne voyez pas le mail ? "
+"Vérifiez votre dossier de spam et marquez les mails provenant de "
+"class.stanford.edu comme n'étant pas du spam, puisque vous voudrez pouvoir "
+"recevoir des emails provenant de nos cours."
 
 #: lms/templates/register-sidebar.html
 msgid ""
@@ -9772,7 +9787,7 @@ msgstr "Gestion des utilisateurs"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Email or username"
-msgstr "Courriel ou nom d'utilisateur"
+msgstr "Email ou nom d'utilisateur"
 
 #: lms/templates/sysadmin_dashboard.html
 msgid "Delete user"
@@ -12289,7 +12304,7 @@ msgstr "Nom du Contact de l'Entreprise:"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Company Contact Email:"
-msgstr "Courriel du Contact de l'Entreprise:"
+msgstr "Email du Contact de l'Entreprise:"
 
 #: lms/templates/emails/business_order_confirmation_email.txt
 msgid "Recipient Name:"
@@ -12457,7 +12472,7 @@ msgid ""
 msgstr ""
 "Pour terminer votre inscription, rendez-vous sur {registration_url} et "
 "complétez le formulaire d'inscription. Soyez vigilant d'utiliser "
-"{email_address} dans le champ courriel. "
+"{email_address} dans le champ Email. "
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid ""
@@ -13342,7 +13357,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid "Student Email or Username"
-msgstr "Adresse courriel Étudiant ou Nom d'utilisateur"
+msgstr "Adresse email Étudiant ou Nom d'utilisateur"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
@@ -13575,7 +13590,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Email Addresses/Usernames"
-msgstr "Adresses courriel/nom d'utilisateurs"
+msgstr "Adresses e-mail/nom d'utilisateurs"
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -13896,7 +13911,7 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Send Email"
-msgstr "Envoyer le courriel"
+msgstr "Envoyer l'email"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Send to:"
@@ -13962,7 +13977,7 @@ msgid ""
 "Once the 'Send Email' button is clicked, your email will be queued for "
 "sending."
 msgstr ""
-"Une fois que le bouton \"Envoyer le courriel\" est cliqué, votre courriel sera mis "
+"Une fois que le bouton \"Envoyer l'email\" est cliqué, votre email sera mis "
 "en file d'attente pour l'envoi."
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
@@ -13974,13 +13989,13 @@ msgid ""
 "Email actions run in the background. The status for any active tasks - "
 "including email tasks - appears in a table below."
 msgstr ""
-"Les actions liées aux courriels fonctionnent en tâche de fond. Le statut des "
-"tâches actives - incluant les actions courriel - apparaissent dans le tableau "
+"Les actions liées aux emails fonctionnent en tâche de fond. Le statut des "
+"tâches actives - incluant les actions email - apparaissent dans le tableau "
 "ci-dessous."
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Email Task History"
-msgstr "Historique des actions liées aux courriels"
+msgstr "Historique des actions liées aux emails"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "To see the content of all previously sent emails, click this button:"
@@ -14006,7 +14021,7 @@ msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Show Email Task History"
-msgstr "Afficher l'historique des tâches liées aux courriels"
+msgstr "Afficher l'historique des tâches liées aux emails"
 
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
 #: lms/templates/instructor/instructor_dashboard_2/set_course_mode_price_modal.html
@@ -14493,8 +14508,8 @@ msgid ""
 "We've e-mailed you instructions for setting your password to the e-mail "
 "address you submitted. You should be receiving it shortly."
 msgstr ""
-"Nous vous avons envoyé par courriel des instructions pour initialiser votre mot "
-"de passe à l'adresse courriel que vous avez fournie. Vous devriez bientôt les "
+"Nous vous avons envoyé par mail des instructions pour initialiser votre mot "
+"de passe à l'adresse email que vous avez fournie. Vous devriez bientôt les "
 "recevoir."
 
 #: lms/templates/shoppingcart/billing_details.html
@@ -17250,7 +17265,7 @@ msgstr ""
 
 #: cms/templates/index.html
 msgid "Email staff to create course"
-msgstr "Envoyez un courriel à l'équipe pédagogique pour créer un cours"
+msgstr "Envoyez un email à l'équipe pédagogique pour créer un cours"
 
 #: cms/templates/index.html cms/templates/index.html
 msgid "Please correct the highlighted fields below."
@@ -17704,7 +17719,7 @@ msgstr "Information du nouveau membre d'équipe"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "User's Email Address"
-msgstr "Adresse courriel utilisateur"
+msgstr "Adresse email utilisateur"
 
 #: cms/templates/manage_users.html
 msgid ""
