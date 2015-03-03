@@ -1722,6 +1722,35 @@ msgstr ""
 "Si vous utilisez l'éditeur avancé, ce problème sera converti en XML et vous ne serez plus en mesure de revenir à l'interface d'édition simple.\n"
 "Passer à l'éditeur avancé et convertir ce problème en XML?"
 
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "incorrect"
+msgstr "incorrect"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "correct"
+msgstr "correct"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "answer"
+msgstr "réponse"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid "Short explanation"
+msgstr "Brève explication"
+
+#: common/lib/xmodule/xmodule/js/src/problem/edit.js
+msgid ""
+"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
+"\n"
+"Proceed to the Advanced Editor and convert this problem to XML?"
+msgstr ""
+"Si vous utilisez l'éditeur avancé, ce problème sera converti en XML et vous ne serez plus en mesure de revenir à l'interface d'édition simple.\n"
+"Passer à l'éditeur avancé et convertir ce problème en XML?"
+
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
@@ -2547,7 +2576,6 @@ msgid "Enter username or email"
 msgstr "Veuillez saisir un nom d'utilisateur ou un email."
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
-#: lms/static/js/views/cohort_editor.js
 msgid "Please enter a username or email."
 msgstr "Veuillez saisir un nom d'utilisateur ou un email."
 
@@ -3372,6 +3400,10 @@ msgstr "Il y a eu une erreur, renouvelez votre recherche."
 msgid "Focus grabber"
 msgstr ""
 
+#: lms/static/js/edxnotes/plugins/accessibility.js
+msgid "Focus grabber"
+msgstr ""
+
 #: lms/static/js/edxnotes/views/search_box.js
 #: lms/static/js/edxnotes/views/toggle_notes_factory.js
 msgid ""
@@ -3441,7 +3473,6 @@ msgstr ""
 "réessayer."
 
 #: lms/static/js/groups/views/cohort_editor.js
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid "Selected tab"
 msgstr "Onglet sélectionné"
 
@@ -4543,6 +4574,7 @@ msgstr "Choisir le fichier"
 
 #: cms/static/js/views/assets.js cms/static/js/views/assets.js.c
 #: cms/templates/js/asset-upload-modal.underscore
+#, fuzzy
 msgid "Upload New File"
 msgstr "Envoyer un nouveau fichier"
 
@@ -5619,6 +5651,9 @@ msgid ""
 "%(currentProvider)s account does not have a linked %(platformName)s account."
 " To link your accounts, sign in now using your %(platformName)s password."
 msgstr ""
+"Vous êtes connecté à %(currentProvider)s avec succès, mais votre compte "
+"%(currentProvider)s n'est pas relié à votre compte %(platformName)s. Vous "
+"pouvez lier vos comptes sur votre tableau de bord %(platformName)s."
 
 #: lms/templates/student_account/login.underscore
 msgid "Password Reset Email Sent"
@@ -5727,6 +5762,10 @@ msgstr "ou en créer un nouveau ici"
 #: lms/templates/student_account/register.underscore
 msgid "Create a new account"
 msgstr "Créer un nouveau compte"
+
+#: lms/templates/student_account/register.underscore
+msgid "Create your account"
+msgstr "Créez votre compte"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create your account"
@@ -6457,134 +6496,6 @@ msgstr "Langue préférée"
 msgid "Update Profile"
 msgstr ""
 
-#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
-msgid "Add a New Cohort Group"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
-msgid "New Cohort Name"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
-msgid "Enter Your New Cohort Group's Name"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid ""
-"Students are added to this group only when you provide their email addresses"
-" or usernames on this page."
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid "Students are added to this group automatically."
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid "Add students to this cohort group"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid ""
-"Note: Students can only be in one cohort group. Adding students to this "
-"group overrides any previous group assignment."
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid ""
-"Enter email addresses and/or usernames separated by new lines or commas for "
-"students to add. *"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid ""
-"You will not get notification for emails that bounce, so please double-check"
-" spelling."
-msgstr ""
-"Vous ne recevrez pas de notification pour les e-mails rejetés, donc soyez "
-"doublement attentif à l'orthographe."
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
-msgid "Select a cohort group"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
-msgid "View Cohort Group"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
-msgid ""
-"To review all student cohort group assignments, download course profile "
-"information on %(link_start)s the Data Download page. %(link_end)s"
-msgstr ""
-
-#: lms/templates/student_account/access.underscore
-msgid "Welcome!"
-msgstr ""
-
-#: lms/templates/student_account/access.underscore
-msgid "Log in or register to take courses from the world's best universities."
-msgstr ""
-
-#: lms/templates/student_account/access.underscore
-msgid ""
-"Sorry, we're having some technical problems. Wait a few minutes and try "
-"again."
-msgstr ""
-
-#: lms/templates/student_account/access.underscore
-#: lms/templates/student_account/access.underscore
-msgid "I am a new user"
-msgstr ""
-
-#: lms/templates/student_account/access.underscore
-msgid "I am a returning user"
-msgstr ""
-
-#: lms/templates/student_account/login.underscore
-msgid ""
-"You've successfully logged into %(currentProvider)s, but your "
-"%(currentProvider)s account isn't linked with an %(platformName)s account. "
-"To link your accounts, go to your %(platformName)s dashboard."
-msgstr ""
-
-#: lms/templates/student_account/login.underscore
-msgid "We couldn't log you in."
-msgstr ""
-
-#: lms/templates/student_account/login.underscore
-msgid "Log in"
-msgstr ""
-
-#: lms/templates/student_account/login.underscore
-msgid "Log in using %(name)s"
-msgstr ""
-
-#: lms/templates/student_account/password_reset.underscore
-msgid ""
-"Enter the email address you used to create your account. We'll send you a "
-"link you can use to reset your password."
-msgstr ""
-
-#: lms/templates/student_account/password_reset.underscore
-msgid "Reset password"
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "You've successfully logged into %(currentProvider)s."
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "Register using %(name)s"
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "We couldn't complete your registration."
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "Register"
-msgstr ""
-
 #: cms/templates/js/add-xblock-component-menu-problem.underscore
 msgid "Common Problem Types"
 msgstr "Types d'exercices classiques"
@@ -6779,6 +6690,10 @@ msgstr ""
 #: cms/templates/js/content-group-editor.underscore
 msgid "Content Group Name"
 msgstr "Nom du groupe de contenus"
+
+#: cms/templates/js/content-group-editor.underscore
+msgid "Content Group ID"
+msgstr ""
 
 #: cms/templates/js/content-group-editor.underscore
 msgid "Content Group ID"
