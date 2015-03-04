@@ -350,7 +350,7 @@ FEATURES = {
     'ENABLE_EDXNOTES': False,
 
     # Milestones application flag
-    'MILESTONES_APP': False,
+    'MILESTONES_APP': True,
 
     # Prerequisite courses feature flag
     'ENABLE_PREREQUISITE_COURSES': False,
@@ -416,6 +416,9 @@ FEATURES = {
 
     # The block types to disable need to be specified in "x block disable config" in django admin.
     'ENABLE_DISABLING_XBLOCK_TYPES': True,
+
+    # Entrance exams feature flag
+    'ENABLE_ENTRANCE_EXAMS': True,
 }
 
 # Ignore static asset files on import which match this pattern
