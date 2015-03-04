@@ -16847,7 +16847,7 @@ msgstr "Bienvenue"
 
 #: cms/templates/howitworks.html
 msgid "Welcome to {studio_name}"
-msgstr ""
+msgstr "Bienvenue sur {studio_name}"
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -16875,6 +16875,9 @@ msgid ""
 "<strong>Outline</strong> editor, providing a simple hierarchy and easy drag "
 "and drop to help you and your students stay organized."
 msgstr ""
+"La structuration de votre Cours constitue son fil directeur. {studio_name} offre "
+"un éditeur de progression, qui propose une hiérarchie simple et un système facile "
+"de glisser-déposer pour vous aider, vous et vos étudiants, à rester organisés."
 
 #: cms/templates/howitworks.html
 msgid "Simple Organization For Content"
@@ -16885,6 +16888,8 @@ msgid ""
 "{studio_name} uses a simple hierarchy of <strong>sections</strong> and "
 "<strong>subsections</strong> to organize your content."
 msgstr ""
+"{studio_name} utilise une hiérarchie de <strong>sections</strong> et "
+"de <strong>sous-sections</strong> pour organiser votre contenu."
 
 #: cms/templates/howitworks.html
 msgid "Change Your Mind Anytime"
@@ -16979,6 +16984,10 @@ msgid ""
 "incremental release when it makes sense. And with co-authors, you can have a"
 " whole team building a course, together."
 msgstr ""
+"{studio_name} fonctionne comme les applications web que vous connaissez déjà, et comprend "
+"comment se construit un cursus de formation. La publication vers le web est instantanée "
+"si vous le souhaitez, ou incrémentale lorsque c'est justifié. Et avec vos co-auteurs, "
+"vous pouvez rassembler une équipe complète pour construire, ensemble, un cours."
 
 #: cms/templates/howitworks.html
 msgid "Instant Changes"
@@ -17002,6 +17011,8 @@ msgid ""
 " live and {studio_name} takes care of the rest. Build your course "
 "incrementally."
 msgstr ""
+"Lorsque vous avez terminé une <strong>section</strong>, choisissez quand vous souhaitez qu'elle apparaisse "
+"en ligne et Studio s'occupe du reste. Construisez votre Cours de manière progressive."
 
 #: cms/templates/howitworks.html
 msgid "Work in Teams"
@@ -17021,7 +17032,7 @@ msgstr "Inscrivez vous à {studio_name} aujourd'hui !"
 
 #: cms/templates/howitworks.html
 msgid "Sign Up &amp; Start Making an {platform_name} Course"
-msgstr ""
+msgstr "Inscrivez-Vous &amp; Et Commencez À Créer Un Cours EDUlib"
 
 #: cms/templates/howitworks.html
 msgid "Already have a {studio_name} Account? Sign In"
