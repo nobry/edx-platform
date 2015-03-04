@@ -19333,11 +19333,10 @@ msgid ""
 "incremental release when it makes sense. And with co-authors, you can have a"
 " whole team building a course, together."
 msgstr ""
-"{studio_name} fonctionne comme les applications web que vous connaissez "
-"déjà, malgré tout il comprend comment on constitue un curriculum. La "
-"publication instantanée vers le web lorsque vous le souhaitez, une "
-"distribution incrémentale lorsque c'est justifié. Et avec vos co-auteurs, "
-"vous pouvez avoir une équipe entière pour construit un cours, ensemble."
+"{studio_name} fonctionne comme les applications web que vous connaissez déjà, et comprend "
+"comment se construit un cursus de formation. La publication vers le web est instantanée "
+"si vous le souhaitez, ou incrémentale lorsque c'est justifié. Et avec vos co-auteurs, "
+"vous pouvez rassembler une équipe complète pour construire, ensemble, un cours."
 
 #: cms/templates/howitworks.html
 msgid "Instant Changes"
@@ -19361,9 +19360,8 @@ msgid ""
 " live and {studio_name} takes care of the rest. Build your course "
 "incrementally."
 msgstr ""
-"Lorsque vous avez terminé une <strong>section</strong>, choisissez quand "
-"vous souhaitez qu'elle apparaisse en ligne et {studio_name} s'occupe du "
-"reste. Construisez votre cours de manière progressive."
+"Lorsque vous avez terminé une <strong>section</strong>, choisissez quand vous souhaitez qu'elle apparaisse "
+"en ligne et Studio s'occupe du reste. Construisez votre Cours de manière progressive."
 
 #: cms/templates/howitworks.html
 msgid "Work in Teams"
@@ -19383,7 +19381,7 @@ msgstr "Inscrivez vous à {studio_name} aujourd'hui !"
 
 #: cms/templates/howitworks.html
 msgid "Sign Up &amp; Start Making an {platform_name} Course"
-msgstr "Inscrivez vous & commencez à créer un Cours {platform_name} "
+msgstr "Inscrivez-Vous &amp; Et Commencez À Créer Un Cours EDUlib"
 
 #: cms/templates/howitworks.html
 msgid "Already have a {studio_name} Account? Sign In"
