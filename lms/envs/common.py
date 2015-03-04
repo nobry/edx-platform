@@ -321,13 +321,16 @@ FEATURES = {
     'ENABLE_EDXNOTES': False,
 
     # Milestones application flag
-    'MILESTONES_APP': False,
+    'MILESTONES_APP': True,
 
     # Prerequisite courses feature flag
     'ENABLE_PREREQUISITE_COURSES': False,
 
     # For easily adding modes to courses during acceptance testing
     'MODE_CREATION_FOR_TESTING': False,
+
+    # Entrance exams feature flag
+    'ENABLE_ENTRANCE_EXAMS': True,
 }
 
 # Ignore static asset files on import which match this pattern
