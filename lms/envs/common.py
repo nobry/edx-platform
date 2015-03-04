@@ -330,7 +330,7 @@ FEATURES = {
     'ENABLE_EDXNOTES': False,
 
     # Milestones application flag
-    'MILESTONES_APP': False,
+    'MILESTONES_APP': True,
 
     # Organizations application flag
     'ORGANIZATIONS_APP': False,
@@ -397,6 +397,9 @@ FEATURES = {
 
     # Enable LTI Provider feature.
     'ENABLE_LTI_PROVIDER': False,
+
+    # Entrance exams feature flag
+    'ENABLE_ENTRANCE_EXAMS': True,
 }
 
 # Ignore static asset files on import which match this pattern
