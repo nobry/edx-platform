@@ -20652,8 +20652,9 @@ msgid "set pre-requisite course"
 msgstr ""
 
 #: cms/templates/settings.html
+# RGL-01
 msgid "Require students to pass an exam before beginning the course."
-msgstr ""
+msgstr "Demande que les étudiants passent un examen avant le début du cours"
 
 #: cms/templates/settings.html
 msgid ""
@@ -20662,8 +20663,9 @@ msgid ""
 msgstr ""
 
 #: cms/templates/settings.html
+# RGL-01
 msgid "Grade Requirements"
-msgstr ""
+msgstr "Note requise"
 
 #: cms/templates/settings.html
 msgid " %"
@@ -20674,6 +20676,8 @@ msgid ""
 "The score student must meet in order to successfully complete the entrance "
 "exam. "
 msgstr ""
+msgstr "Le résultat que les étudiants doivent avoir afin de réussir l'entrée"
+msgstr "au cours"
 
 #: cms/templates/settings.html
 msgid "Course Content License"
