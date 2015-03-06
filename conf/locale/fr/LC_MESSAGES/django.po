@@ -19313,6 +19313,8 @@ msgid ""
 "It's more than just multiple choice. {studio_name} supports more than a "
 "dozen types of problems to challenge your learners."
 msgstr ""
+"C'est plus que des choix multiples. Studio supporte plus d'une douzaine de types"
+" de problèmes afin de défier vos étudiants."
 
 #: cms/templates/howitworks.html
 msgid ""
@@ -19381,7 +19383,7 @@ msgstr "Inscrivez vous à {studio_name} aujourd'hui !"
 
 #: cms/templates/howitworks.html
 msgid "Sign Up &amp; Start Making an {platform_name} Course"
-msgstr "Inscrivez-Vous &amp; Et Commencez À Créer Un Cours EDUlib"
+msgstr "Inscrivez-Vous &amp; Commencez À Créer Un Cours EDUlib"
 
 #: cms/templates/howitworks.html
 msgid "Already have a {studio_name} Account? Sign In"
@@ -20272,11 +20274,11 @@ msgstr ""
 
 #: cms/templates/register.html cms/templates/widgets/header.html
 msgid "Sign Up"
-msgstr ""
+msgstr "S'inscrire"
 
 #: cms/templates/register.html
 msgid "Sign Up for {studio_name}"
-msgstr "S'inscrire à {studio_name}"
+msgstr "S'inscrire pour {studio_name}"
 
 #: cms/templates/register.html
 msgid "Already have a {studio_name} Account? Sign in"
@@ -20651,19 +20653,22 @@ msgstr ""
 msgid "set pre-requisite course"
 msgstr ""
 
+#. RGL-01
 #: cms/templates/settings.html
-# RGL-01
 msgid "Require students to pass an exam before beginning the course."
 msgstr "Demande que les étudiants passent un examen avant le début du cours"
 
+#. RGL-01
 #: cms/templates/settings.html
 msgid ""
 "You can now view and author your course entrance exam from the "
 "{link_start}Course Outline{link_end}."
 msgstr ""
+msgstr "Vous pouvez maintenant voir et éditer votre examen d'entrée au cours à partir du"
+"{link_start}plan de cours{link_end}."
 
+#. RGL-01
 #: cms/templates/settings.html
-# RGL-01
 msgid "Grade Requirements"
 msgstr "Note requise"
 
@@ -20676,8 +20681,8 @@ msgid ""
 "The score student must meet in order to successfully complete the entrance "
 "exam. "
 msgstr ""
-msgstr "Le résultat que les étudiants doivent avoir afin de réussir l'entrée"
-msgstr "au cours"
+"Le résultat que les étudiants doivent avoir afin de réussir l'entrée"
+"au cours"
 
 #: cms/templates/settings.html
 msgid "Course Content License"
