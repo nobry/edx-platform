@@ -3655,7 +3655,7 @@ msgstr ""
 msgid "There was an error during the upload process."
 msgstr ""
 
-#: cms/static/js/factories/import.js
+#: cms/static/js/factories/import.js 
 msgid "There was an error while unpacking the file."
 msgstr ""
 
@@ -3676,14 +3676,14 @@ msgstr ""
 msgid "Choose new file"
 msgstr "Choisir un nouveau fichier"
 
-#: cms/static/js/factories/manage_users.js
-#: cms/static/js/factories/manage_users_lib.js
-# RGL
+#. RGL-01 
+#: cms/static/js/factories/manage_users.js 
+#: cms/static/js/factories/manage_users_lib.js 
 msgid "A valid email address is required"
 msgstr "Une adresse courriel valide est requise"
 
+#. RGL-01
 #: cms/static/js/factories/manage_users.js
-# RGL
 msgid "You must enter a valid email address in order to add a new team member"
 msgstr "Vous devez entrer une adresse courriel valide afin d'ajouter un nouveau membre"
 
@@ -5881,18 +5881,18 @@ msgstr ""
 msgid "Libraries"
 msgstr ""
 
+#. RGL-01
 #: cms/templates/js/mock/mock-settings-page.underscore
-# RGL-01
 msgid "Entrance Exam"
 msgstr "Examen d'entrée"
 
+#. RGL-01
 #: cms/templates/js/mock/mock-settings-page.underscore
-# RGL-01
 msgid "Require students to pass an exam before beginning the course."
 msgstr "Demande que les étudiants passent un examen avant le début du cours"
 
+#. RGL-01
 #: cms/templates/js/mock/mock-settings-page.underscore
-# RGL-01
 msgid "To create your course entrance exam, go to the"
 msgstr "Pour créer votre examen d'entrée au cours, allez au"
 
