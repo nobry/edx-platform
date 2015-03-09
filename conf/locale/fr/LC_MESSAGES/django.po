@@ -17672,21 +17672,24 @@ msgstr ""
 msgid "Sign In"
 msgstr "Se Connecter"
 
+#. PM-01
 #: cms/templates/login.html cms/templates/login.html
 msgid "Sign In to {studio_name}"
-msgstr ""
+msgstr "Connectez-vous à {studio_name}"
 
+#. PM-01
 #: cms/templates/login.html
 msgid "Don't have a {studio_name} Account? Sign up!"
-msgstr ""
+msgstr "Vous n'avez pas un compte {studio_name}? Inscrivez-vous!"
 
 #: cms/templates/login.html
 msgid "Required Information to Sign In to {studio_name}"
 msgstr ""
 
+#. PM-01
 #: cms/templates/login.html
 msgid "{studio_name} Support"
-msgstr ""
+msgstr "Support {studio_name}"
 
 #: cms/templates/login.html
 msgid ""
