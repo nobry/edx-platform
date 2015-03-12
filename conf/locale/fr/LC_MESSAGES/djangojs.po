@@ -192,7 +192,7 @@ msgstr "Nom"
 #. PM-05
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
-msgstr "Télécharger un fichier"
+msgstr "Téléverser un fichier"
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -3381,9 +3381,10 @@ msgstr "Choisir un fichier .csv"
 msgid "Only properly formatted .csv files will be accepted."
 msgstr "Seuls les fichiers au format .csv seront acceptés."
 
+#. PM-06
 #: lms/static/js/groups/views/cohorts.js
 msgid "Upload File and Assign Students"
-msgstr "Charger le fichier et associer les étudiants"
+msgstr "Téléverser le fichier et associer les étudiants"
 
 #: lms/static/js/groups/views/cohorts.js
 msgid ""
@@ -3953,12 +3954,8 @@ msgstr "Choisir le fichier"
 
 #: cms/static/js/views/assets.js cms/static/js/views/assets.js.c
 #: cms/templates/js/asset-upload-modal.underscore
-#, fuzzy
 msgid "Upload New File"
 msgstr ""
-"#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#\n"
-"Envoyer un nouveau fichier\n"
-"#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#\n"
 "Téléversez un nouveau fichier"
 
 #: cms/static/js/views/assets.js cms/static/js/views/assets.js.c
@@ -4019,9 +4016,10 @@ msgstr "Créer une relance"
 msgid "Processing Re-run Request"
 msgstr "Traitement de la demande de relance"
 
+#. PM-06
 #: cms/static/js/views/edit_chapter.js
 msgid "Upload a new PDF to “<%= name %>”"
-msgstr "Uploader un nouveau PDF appelé \"<%= name %>”"
+msgstr "Téléverser un nouveau PDF appelé \"<%= name %>”"
 
 #: cms/static/js/views/edit_chapter.js
 msgid "Please select a PDF file to upload."
@@ -4063,12 +4061,13 @@ msgstr "Erreur lors de l'importation du cours"
 msgid "There was an error with the upload"
 msgstr "Il y a eu une erreur pendant le téléchargement"
 
+#. PM-06
 #: cms/static/js/views/import.js
 msgid ""
 "File format not supported. Please upload a file with a <code>tar.gz</code> "
 "extension."
 msgstr ""
-"Format de fichier non supporté. Uploadez un fichier avec une extension "
+"Format de fichier non supporté. Téléversez un fichier avec une extension "
 "<code>tar.gz</code>."
 
 #. Translators: "item_display_name" is the name of the item to be deleted.
@@ -4156,7 +4155,7 @@ msgstr ""
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Upload"
-msgstr "Télécharger"
+msgstr "Téléversement"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
@@ -4198,9 +4197,10 @@ msgstr "Editeur"
 msgid "Settings"
 msgstr "Paramètres"
 
+#. PM-06
 #: cms/static/js/views/xblock_outline.js
 msgid "New %(component_type)s"
-msgstr ""
+msgstr "Nouvel %(component_type)s"
 
 #. Translators: This message will be added to the front of messages of type
 #. warning,
@@ -4355,9 +4355,10 @@ msgstr ""
 msgid "%(hours)s:%(minutes)s (current UTC time)"
 msgstr ""
 
+#. PM-06
 #: cms/static/js/views/settings/main.js
 msgid "Upload your course image."
-msgstr "Téléchargez votre image de cours."
+msgstr "Téléversez votre image de cours."
 
 #: cms/static/js/views/settings/main.js
 msgid "Files must be in JPEG or PNG format."
