@@ -19883,15 +19883,19 @@ msgstr ""
 msgid "Re-run Course"
 msgstr "Relancer le cours"
 
+#. PM-04
 #: cms/templates/index.html
 msgid "Are you staff on an existing {studio_name} course?"
-msgstr "Êtes vous membre d'une équipe pédagogique d'un cours {studio_name}  ?"
+msgstr "Etes-vous membre de l'équipe pédagogique d'un cours {studio_name}?"
 
+#. PM-05
 #: cms/templates/index.html
 msgid ""
 "The course creator must give you access to the course. Contact the course "
 "creator or administrator for the course you are helping to author."
 msgstr ""
+"Le créateur du cours doit vous donner accès au cours. Contacter le créateur "
+"du cours ou l'administateur du cours que vous aidez à créer."
 
 #: cms/templates/index.html
 msgid "Create Your First Course"
@@ -19994,21 +19998,28 @@ msgstr ""
 "Les Bibliothèques contiennent des composants pouvant être utilisés au sein "
 "de plusieurs cours. Créez votre première Bibliothèque!"
 
+#. PM-04
 #: cms/templates/index.html
 msgid "New to {studio_name}?"
-msgstr "Nouveau sur {studio_name}?"
+msgstr "Débutant avec {studio_name}?"
 
+#. PM-04
 #: cms/templates/index.html
 msgid ""
 "Click Help in the upper-right corner to get more information about the "
 "{studio_name} page you are viewing. You can also use the links at the bottom"
-" of the page to access our continually updated documentation and other "
+" of the page to access our continuously updated documentation and other "
 "{studio_name} resources."
 msgstr ""
+"Cliquez Aide dans le coin supérieur droit afin d'obtenir plus d'information sur "
+"la page {studio_name} que vous visualisez. Vous pouvez aussi utiliser les liens au bas "
+"de la page afin d'accéder à notre documentation continuellement mise-à-jour et autres "
+"ressources {studio_name}."
 
+#. PM-04
 #: cms/templates/index.html
 msgid "Getting Started with {studio_name}"
-msgstr "Démarrer avec {studio_name}"
+msgstr "Premier pas avec {studio_name}"
 
 #: cms/templates/index.html
 msgid "Use our feedback tool, Tender, to request help"
@@ -21234,18 +21245,22 @@ msgstr "Afficher les indices"
 msgid "Label"
 msgstr "Label"
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid "Looking for help with {studio_name}?"
 msgstr "Besoin d'aide sur {studio_name}?"
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid "Hide {studio_name} Help"
-msgstr ""
+msgstr "Cachez l'aide {studio_name}"
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid "{studio_name} Documentation"
-msgstr ""
+msgstr "Documentaton {studio_name}"
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid ""
 "You can click Help in the upper right corner of any page to get more "
@@ -21253,26 +21268,34 @@ msgid ""
 "download the Building and Running an {platform_name} Course PDF file, to go "
 "to the {platform_name} Author Support site, or to enroll in edX101."
 msgstr ""
+"Vous pouvez cliquer sur Aide dans le coin supérieur droit de chaque page afin "
+"d'obtenir plus d'information sur la page sur laquelle vous vous trouvez. Vous pouvez aussi "
+"utiliser les liens plus bas afin de télécharger le document Building and Running an Open edX "
+"course en format PDF, pour aller au site de support pour auteurs, ou pour vous inscrire au cours edX101."
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid "Building and Running an {platform_name} Course PDF"
-msgstr ""
+msgstr "Building and Running an Open edX Course PDF"
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid "{studio_name} Author Support"
-msgstr ""
+msgstr "Support pour auteurs {studio_name}"
 
 #: cms/templates/widgets/sock.html
 msgid "Enroll in edX101"
 msgstr "S'inscrire à edX101"
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid "How to use {studio_name} to build your course"
-msgstr ""
+msgstr "Comment utiliser {studio_name} afin de construire votre cours"
 
+#. PM-04
 #: cms/templates/widgets/sock.html
 msgid "Have problems, questions, or suggestions about {studio_name}?"
-msgstr ""
+msgstr "Vous avez des problèmes, questions ou suggestions à propos de {studio_name}?"
 
 #: cms/templates/widgets/tabs-aggregator.html
 msgid "name"
