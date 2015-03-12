@@ -189,9 +189,10 @@ msgstr "Supprimer"
 msgid "Name"
 msgstr "Nom"
 
+#. PM-05
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
-msgstr "Charger un fichier"
+msgstr "Télécharger un fichier"
 
 #. Translators: This message will be added to the front of messages of type
 #. error,
@@ -4150,16 +4151,12 @@ msgstr ""
 "Supprimer un livre est irréversible et toutes les références depuis le cours"
 " seront également détruites."
 
+#. PM-05
 #: cms/static/js/views/uploads.js
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
-#, fuzzy
 msgid "Upload"
-msgstr ""
-"#-#-#-#-#  djangojs-studio.po (edx-platform)  #-#-#-#-#\n"
-"Envoyer\n"
-"#-#-#-#-#  underscore-studio.po (edx-platform)  #-#-#-#-#\n"
-"Charger"
+msgstr "Télécharger"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
@@ -5507,7 +5504,7 @@ msgstr ""
 #. PM-03
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
-msgstr "Ressource du chapitre"
+msgstr "Ressource associée au chapitre"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "path/to/introductionToCookieBaking-CH%d.pdf"
