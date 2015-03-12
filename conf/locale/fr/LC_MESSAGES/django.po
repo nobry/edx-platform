@@ -2168,6 +2168,7 @@ msgstr ""
 msgid "Discussion Blackout Dates"
 msgstr "Date de non prise en compte des discussions"
 
+#. PM-03
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter pairs of dates between which students cannot post to discussion "
@@ -2178,6 +2179,13 @@ msgid ""
 "like this: [[\"2014-09-15\", \"2014-09-21\"], [\"2014-10-01\", "
 "\"2014-10-08\"]]"
 msgstr ""
+"Entrez des paires de dates entre lesquelles les étudiants ne pourront poster "
+"dans les forums de discussions. Chaque paire doit être formattée comme [\"YYYY-MM-DD\", \"YYYY-MM-DD\"]. "
+"Afin de spécifier des heures autant que des dates, formattez chaque paire comme [\"YYYY-MM-"
+"DDTHH:MM\", \"YYYY-MM-DDTHH:MM\"] (soyez certain d'inclure le \"T\" entre chaque "
+"date et heure). Une entrée définissant plus d'une période de blackout peut ressembler "
+"à ceci [[\"2014-09-15\", \"2014-09-21\"], [\"2014-10-01\", "
+"\"2014-10-08\"]]"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Topic Mapping"
@@ -2808,9 +2816,10 @@ msgstr ""
 msgid "Invitation Only"
 msgstr "Seulement sur invitation"
 
+#. PM-03
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
-msgstr ""
+msgstr "Si nous devons restreindre l'inscription par invitation par l'équipe du cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Pre-Course Survey Name"
@@ -3838,6 +3847,7 @@ msgstr ""
 "Entrez vrai ou faux. Si c'est vrai, vous pouvez utiliser les modèles de "
 "LaTeX pour les composants HTML et les composants avancés des problèmes."
 
+#. PM-03
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter the maximum number of times a student can try to answer problems. By "
@@ -3847,6 +3857,12 @@ msgid ""
 "specific number, you cannot set the Maximum Attempts for individual problems"
 " to unlimited."
 msgstr ""
+"Entrez le nombre maximum de fois qu'un étudiant peut essayer de répondre aux problèmes. "
+"Par défaut, le nombre maximun est définit comme null, signifiant que les étudiants ont "
+"un nombre illimité de chances pour répondre aux problèmes. Vous pouvez modifier cette valeur "
+"pour tous le cours pour chaque problème individuel. Cependant, si la valeur pour tout le cours "
+"est un nombre spécifique, vous ne pouvez fixer le nombre d'essais maximum pour chaque "
+"problème individul à illimité."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Matlab API key"
@@ -8387,9 +8403,10 @@ msgstr "Discussion dirigée"
 msgid "Hide Annotations"
 msgstr "Cacher les annotations"
 
+#. PM-03
 #: lms/templates/course.html
 msgid "New"
-msgstr "Nouveau"
+msgstr "Nouvelle"
 
 #: lms/templates/dashboard.html
 msgid "Dashboard"
@@ -10527,18 +10544,20 @@ msgstr "Ressources complémentaires"
 msgid "Enroll"
 msgstr "S'inscrire"
 
+#. PM-03
 #: lms/templates/courseware/course_about.html
 #: lms/templates/courseware/mktg_course_about.html
 msgid "enroll"
-msgstr ""
+msgstr "s'inscrire"
 
 #: lms/templates/courseware/course_navigation.html
 msgid "Course View"
 msgstr ""
 
+#. PM-03
 #: lms/templates/courseware/course_navigation.html
 msgid "View this course as:"
-msgstr ""
+msgstr "Consulter le cours en tant que:"
 
 #: lms/templates/courseware/course_navigation.html
 msgid "Student in {content_group}"
@@ -15888,7 +15907,7 @@ msgstr ""
 #: cms/templates/asset_index.html cms/templates/asset_index.html
 #: cms/templates/widgets/header.html
 msgid "Files &amp; Uploads"
-msgstr "Fichiers et uploads"
+msgstr "Fichiers et téléchargements"
 
 #: cms/templates/asset_index.html cms/templates/course_info.html
 #: cms/templates/course_outline.html cms/templates/edit-tabs.html
@@ -16383,12 +16402,16 @@ msgstr ""
 msgid "Setting release dates and grading policies"
 msgstr "Fixer les dates de publication et les politiques de notation"
 
+#. PM-03
 #: cms/templates/course_outline.html
 msgid ""
 "Select the Configure icon for a section or subsection to set its release "
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
 msgstr ""
+"Sélectionnez l'icone Configure pour une section ou une sous-secting afin de spécifier "
+"sa date de publication. Quand vous configurez une sous-section, vous pouvez aussi "
+"fixer les politiques de notation et les dates d'échéances."
 
 #: cms/templates/course_outline.html
 msgid "Changing the content students see"
@@ -18170,11 +18193,14 @@ msgstr ""
 msgid "Course Image"
 msgstr "Image du cours"
 
+#. PM-03
 #: cms/templates/settings.html
 msgid ""
 "You can manage this image along with all of your other <a href='{}'>files "
 "&amp; uploads</a>"
 msgstr ""
+"Vous pouvez gérer cette image ainsi que tous vos autres <a href='{}'>fichiers "
+"&amp; téléchargements</a>"
 
 #: cms/templates/settings.html
 msgid ""
