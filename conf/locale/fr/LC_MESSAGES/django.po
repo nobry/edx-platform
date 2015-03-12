@@ -2884,7 +2884,7 @@ msgid ""
 "access to about page), 'about' (only allow access to about page), 'none' (do"
 " not show in catalog and do not allow access to an about page)."
 msgstr ""
-"Défini les permissions d'accès pour voir le cours dans le catalogue de cours. "
+"Définit les permissions d'accès pour voir le cours dans le catalogue de cours. "
 "Ceci peut avoir l'une des trois valeurs suivantes: 'both' (présente le cours dans le catalogue et permet "
 "l'accèes à la page d'information du cours), 'about' (ne permet l'accès qu'à la page d'information du cours), "
 "'none' (ne présente le cours ni dans le catalogue et ne permet aucun accès à la page d'information). "
@@ -3487,7 +3487,7 @@ msgstr "Est un examen d'entrée"
 #. PM-07
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
-"Tag this course module as an Entrance Exam. Note,you must enable Entrance "
+"Tag this course module as an Entrance Exam.  Note, you must enable Entrance "
 "Exams for this course setting to take effect."
 msgstr ""
 "Marquez ce module de cours comme un examen d'entréee. Note, vous devez permettre "
@@ -18459,12 +18459,16 @@ msgstr ""
 "manuelle, ce sont des paires -clefs valeur- basées sur JSON qui contrôlent "
 "les paramètres spécifiques du cours."
 
+#. PM-08
 #: cms/templates/settings_advanced.html
 msgid ""
 "Any policies you modify here override all other information you've defined "
 "elsewhere in {studio_name}. Do not edit policies unless you are familiar "
 "with both their purpose and syntax."
 msgstr ""
+"Toutes politiques que vous modifiez ici remplacent les autres informations que vous avez défini "
+"ailleurs dans {studio_name}. Ne modifiez pas les politiques à moins que vous soyez familier "
+"avec à la fois leur but et leur syntaxe."
 
 #: cms/templates/settings_advanced.html
 msgid ""
