@@ -151,11 +151,11 @@
     <%block name="footer">
       ## Can be overridden by child templates wanting to hide the footer. 
       <%
-        if theme_enabled() and not is_microsite():
-          footer_file = 'theme-footer.html'
-        elif settings.FEATURES.get('IS_EDX_DOMAIN', False) and not is_microsite():
-          footer_file = microsite.get_template_path('footer-edx-new.html')
-        else:
+        ##if theme_enabled() and not is_microsite():
+        ##  footer_file = 'theme-footer.html'
+        ##elif settings.FEATURES.get('IS_EDX_DOMAIN', False) and not is_microsite():
+        ##  footer_file = microsite.get_template_path('footer-edx-new.html')
+        ##else:
           footer_file = microsite.get_template_path('footer.html')
       %>
       <%include file="${footer_file}" />
