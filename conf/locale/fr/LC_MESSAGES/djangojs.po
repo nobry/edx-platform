@@ -6796,9 +6796,10 @@ msgstr "Abréviation"
 msgid "e.g. HW, Midterm"
 msgstr "par ex. devoirs, mi-semestre"
 
+#. PM-03
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Weight of Total Grade"
-msgstr ""
+msgstr "Poids de la Note Totale" 
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid "as a percent, e.g. 40"
@@ -6872,9 +6873,10 @@ msgstr ""
 "Veuillez fournir le titre/nom du chapitre qui sera utilisé pendant la "
 "navigation."
 
+#. PM-03
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
-msgstr ""
+msgstr "Ressource du chapitre"
 
 #: cms/templates/js/edit-chapter.underscore
 msgid "path/to/introductionToCookieBaking-CH%d.pdf"
