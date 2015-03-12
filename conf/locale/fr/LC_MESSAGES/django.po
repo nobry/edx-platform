@@ -6662,6 +6662,7 @@ msgstr "Admin Étudiant"
 msgid "Extensions"
 msgstr "Extensions"
 
+#. PM-06
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid "Data Download"
@@ -9290,9 +9291,10 @@ msgstr "Charger un nouveau fichier"
 msgid "Search and add file"
 msgstr "Chercher et ajouter un fichier"
 
+#. PM-06
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Upload File"
-msgstr "Charger un fichier"
+msgstr "Déposer un fichier"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Upload file"
@@ -9324,9 +9326,10 @@ msgstr ""
 msgid "Markdown tag"
 msgstr "Élément surligné"
 
+#. PM-06
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Uploaded by"
-msgstr "Chargé par"
+msgstr "Téléversé par"
 
 #: lms/templates/wiki/plugins/attachments/index.html
 msgid "Size"
@@ -9708,9 +9711,10 @@ msgid ""
 "{faq_url}"
 msgstr ""
 
+#. PM-06
 #: cms/djangoapps/contentstore/views/assets.py
 msgid "Upload completed"
-msgstr "Chargement terminé"
+msgstr "Téléversement terminé"
 
 #: cms/djangoapps/contentstore/views/certificates.py
 msgid "must have name of the certificate"
@@ -9916,9 +9920,10 @@ msgstr ""
 "Vous ne pouvez  pas supprimer le dernier administrateur. Créez-en un autre "
 "afin de supprimer celui-ci."
 
+#. PM-06
 #: cms/templates/import.html
 msgid "Uploading"
-msgstr "Chargement en cours"
+msgstr "Téléversement en cours"
 
 #. Translators: This is the status for a video that the servers are currently
 #. processing
@@ -18091,9 +18096,12 @@ msgstr ""
 msgid "Contact {platform_name} Support"
 msgstr "Contactez le support {platform_name}"
 
+#. PM-06
 #: cms/templates/asset_index.html cms/templates/widgets/header.html
+#: cms/templates/asset_index.html cms/templates/asset_index.html
+#: cms/templates/widgets/header.html
 msgid "Files &amp; Uploads"
-msgstr "Fichiers et téléchargements"
+msgstr "Fichiers et téléversements"
 
 #: cms/templates/asset_index.html cms/templates/course_info.html
 #: cms/templates/course_outline.html cms/templates/edit-tabs.html
@@ -19895,7 +19903,7 @@ msgid ""
 "creator or administrator for the course you are helping to author."
 msgstr ""
 "Le créateur du cours doit vous donner accès au cours. Contacter le créateur "
-"du cours ou l'administateur du cours que vous aidez à créer."
+"ou l'administateur du cours que vous aidez à créer."
 
 #: cms/templates/index.html
 msgid "Create Your First Course"
@@ -20008,7 +20016,7 @@ msgstr "Débutant avec {studio_name}?"
 msgid ""
 "Click Help in the upper-right corner to get more information about the "
 "{studio_name} page you are viewing. You can also use the links at the bottom"
-" of the page to access our continuously updated documentation and other "
+" of the page to access our continously updated documentation and other "
 "{studio_name} resources."
 msgstr ""
 "Cliquez Aide dans le coin supérieur droit afin d'obtenir plus d'information sur "
@@ -20663,9 +20671,10 @@ msgstr ""
 "Veuillez fournir un chemin et un nom valides à l'illustration de votre cours"
 " (attention : seuls les formats JPEG et PNG sont supportés)"
 
+#. PM-06
 #: cms/templates/settings.html
 msgid "Upload Course Image"
-msgstr "Charger l'image du cours"
+msgstr "Téléverser l'image du cours"
 
 #: cms/templates/settings.html
 msgid "Course Introduction Video"
@@ -20985,9 +20994,12 @@ msgstr ""
 msgid "Learn more about textbooks"
 msgstr "En savoir plus à propos des manuels"
 
+#. PM-06
 #: cms/templates/videos_index.html cms/templates/widgets/header.html
+#: cms/templates/videos_index.html cms/templates/videos_index.html
+#: cms/templates/widgets/header.html
 msgid "Video Uploads"
-msgstr ""
+msgstr "Téléversements vidéos"
 
 #: cms/templates/videos_index.html
 msgid "Why upload video files?"
@@ -21258,7 +21270,7 @@ msgstr "Cachez l'aide {studio_name}"
 #. PM-04
 #: cms/templates/widgets/sock.html
 msgid "{studio_name} Documentation"
-msgstr "Documentaton {studio_name}"
+msgstr "Documentation {studio_name}"
 
 #. PM-04
 #: cms/templates/widgets/sock.html
@@ -21271,7 +21283,7 @@ msgstr ""
 "Vous pouvez cliquer sur Aide dans le coin supérieur droit de chaque page afin "
 "d'obtenir plus d'information sur la page sur laquelle vous vous trouvez. Vous pouvez aussi "
 "utiliser les liens plus bas afin de télécharger le document Building and Running an Open edX "
-"course en format PDF, pour aller au site de support pour auteurs, ou pour vous inscrire au cours edX101."
+"Course en format PDF (en anglais seulement), pour aller au site de support pour auteurs, ou pour vous inscrire au cours edX101."
 
 #. PM-04
 #: cms/templates/widgets/sock.html
