@@ -3110,6 +3110,7 @@ msgstr "S’inscrire à edX 101"
 msgid "Download the Studio Documentation"
 msgstr "Télécharger la documentation de Studio"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Download the searchable Studio reference documentation in PDF form."
 msgstr ""
@@ -3147,6 +3148,7 @@ msgstr "Editez le calendrier et les détails du cours"
 msgid "Add Staff Bios"
 msgstr "Ajoutez les profils des membres de l'équipe pédagogique"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Showing prospective students who their instructor will be is helpful. "
@@ -3165,10 +3167,12 @@ msgstr ""
 "Ajoutez une courte liste de questions fréquemment posées à propos de votre "
 "cours. "
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Add Course Prerequisites"
 msgstr "Ajoutez les prérequis à votre cours"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Let students know what knowledge and/or skills they should have before they "
@@ -3177,10 +3181,12 @@ msgstr ""
 "Informez les étudiants sur les connaissances ou compétences qu'ils devraient"
 " maîtriser avant de s'inscrire à votre cours. "
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Info Sidebar Name"
 msgstr "Nom de de la barre latérale de l'information du cours"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the heading that you want students to see above your course handouts "
@@ -3323,6 +3329,7 @@ msgstr ""
 msgid "Enter course-specific configuration information here (JSON format)"
 msgstr ""
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "CSS Class for Course Reruns"
 msgstr "Classe CSS utilisée quand le cours est réédité"
@@ -3519,11 +3526,15 @@ msgstr ""
 msgid "Minimum Grade for Credit"
 msgstr ""
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "The minimum grade that a learner must earn to receive credit in the course, "
 "as a decimal between 0.0 and 1.0. For example, for 75%, enter 0.75."
 msgstr ""
+"Entrez le format pour les dates d'échéances. Le défaut est Mois DD, YYYY. Entrez "
+"\"%m-%d-%Y\" pour MM-DD-YYYY, \"%d-%m-%Y\" pour DD-MM-YYYY, \"%Y-%m-%d\" pour "
+"YYYY-MM-DD, ou \"%Y-%d-%m\" pour YYYY-DD-MM."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "General"
@@ -4992,7 +5003,6 @@ msgid ""
 "transcript file on the Files & Uploads page or on the Internet, and then add"
 " the URL for the transcript here. Students see a link to download that "
 "transcript below the video."
-msgstr ""
 "Par défaut, les étudiants peuvent télécharger une transcription .srt ou .txt"
 " lorsque vous définissez Autoriser le télécharger de transcriptions comme "
 "Vrai. Si vous voulez fournir une transcription téléchargeable dans un format"
@@ -7193,12 +7203,13 @@ msgstr ""
 msgid "Default Tab"
 msgstr "Onglet par défaut"
 
+#. PM-07
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Courseware tab"
 " is selected."
 msgstr ""
-"saisir l'onglet sélectionné dans le XBlock. par défaut, l'onglet du cours en"
+"Saisir l'onglet sélectionné dans le XBlock. par défaut, l'onglet du cours en"
 " ligne est sélectionné."
 
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -10423,7 +10434,7 @@ msgstr "Enregistrer les paramètres"
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Unenroll"
-msgstr "Se Désinscrire"
+msgstr "Se désinscrire"
 
 #: lms/templates/edit_unit_link.html
 msgid "View Unit in Studio"
@@ -18126,16 +18137,21 @@ msgstr "Actions de la Page"
 msgid "Upload New File"
 msgstr "Charger un nouveau fichier"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid "Adding Files for Your Course"
-msgstr "Ajout de fichiers à votre cours"
+msgstr "Ajouter des fichiers à votre cours"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "To add files to use in your course, click {em_start}Upload New File{em_end}."
 " Then follow the prompts to upload a file from your computer."
 msgstr ""
+"Pour ajouter des fichiers à votre cours, cliquez {em_start}Téléversez nouveau fichier{em_end}. "
+"Ensuite suivre les instructions pour téléverser un fichier à partir de votre ordinateur."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "{em_start}Caution{em_end}: {platform_name} recommends that you limit the "
@@ -18147,16 +18163,21 @@ msgstr ""
 "vidéo ou audio, vous devez utiliser un service tiers pour héberger vos "
 "fichiers multimédias."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "The course image, textbook chapters, and files that appear on your Course "
 "Handouts sidebar also appear in this list."
 msgstr ""
+"L'image du cours, le texte des chapitres, et les fichiers qui apparaissent dans la colonne "
+"des Documents du cours apparaitront aussi dans cette liste."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid "Using File URLs"
-msgstr ""
+msgstr "Utilisation des URLs des fichiers"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "Use the {em_start}{studio_name} URL{em_end} value to link to the file or "
@@ -18166,13 +18187,18 @@ msgstr ""
 "lien depuis le fichier ou l'image d'un composant, une mise à jour du cours, "
 "ou le syllabus."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "Use the {em_start}Web URL{em_end} value to reference the file or image only "
 "from outside of your course. {em_start}Note:{em_end} If you lock a file, the"
 " Web URL no longer works for external access to a file."
 msgstr ""
+"Utilisez la valeur du {em_start}URL Web{em_end} afin de faire référence à un fichier ou une image "
+"uniquement à l'extérieur de votre cours. {em_start}Note:{em_end} Si vous verrouillez un fichier, le "
+"URL Web ne fonctionnera plus pour l'accès externe à un fichier."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "To copy a URL, double click the value in the URL column, then copy the "
@@ -18185,9 +18211,10 @@ msgstr ""
 msgid "Learn more about managing files"
 msgstr "En savoir plus à propos de la gestion de fichiers"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid "Max per-file size: {max_filesize}MB"
-msgstr ""
+msgstr "Taille maximum par fichier: {max_filesize}MB"
 
 #: cms/templates/asset_index.html
 msgid "Choose File"
@@ -18283,7 +18310,7 @@ msgstr "Paramètres avancés"
 
 #: cms/templates/checklists.html
 msgid "Course Checklists"
-msgstr "Checklists du cours"
+msgstr "Listes de contrôle du cours"
 
 #: cms/templates/checklists.html cms/templates/export.html
 #: cms/templates/export_git.html cms/templates/import.html
@@ -18291,13 +18318,15 @@ msgstr "Checklists du cours"
 msgid "Tools"
 msgstr "Outils"
 
+#. PM-07
 #: cms/templates/checklists.html
 msgid "Current Checklists"
-msgstr "Checklists Actuelles"
+msgstr "Listes de contrôle actuelles"
 
+#. PM-07
 #: cms/templates/checklists.html
 msgid "What are course checklists?"
-msgstr "Que sont les checklists de cours ?"
+msgstr "Que sont les listes de contrôle de cours ?"
 
 #: cms/templates/checklists.html
 msgid ""
@@ -18346,9 +18375,10 @@ msgstr ""
 msgid "View Live Version"
 msgstr "Aperçu réel"
 
+#. PM-07
 #: cms/templates/container.html
 msgid "Preview the courseware in the LMS"
-msgstr ""
+msgstr "Aperçu des modifications"
 
 #: cms/templates/container.html
 msgid "Adding components"
@@ -20674,7 +20704,7 @@ msgstr ""
 #. PM-06
 #: cms/templates/settings.html
 msgid "Upload Course Image"
-msgstr "Téléverser l'image du cours"
+msgstr "Téléversez l'image du cours"
 
 #: cms/templates/settings.html
 msgid "Course Introduction Video"
@@ -21201,9 +21231,10 @@ msgstr "Annonces"
 msgid "Schedule &amp; Details"
 msgstr "Dates &amp; Détails"
 
+#. PM-07
 #: cms/templates/widgets/header.html
 msgid "Checklists"
-msgstr "Checklists"
+msgstr "Listes de contrôles"
 
 #: cms/templates/widgets/header.html
 msgid "Import"

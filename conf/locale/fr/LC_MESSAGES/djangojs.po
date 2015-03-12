@@ -225,7 +225,7 @@ msgstr "Inconnu"
 
 #: cms/static/js/views/metadata.js lms/static/js/views/file_uploader.js
 msgid "Upload File"
-msgstr "Téléverser un fichier"
+msgstr "Téléversez un fichier"
 
 #: cms/static/js/views/validation.js
 #: lms/static/js/groups/views/cohort_discussions_course_wide.js
@@ -4850,7 +4850,7 @@ msgstr ""
 #: cms/templates/js/metadata-file-uploader-item.underscore
 #: cms/templates/js/video/metadata-translations-item.underscore
 msgid "Upload"
-msgstr "Téléversement"
+msgstr "Téléversez"
 
 #: cms/static/js/views/uploads.js
 msgid "We're sorry, there was an error"
@@ -4891,7 +4891,7 @@ msgstr "Paramètres"
 #. PM-06
 #: cms/static/js/views/xblock_outline.js
 msgid "New %(component_type)s"
-msgstr "Nouvel %(component_type)s"
+msgstr "Nouvelle %(component_type)s"
 
 #. Translators: This message will be added to the front of messages of type
 #. warning,
