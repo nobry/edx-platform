@@ -2671,6 +2671,15 @@ msgstr ""
 "\"%m-%d-%Y\" pour MM-DD-YYYY, \"%d-%m-%Y\" pour DD-MM-YYYY, \"%Y-%m-%d\" pour "
 "YYYY-MM-DD, ou \"%Y-%d-%m\" pour YYYY-DD-MM."
 
+#. PM-07
+#: common/lib/xmodule/xmodule/course_module.py
+msgid ""
+"Enter the format due dates are displayed in. Due dates must be in MM-DD-YYYY, "
+"DD-MM-YYYY, YYYY-MM-DD, or YYYY-DD-MM format."
+msgstr ""
+"Entrez le format selon lequel les dates d'échéances seront affichées. Les dates d'échéances "
+"doivent être dans le format MM-JJ-AAAA, JJ-MM-AAAA, AAAA-MM-JJ, ou AAAA-JJ-MM."
+
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "External Login Domain"
 msgstr "Domaine à connexion externe"
@@ -3478,7 +3487,7 @@ msgstr "Est un examen d'entrée"
 #. PM-07
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
-"Tag this course module as an Entrance Exam. Note, you must enable Entrance "
+"Tag this course module as an Entrance Exam. Note,you must enable Entrance "
 "Exams for this course setting to take effect."
 msgstr ""
 "Marquez ce module de cours comme un examen d'entréee. Note, vous devez permettre "
@@ -3973,15 +3982,19 @@ msgid ""
 " show or hide their notes in the courseware."
 msgstr ""
 
+#. PM-07
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Tag this module as part of an Entrance Exam section"
-msgstr ""
+msgstr "Marquez ce module comme faisant partie d'une section d'un examen d'entrée"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter true or false. If true, answer submissions for problem modules will be"
 " considered in the Entrance Exam scoring/gating algorithm."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les réponses soumises pour les modules de problèmes seront "
+"considérées au niveau de l'algorithme de notation de l'examen d'entrée."
 
 #. Translators: "Self" is used to denote an openended response that is self-
 #. graded
