@@ -2191,6 +2191,7 @@ msgstr ""
 msgid "Discussion Topic Mapping"
 msgstr "Cartographie du sujet de discussion"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter discussion categories in the following format: \"CategoryName\": "
@@ -2199,6 +2200,11 @@ msgid ""
 "UniversityX-MUS101-course-2014_T1\"}. The \"id\" value for each category "
 "must be unique."
 msgstr ""
+"Entrez les catégories de discussion dans le format suivant: \"CategoryName\": "
+"{\"id\": \"i4x-InstitutionName-CourseNumber-course-CourseRun\"}. Par "
+"exemple, une catégorie de discussion pourrait être \"Lydian Mode\": {\"id\": \"i4x-"
+"UniversityX-MUS101-course-2014_T1\"}. La valeur du \"id\" pour chaque catégorie "
+"doit être unique."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Discussion Sorting Alphabetical"
@@ -2225,12 +2231,16 @@ msgstr "Entrez la date d'annonce de votre cours"
 msgid "Cohort Configuration"
 msgstr "Configuration des cohortes"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter policy keys and values to enable the cohort feature, define automated "
 "student assignment to groups, or identify any course-wide discussion topics "
 "as private to cohort members."
 msgstr ""
+"Entrez les valeurs permettant l'utilisation des cohortes, définissez l'affection automatisée "
+"des élèves à des groupes, ou identifiez les sujets de discussion à l'échelle du cours "
+"comme privée pour les membres des cohortes."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Is New"
@@ -2245,24 +2255,30 @@ msgstr ""
 "liste des nouveaux cours sur edx.org et un insigne New! apparaît "
 "temporairement à côté de l'image du cours."
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Mobile Course Available"
-msgstr ""
+msgstr "Cours mobile disponible"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter true or false. If true, the course will be available to mobile "
 "devices."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, le cours sera disponible sur les appareils mobiles."
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Video Upload Credentials"
-msgstr ""
+msgstr "Créedentiels de téléversement vidéo"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the unique identifier for your course's video files provided by edX."
 msgstr ""
+"Entrez l'identifiant unique fourni par edX pour les fichiers vidéo de votre cours."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Not Graded"
@@ -2407,9 +2423,10 @@ msgstr ""
 msgid "Edit Grading Settings"
 msgstr "Editer les paramètres d'évaluation"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Explore the Other Studio Checklists"
-msgstr "Explorez les autres checklists de Studio"
+msgstr "Explorez les autres listes de contrôle de Studio"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
@@ -2643,12 +2660,16 @@ msgstr ""
 msgid "Due Date Display Format"
 msgstr "Format d'affichage de l'échéance"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Enter the format for due dates. The default is Mon DD, YYYY. Enter "
 "\"%m-%d-%Y\" for MM-DD-YYYY, \"%d-%m-%Y\" for DD-MM-YYYY, \"%Y-%m-%d\" for "
 "YYYY-MM-DD, or \"%Y-%d-%m\" for YYYY-DD-MM."
 msgstr ""
+"Entrez le format pour les dates d'échéances. Le défaut est Mois DD, YYYY. Entrez "
+"\"%m-%d-%Y\" pour MM-DD-YYYY, \"%d-%m-%Y\" pour DD-MM-YYYY, \"%Y-%m-%d\" pour "
+"YYYY-MM-DD, ou \"%Y-%d-%m\" pour YYYY-DD-MM."
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "External Login Domain"
@@ -2841,10 +2862,12 @@ msgid ""
 "survey to the Course Survey Name setting above."
 msgstr ""
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Course Visibility In Catalog"
-msgstr ""
+msgstr "Visibilité du cours dans le catalogue"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/course_module.py
 msgid ""
 "Defines the access permissions for showing the course in the course catalog."
@@ -2852,6 +2875,10 @@ msgid ""
 "access to about page), 'about' (only allow access to about page), 'none' (do"
 " not show in catalog and do not allow access to an about page)."
 msgstr ""
+"Défini les permissions d'accès pour voir le cours dans le catalogue de cours. "
+"Ceci peut avoir l'une des trois valeurs suivantes: 'both' (présente le cours dans le catalogue et permet "
+"l'accèes à la page d'information du cours), 'about' (ne permet l'accès qu'à la page d'information du cours), "
+"'none' (ne présente le cours ni dans le catalogue et ne permet aucun accès à la page d'information). "
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Both"
@@ -3443,15 +3470,19 @@ msgstr "Date d'échéance"
 msgid "Enter the date by which problems are due."
 msgstr "Entrez la date à laquelle les problèmes doivent être rendus."
 
+#. PM-07
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid "Is Entrance Exam"
-msgstr ""
+msgstr "Est un examen d'entrée"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/seq_module.py
 msgid ""
 "Tag this course module as an Entrance Exam. Note, you must enable Entrance "
 "Exams for this course setting to take effect."
 msgstr ""
+"Marquez ce module de cours comme un examen d'entréee. Note, vous devez permettre "
+"les examens d'entrées pour que cette option prenne effet."
 
 #: common/lib/xmodule/xmodule/split_test_module.py
 msgid "Group ID {group_id}"
@@ -3909,10 +3940,12 @@ msgstr ""
 "Entrez vrai ou faux. Si c'est vrai, la vidéo mise en cache sera utilisé pour"
 " les vidéos HTML5."
 
+#. PM-07
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Show Reset Button for Problems"
-msgstr ""
+msgstr "Présentez le boutton reset pour les problèmes"
 
+#. PM-07
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid ""
 "Enter true or false. If true, problems in the course default to always "
@@ -3920,6 +3953,10 @@ msgid ""
 "settings. All existing problems are affected when this course-wide setting "
 "is changed."
 msgstr ""
+"Entrez vrai ou faux. Si vrai, les problémes du cours auront toujours "
+"un boutton 'reset'. Vous pouvez modifier ceci dans les paramètres de chaque problème. "
+"Tous les problèmes existants sont affectés lorsque cette valeur à l'échelle du cours "
+"est modifiée."
 
 #: common/lib/xmodule/xmodule/modulestore/inheritance.py
 msgid "Enable Student Notes"
@@ -4451,7 +4488,7 @@ msgid ""
 "Upload a handout to accompany this video. Students can download the handout "
 "by clicking Download Handout under the video."
 msgstr ""
-"Téléverser un document pour accompagner cette vidéo. Les étudiants peuvent "
+"Téléversez un document pour accompagner cette vidéo. Les étudiants peuvent "
 "télécharger le document en cliquant sur Télécharger le Document sous la "
 "vidéo."
 
@@ -5770,12 +5807,13 @@ msgstr ""
 msgid "Default Tab"
 msgstr "Onglet par défaut"
 
+#. PM-07
 #: lms/djangoapps/lms_xblock/mixin.py
 msgid ""
 "Enter the tab that is selected in the XBlock. If not set, the Courseware tab"
 " is selected."
 msgstr ""
-"saisir l'onglet sélectionné dans le XBlock. par défaut, l'onglet du cours en"
+"Saisir l'onglet sélectionné dans le XBlock. par défaut, l'onglet du cours en"
 " ligne est sélectionné."
 
 #: lms/djangoapps/lms_xblock/mixin.py
@@ -8557,6 +8595,7 @@ msgstr "Motif de changement de nom :"
 msgid "Change My Name"
 msgstr "Changer mon nom"
 
+#. PM-07
 #: lms/templates/dashboard.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -8570,7 +8609,7 @@ msgstr "Changer mon nom"
 #: lms/templates/dashboard/_dashboard_course_listing.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Unenroll"
-msgstr "Se Désinscrire"
+msgstr "Se désinscrire"
 
 #: lms/templates/edit_unit_link.html
 msgid "View Unit in Studio"
@@ -15935,59 +15974,82 @@ msgstr "Actions de la Page"
 msgid "Upload New File"
 msgstr "Envoyer un Nouveau Fichier"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid "Adding Files for Your Course"
-msgstr ""
+msgstr "Ajouter des fichiers à votre cours"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "To add files to use in your course, click {em_start}Upload New File{em_end}."
 " Then follow the prompts to upload a file from your computer."
 msgstr ""
+"Pour ajouter des fichiers à votre cours, cliquez {em_start}Téléversez nouveau fichier{em_end}. "
+"Ensuite suivre les instructions pour téléverser un fichier à partir de votre ordinateur."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "{em_start}Caution{em_end}: {platform_name} recommends that you limit the "
 "file size to {em_start}10 MB{em_end}. In addition, do not upload video or "
 "audio files. You should use a third party service to host multimedia files."
 msgstr ""
+"{em_start}Avertissement{em_end}: {platform_name} recommande que vous limitiez la taille "
+"des fichiers à {em_start}10 MB{em_end}. De plus, ne téléversez pas de fichiers audio ou "
+"vidéo. Vous devriez utiliser un service tier afin d'héberger vos fichiers multimédia. "
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "The course image, textbook chapters, and files that appear on your Course "
 "Handouts sidebar also appear in this list."
 msgstr ""
+"L'image du cours, le texte des chapitres, et les fichiers qui apparaissent dans la colonne "
+"des Documents du cours apparaitront aussi dans cette liste."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid "Using File URLs"
-msgstr ""
+msgstr "Utilisation des URLs des fichiers"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "Use the {em_start}{studio_name} URL{em_end} value to link to the file or "
 "image from a component, a course update, or a course handout."
 msgstr ""
+"Utilisez la valeur du {em_start}{studio_name} URL{em_end} afin de lier celle-ci à votre fichier ou "
+"votre image d'une composante, d'une mise-à-jour du cours, ou d'un document du cours."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "Use the {em_start}Web URL{em_end} value to reference the file or image only "
 "from outside of your course. {em_start}Note:{em_end} If you lock a file, the"
 " Web URL no longer works for external access to a file."
 msgstr ""
+"Utilisez la valeur du {em_start}URL Web{em_end} afin de faire référence à un fichier ou une image "
+"uniquement à l'extérieur de votre cours. {em_start}Note:{em_end} Si vous verrouillez un fichier, le "
+"URL Web ne fonctionnera plus pour l'accès externe à un fichier."
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid ""
 "To copy a URL, double click the value in the URL column, then copy the "
 "selected text."
 msgstr ""
+"Pour copier un URL, double-cliquez la valeur dans la colonne du URL, et ensuite copiez "
+"le texte sélectionné."
 
 #: cms/templates/asset_index.html
 msgid "Learn more about managing files"
 msgstr "En savoir plus à propos de la gestion de fichiers"
 
+#. PM-07
 #: cms/templates/asset_index.html
 msgid "Max per-file size: {max_filesize}MB"
-msgstr ""
+msgstr "Taille maximum par fichier: {max_filesize}MB"
 
 #: cms/templates/asset_index.html
 msgid "Choose File"
@@ -16001,9 +16063,10 @@ msgstr "Votre fichier a été supprimé."
 msgid "close alert"
 msgstr "fermez l'alerte"
 
+#. PM-07
 #: cms/templates/checklists.html cms/templates/checklists.html
 msgid "Course Checklists"
-msgstr "Checklists du cours"
+msgstr "Listes de contrôle du cours"
 
 #: cms/templates/checklists.html cms/templates/export.html
 #: cms/templates/export_git.html cms/templates/import.html
@@ -16011,13 +16074,15 @@ msgstr "Checklists du cours"
 msgid "Tools"
 msgstr "Outils"
 
+#. PM-07
 #: cms/templates/checklists.html
 msgid "Current Checklists"
-msgstr "Checklists Actuelles"
+msgstr "Listes de contrôle actuelles"
 
+#. PM-07
 #: cms/templates/checklists.html
 msgid "What are course checklists?"
-msgstr "Que sont les checklists de cours ?"
+msgstr "Que sont les listes de contrôle de cours ?"
 
 #: cms/templates/checklists.html
 msgid ""
@@ -16063,9 +16128,10 @@ msgstr "Glissez pour modifier l'ordre"
 msgid "View Live Version"
 msgstr "Aperçu réel"
 
+#. PM-07
 #: cms/templates/container.html
 msgid "Preview Changes"
-msgstr ""
+msgstr "Aperçu des modifications"
 
 #: cms/templates/container.html
 msgid "Adding components"
@@ -18244,7 +18310,7 @@ msgstr ""
 #. PM-06
 #: cms/templates/settings.html
 msgid "Upload Course Image"
-msgstr "Téléverser l'image du cours"
+msgstr "Téléversez l'image du cours"
 
 #: cms/templates/settings.html
 msgid "Course Introduction Video"
@@ -18731,9 +18797,10 @@ msgstr "Annonces"
 msgid "Schedule &amp; Details"
 msgstr "Dates &amp; Détails"
 
+#. PM-07
 #: cms/templates/widgets/header.html
 msgid "Checklists"
-msgstr "Checklists"
+msgstr "Listes de contrôles"
 
 #: cms/templates/widgets/header.html
 msgid "Import"
