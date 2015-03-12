@@ -7239,9 +7239,10 @@ msgstr ""
 msgid "e.g. HW, Midterm"
 msgstr ""
 
+#. PM-03
 #: cms/templates/js/course_grade_policy.underscore
 msgid "Weight of Total Grade"
-msgstr ""
+msgstr "Poids de la Note Totale" 
 
 #: cms/templates/js/course_grade_policy.underscore
 msgid "as a percent, e.g. 40"
@@ -7314,9 +7315,10 @@ msgstr ""
 msgid "provide the title/name of the chapter that will be used in navigating"
 msgstr ""
 
+#. PM-03
 #: cms/templates/js/edit-chapter.underscore
 msgid "Chapter Asset"
-msgstr ""
+msgstr "Ressource du chapitre"
 
 #: cms/templates/js/edit-chapter.underscore
 #, python-format
