@@ -2939,6 +2939,19 @@ msgstr "Général"
 msgid "TBD"
 msgstr "A déterminer"
 
+#. PM-09
+#: common/lib/xmodule/xmodule/course_module.py
+msgid ""
+"Has three possible states: 'end', 'early_with_info', 'early_no_info'. "
+"'end' is the default behavior, where certificates will only appear after a course has ended. "
+"'early_with_info' will display all certificate information before a course has ended. "
+"'early_no_info' will hide all certificate information unless a student has earned a certificate."
+msgstr ""
+"Trois possibilitées: 'end', 'early_with_info', 'early_no_info'. "
+"'end' est le comportement par défaut où les informations liées aux certificats apparaitront uniquement après la fin d'un cours. "
+"'early_with_info' affichera les informations liées aux certificats avant la fin d'un cours. "
+"'early_no_info' va cacher les informations liées aux certificats à moins que l'étudiant at obtenu son certificat."
+
 #: common/lib/xmodule/xmodule/discussion_module.py
 msgid "Discussion Id"
 msgstr ""
