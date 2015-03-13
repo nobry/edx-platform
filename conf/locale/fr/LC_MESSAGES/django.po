@@ -16110,12 +16110,13 @@ msgstr "Listes de contrôle actuelles"
 msgid "What are course checklists?"
 msgstr "Que sont les listes de contrôle de cours ?"
 
+#. PM-09
 #: cms/templates/checklists.html
 msgid ""
 "Course checklists are tools to help you understand and keep track of all the"
 " steps necessary to get your course ready for students."
 msgstr ""
-"Les checklists de cours sont des outils destinés à vous aider à comprendre "
+"Les listes de contrôle de cours sont des outils destinés à vous aider à comprendre "
 "et à assurer le suivi de toutes les étapes nécessaires pour rendre votre "
 "cours prêt à accueillir les étudiants."
 
