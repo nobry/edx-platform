@@ -16120,12 +16120,13 @@ msgstr ""
 "et à assurer le suivi de toutes les étapes nécessaires pour rendre votre "
 "cours prêt à accueillir les étudiants."
 
+#. PM-09
 #: cms/templates/checklists.html
 msgid ""
 "Any changes you make to these checklists are saved automatically and are "
 "immediately visible to other course team members."
 msgstr ""
-"Tous les changements que vous faites dans ces checklists sont "
+"Tous les changements que vous faites dans ces listes de contrôle sont "
 "automatiquement sauvegardés et sont directement visibles pour les autres "
 "membres de l'équipe pédagogique du cours."
 
