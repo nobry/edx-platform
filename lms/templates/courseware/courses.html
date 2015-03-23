@@ -1,6 +1,8 @@
 <%! 
   from django.utils.translation import ugettext as _
   from microsite_configuration import microsite
+  from xmodule.modulestore.django import modulestore
+  from xmodule.contentstore.django import contentstore
 %>
 <%inherit file="../main.html" />
 
@@ -16,7 +18,6 @@
     logo_alt_text = "Stanford Seal Logo"
 
   else:
-    logo_alt_text = "Stanford Seal Logo"
     course_index_overlay_text = microsite.get_value('course_index_overlay_text', _("Explore courses from {platform_name}.").format(platform_name=platform_name))
 
     if settings.FEATURES.get('IS_EDX_DOMAIN', False):
@@ -25,8 +26,11 @@
     else:
       default_image_url = settings.STATIC_URL + 'images/default-theme/logo-large.png'
 
-  logo_file = microsite.get_value(
-    'course_index_overlay_logo_file', settings.STATIC_URL + 'images/edulib_nb.png')
+    logo_file = microsite.get_value(
+      'course_index_overlay_logo_file', default_image_url
+    )
+
+    logo_alt_text = _("{platform_name} Logo").format(platform_name=platform_name)
 %>
 
 <section class="find-courses">
@@ -37,11 +41,7 @@
         <div class="logo">
           <img src="${logo_file}" alt="${logo_alt_text}" />
         </div>
-        % if self.stanford_theme_enabled():
-          <h2>${_("Explore free courses from {university_name}.")}</h2>
-        % else:
-          <h2>${course_index_overlay_text}</h2>
-        % endif
+        <h2>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h2>
       </hgroup>
     </div>
   </header>
@@ -49,7 +49,7 @@
   <section class="container">
     <section class="courses">
       <ul class="courses-listing">
-	%for course in courses:
+	%for course in sorted(modulestore().get_courses(),key=lambda course: (course.start is None, course.start), reverse=True):
         <li class="courses-listing-item">
           <%include file="../course.html" args="course=course" />
         </li>
