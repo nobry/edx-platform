@@ -69,12 +69,11 @@ from microsite_configuration import microsite
             #####    <%include file="course.html" args="course=course" />
             #####  </li>
             #### new code cypress
-            %for course in courses:
             %for course in sorted(courses, key=lambda course: (course.start is None, course.start)):
-                % if not course.has_ended():
-                   <li class="courses-listing-item">
-                      <%include file="course.html" args="course=course" />
-                   </li>
+                % if not course.has_ended() and course.catalog_visibility=="both":
+                <li class="courses-listing-item">
+                    <%include file="course.html" args="course=course" />
+                </li>
                 % endif
             %endfor
             </ul>
