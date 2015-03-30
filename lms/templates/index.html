@@ -9,8 +9,9 @@
 <%
   homepage_overlay_html = microsite.get_value('homepage_overlay_html')
 
+  ## To display a welcome video, change False to True, and add a YouTube ID (11 chars, eg "123456789xX") in the following line
   show_homepage_promo_video = microsite.get_value('show_homepage_promo_video', False)
-  homepage_promo_video_youtube_id = microsite.get_value('homepage_promo_video_youtube_id', "XNaiOGxWeto")
+  homepage_promo_video_youtube_id = microsite.get_value('homepage_promo_video_youtube_id', "your-youtube-id")
 
   show_partners = microsite.get_value('show_partners', True)
 
@@ -49,12 +50,12 @@
 
       % if settings.FEATURES.get('COURSES_ARE_BROWSABLE'):
         <section class="courses">
-            <ul class="courses-listing">
+           <ul class="courses-listing">
             %for course in sorted(courses, key=lambda course: (course.start is None, course.start)):
-                % if not course.has_ended():
-                   <li class="courses-listing-item">
-                      <%include file="course.html" args="course=course" />
-                   </li>
+                % if not course.has_ended() and course.catalog_visibility=="both":
+                <li class="courses-listing-item">
+                    <%include file="course.html" args="course=course" />
+                </li>
                 % endif
             %endfor
             </ul>
