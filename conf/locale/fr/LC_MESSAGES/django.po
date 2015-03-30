@@ -2285,7 +2285,7 @@ msgstr "Valider"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Final Check"
-msgstr "Valider"
+msgstr "Soumettre"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Checking..."
