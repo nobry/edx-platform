@@ -16805,6 +16805,7 @@ msgstr ""
 msgid "What content is exported?"
 msgstr "Quelles sont les données exportées ?"
 
+#. PM-11
 #: cms/templates/export.html
 msgid ""
 "The course content and structure (including sections, subsections, and "
@@ -16813,6 +16814,13 @@ msgid ""
 "data, grading information, discussion forum data, course settings, and "
 "course team information, is not exported."
 msgstr ""
+"Le contenu du cours et la structure (incluant sections, sous-sections, et "
+"unités) sont exportés. Les valeurs des Paramètres Avancés, incluant les clés "
+"API MATLAB et les passeports LTI, sont aussi exportés. Les autres données, dont les informations "
+"des étudiants, les notes, les discussions du forum, les paramètres du cours, "
+"et les informations sur l'équipe pédagogique, ne sont pas exportées."
+
+"les données des étudiants, 
 
 #: cms/templates/export.html
 msgid "Opening the downloaded file"
