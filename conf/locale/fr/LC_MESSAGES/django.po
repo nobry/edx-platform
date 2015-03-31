@@ -3736,6 +3736,12 @@ msgstr ""
 msgid "Select the library from which you want to draw content."
 msgstr ""
 
+#. PM-12
+#: common/lib/xmodule/xmodule/library_content_module.py
+#: cms/templates/index.html
+msgid "Libraries"
+msgstr "Librairies"
+
 #. PM-03
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Whether to restrict enrollment to invitation by the course staff."
@@ -19783,6 +19789,11 @@ msgstr "Accueil {studio_name}"
 msgid "New Course"
 msgstr "Nouveau Cours"
 
+#. PM-12
+#: cms/templates/index.html
+msgid "New Library"
+msgstr "Nouvelle Librairie"
+
 #: cms/templates/index.html
 msgid "Email staff to create course"
 msgstr "Envoyez un courriel à l'équipe pédagogique pour créer un cours"
@@ -19853,18 +19864,22 @@ msgstr "Le trimestre durant lequel le cours va s'exécuter."
 msgid "Create"
 msgstr "Créer"
 
+#. PM-12
 #: cms/templates/index.html
 msgid "Create a New Library"
-msgstr "Créer une nouvelle Bibliothèque"
+msgstr "Créer une nouvelle librairie"
 
+#. PM-12
 #: cms/templates/index.html
 msgid "Required Information to Create a New Library"
-msgstr "Informations requises pour créer une nouvelle Bibliothèque"
+msgstr "Informations requises pour créer une nouvelle librairie"
 
+#. PM-12
 #: cms/templates/index.html
 msgid "Library Name"
-msgstr "Nom de la Bibliothèque"
+msgstr "Nom de la librairie"
 
+#. PM-12
 #. Translators: This is an example name for a new content library, seen when
 #. filling out the form to create a new library. (A library is a collection of
 #. content or problems.)
@@ -19872,21 +19887,25 @@ msgstr "Nom de la Bibliothèque"
 msgid "e.g. Computer Science Problems"
 msgstr "exemple: Exercices d'introduction à l'Informatique"
 
+#. PM-12
 #: cms/templates/index.html
 msgid "The public display name for your library."
-msgstr "Le nom d'affichage public de votre Bibliothèque"
+msgstr "Le nom à afficher publiquement pour votre librairie"
 
+#. PM-12
 #: cms/templates/index.html
 msgid "The public organization name for your library."
-msgstr ""
+msgstr "Le nom de votre organisation à afficher publiquement pour votre librairie"
 
+#. PM-12
 #: cms/templates/index.html
 msgid "This cannot be changed."
-msgstr ""
+msgstr "Ceci ne peut être modifié."
 
+#. PM-12
 #: cms/templates/index.html
 msgid "Library Code"
-msgstr ""
+msgstr "Code de la librairie"
 
 #. Translators: This is an example for the "code" used to identify a library,
 #. seen when filling out the form to create a new library. This example is
@@ -19896,15 +19915,19 @@ msgstr ""
 msgid "e.g. CSPROB"
 msgstr ""
 
+#. PM-12
 #: cms/templates/index.html
 msgid "The unique code that identifies this library."
-msgstr ""
+msgstr "Le code unique identifiant cette librairie."
 
+#. PM-12
 #: cms/templates/index.html
 msgid ""
 "Note: This is part of your library URL, so no spaces or special characters "
 "are allowed."
 msgstr ""
+"Notez bien: Ceci fait partie du URL de votre librairie, ainsi aucun espace or caractères spéciaux "
+"sont permis."
 
 #: cms/templates/index.html
 msgid "Courses Being Processed"
@@ -20169,9 +20192,10 @@ msgstr ""
 msgid "Add Component"
 msgstr "Ajouter un composant"
 
+#. PM-12
 #: cms/templates/library.html
 msgid "Adding content to your library"
-msgstr ""
+msgstr "Ajouter du contenu à votre librairie"
 
 #: cms/templates/library.html
 msgid ""
