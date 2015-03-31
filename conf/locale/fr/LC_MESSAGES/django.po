@@ -1794,6 +1794,7 @@ msgstr "Autoriser les modèles LaTeX ?"
 msgid "Check"
 msgstr "Valider"
 
+#. PM-10
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Final Check"
 msgstr "Soumettre"
@@ -16695,6 +16696,7 @@ msgstr "Export du cours"
 msgid "About Exporting Courses"
 msgstr "A propos de l'export des cours"
 
+#. PM-11
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html
 msgid ""
@@ -16703,7 +16705,12 @@ msgid ""
 "contains the course structure and content. You can also re-import courses "
 "that you've exported."
 msgstr ""
+"Vous pouvez exporter des cours et les éditer à l'extérieur de {studio_name}. "
+"Le fichier exporté est en format .tar.gz (i.e. un fichier .tar compressé avec GNU Zip) "
+"contenant la structure et le contenu du cours. Vous pouvez aussi ré-importer des cours "
+"que vous avez exporté."
 
+#. PM-11
 #: cms/templates/export.html
 msgid ""
 "{em_start}Caution:{em_end} When you export a course, information such as "
@@ -16712,6 +16719,11 @@ msgid ""
 " exported files, you may also be sharing sensitive or license-specific "
 "information."
 msgstr ""
+"{em_start}Avertissement:{em_end} Quand vous exportez un cours, les informations telles que "
+"les clés API de MATLAB, les passeports LTI, les chaines de caractères d'annotations, "
+"et les URLs de stockage d'annotations sont aussi inclus dans les données exportées. Si vous "
+"partagez vos fichiers exportés, vous pourriez aussi partager de informations sensibles "
+"et des informations sur vos licences de logiciels. "
 
 #: cms/templates/export.html
 msgid "Export My Course Content"
@@ -16725,10 +16737,12 @@ msgstr "Exporter le contenu du cours"
 msgid "Data {em_start}exported with{em_end} your course:"
 msgstr "Données {em_start}exportées avec{em_end} votre cours :"
 
+#. PM-11
 #: cms/templates/export.html
 msgid ""
 "Values from Advanced Settings, including MATLAB API keys and LTI passports"
 msgstr ""
+"Les valeurs des Paramètres Avancés, incluant les clés API de MATLAB et les passeports LTI"
 
 #: cms/templates/export.html
 msgid "Course Content (all Sections, Sub-sections, and Units)"
@@ -16774,6 +16788,7 @@ msgstr "Certificats"
 msgid "Why export a course?"
 msgstr "Pourquoi exporter un cours ?"
 
+#. PM-11
 #: cms/templates/export.html
 msgid ""
 "You may want to edit the XML in your course directly, outside of "
@@ -16781,6 +16796,10 @@ msgid ""
 "may want to create a copy of your course that you can later import into "
 "another course instance and customize."
 msgstr ""
+"Vous voulez peut-être éditer à l'extérieur de {studio_name} le contenu "
+"de votre fichier XML. Vous voulez peut-être créer une copie de sauvegarde "
+"de votre cours. Ou, vous voulez peut-être créer une copie de votre cours que "
+"vous pourrez plus tard importer et personnaliser dans une instance d'un autre cours."
 
 #: cms/templates/export.html
 msgid "What content is exported?"
@@ -16799,6 +16818,7 @@ msgstr ""
 msgid "Opening the downloaded file"
 msgstr "Ouverture du fichier téléchargé"
 
+#. PM-11
 #. Translators: ".tar.gz" is a file extension, and should not be translated
 #: cms/templates/export.html
 msgid ""
@@ -16810,9 +16830,10 @@ msgstr ""
 " fichier .tar.gz. Les données extraites contiennent le fichier course.xml "
 "ainsi que les sous dossiers qui contiennent le contenu du cours."
 
+#. PM-11
 #: cms/templates/export.html
 msgid "Learn more about exporting a course"
-msgstr ""
+msgstr "Apprenez-en plus sur l'export de cours"
 
 #: cms/templates/export_git.html
 msgid "Export Course to Git"
@@ -17329,12 +17350,15 @@ msgstr "Visualiser le plan mis à jour"
 msgid "Why import a course?"
 msgstr "Pourquoi importer un cours ?"
 
+#. PM-11
 #: cms/templates/import.html
 msgid ""
 "You may want to run a new version of an existing course, or replace an "
 "existing course altogether. Or, you may have developed a course outside "
 "{studio_name}."
 msgstr ""
+"Vous voulez peut-être créer une nouvelle version d'un cours existant ou remplacer "
+"celui-ci. Ou peut-être avez-vous développé un cours à l'extérieur de {studio_name}."
 
 #: cms/templates/import.html
 msgid "What content is imported?"
