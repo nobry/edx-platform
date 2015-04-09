@@ -1,17 +1,43 @@
-<%! from django.utils.translation import ugettext as _ %>
-<%inherit file="../main.html" />
-
-<section class="outside-app">
-  <h1>
-    ${_(u"There has been a 500 error on the {platform_name} servers").format(
-        platform_name=u"<em>{platform_name}</em>".format(platform_name=settings.PLATFORM_NAME)
-    )}
-  </h1>
-  <p>
-    ${_(u'Please wait a few seconds and then reload the page. If the problem persists, please email us at {email}.').format(
-        email=u'<a href="mailto:{email}">{email}</a>'.format(
-            email=settings.TECH_SUPPORT_EMAIL
-        )
-    )}
-  </p>
-</section>
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Erreur du serveur</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style media="screen" type="text/css">
+		@import url(http://fonts.googleapis.com/css?family=PT+Sans:700|PT+Serif&subset=latin,latin-ext);
+		
+          h1, h2{
+            font-family: 'PT Sans',Verdana,Arial,sans-serif;
+            margin-bottom: .3em;
+            font-size: 2.0em;
+            line-height: 1.25em;
+            text-rendering: optimizeLegibility;
+            font-weight: bold;
+            color: #000000;
+          }
+          h2 {
+            font-size: 1.8em;
+            color: #5b5e63;
+          }
+          p {
+            font-family: 'PT Serif',Georgia,"Times New Roman",serif;
+            margin: auto;
+            margin-bottom: 1em;
+            font-weight: 200;
+            line-height: 1.4em;
+            font-size: 1.1em;
+            max-width: 80%;
+          }
+        </style>
+    </head>
+    <body>
+      <div style="margin: auto; width: 800px; text-align: center; padding:20px 0px 0px 0px;">
+        <h1>Nous &eacute;prouvons quelques difficult&eacute;es&#8230;</h1>
+        <h1>(✖╭╮✖)</h1>
+        <h2>Erreur du serveur</h2>
+        <p>Nous avons &eacute;t&eacute; avis&eacute;s de cette erreur. Si cette erreur persiste, veuillez nous contacter &agrave; l&#8217;adresse <a href="mailto:oper.edulib@gmail.com">oper.edulib@gmail.com</a>.</p>
+      </div>
+    </body>
+</html>
