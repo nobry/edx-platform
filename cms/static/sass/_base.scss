@@ -1,9 +1,6 @@
 // studio - base styling
 // ====================
 
-// basic setup
-@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&subset=latin,latin-ext);
-
 // Table of Contents 
 // * +Basic Setup 
 // * +Typography - Basic
@@ -20,6 +17,10 @@
 // * +UI - Misc
 // * +Utility - Basic
 // * +JS Dependent
+
+// +Basic Setup
+// ==================== 
+@import url(https://fonts.googleapis.com/css?family=PT+Sans|PT+Serif&subset=latin,latin-ext);
 
 html {
   font-size: 62.5%;
