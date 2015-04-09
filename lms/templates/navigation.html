@@ -22,7 +22,7 @@ from status.status import get_site_status_msg
 try:
     course_id = course.id.to_deprecated_string()
 except:
-    # can't figure out a better way to get at a possibly-defined course var
+    # cant figure out a better way to get at a possibly-defined course var
     course_id = None
 site_status_msg = get_site_status_msg(course_id)
 %>
@@ -68,12 +68,15 @@ site_status_msg = get_site_status_msg(course_id)
     <ol class="user">
       <li class="primary">
         <a href="${reverse('dashboard')}" class="user-link">
-          <span class="avatar"></span>
-          <span class="sr">${_("Dashboard for:")} </span> ${user.username}
+          <i class="icon fa fa-home" aria-hidden="true"></i>
+          <span class="sr">${_("Dashboard for:")}</span>
+          <span>
+          ${user.username}
+          </span>
         </a>
       </li>
       <li class="primary">
-        <a href="#" class="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr">${_("More options dropdown")}</span> &#9662;</a>
+        <a href="#" class="dropdown" aria-haspopup="true" aria-expanded="false"><span class="sr">${_("More options dropdown")}</span><i class="fa fa-sort-desc" aria-hidden="true"></i></a>
         <ul class="dropdown-menu" aria-label="More Options" role="menu">
           <%block name="navigation_dropdown_menu_links" >
             % if settings.MKTG_URL_LINK_MAP.get('FAQ'):
@@ -108,21 +111,21 @@ site_status_msg = get_site_status_msg(course_id)
           </li>
         % endif
       </%block>
-      % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
+    </ol>
+
+    <ol class="right nav-courseware">
+        % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
           % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
-          <li class="nav-global-04">
+          <li class="nav-courseware-01">
             <a class="cta cta-register" href="${reverse('course-specific-register', args=[course.id.to_deprecated_string()])}">${_("Register Now")}</a>
           </li>
           % else:
-          <li class="nav-global-04">
+          <li class="nav-courseware-01">
             <a class="cta cta-register" href="/register">${_("Register Now")}</a>
           </li>
           % endif
       % endif
-    </ol>
-
-    <ol class="right nav-courseware">
-    <li class="nav-courseware-01">
+    <li class="nav-courseware-02">
       % if not settings.FEATURES['DISABLE_LOGIN_BUTTON']:
           % if course and settings.FEATURES.get('RESTRICT_ENROLL_BY_REG_METHOD') and course.enrollment_domain:
           <a class="cta cta-login" href="${reverse('course-specific-login', args=[course.id.to_deprecated_string()])}${login_query()}">${_("Sign in")}</a>
