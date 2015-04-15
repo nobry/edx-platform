@@ -2898,7 +2898,7 @@ msgstr ""
 #: lms/templates/footer.html lms/templates/static_templates/about.html
 #: lms/templates/static_templates/about.html
 msgid "About"
-msgstr "A propos"
+msgstr "À propos"
 
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "Entrance Exam Enabled"
