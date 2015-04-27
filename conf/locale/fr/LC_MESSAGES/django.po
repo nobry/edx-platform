@@ -9537,6 +9537,7 @@ msgstr ""
 "oper.edulib@gmail.com comme n'étant pas du pourriel, puisque vous voudrez pouvoir "
 "recevoir des courriels provenant de nos cours. À EDUlib, nous communiquons essentiellement par courriel."
 
+#. PM-13
 #: lms/templates/register-sidebar.html
 msgid ""
 "As part of joining {platform_name}, you will receive an activation email.  "
@@ -9544,11 +9545,11 @@ msgid ""
 "the email?  Check your spam folder and mark {platform_name} emails as 'not "
 "spam'.  At {platform_name}, we communicate mostly through email."
 msgstr ""
-"En rejoignant {platform_name}, vous recevrez un mail d'activation. Vous "
+"En rejoignant {platform_name}, vous recevrez un courriel d'activation. Vous "
 "devrez cliquer sur le lien d'activation pour compléter l'inscription. Vous "
-"ne voyez pas le mail ? Vérifiez votre dossier de spam et marquez les mails "
-"provenant de {platform_name} comme n'étant pas du spam. A  {platform_name}, "
-"nous communiquons essentiellement par mail."
+"ne voyez pas le courriel ? Vérifiez votre dossier de pourriel et marquez les courriels "
+"provenant de {platform_name} comme n'étant pas du pourriel. A  {platform_name}, "
+"nous communiquons essentiellement par courriel."
 
 #: lms/templates/register-sidebar.html
 msgid "Need help in registering with {platform_name}?"
