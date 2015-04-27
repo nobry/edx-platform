@@ -15609,12 +15609,15 @@ msgstr "Le cours est-il terminé ?"
 msgid "Grade Cutoffs:"
 msgstr "Seuils de notation:"
 
+#. PM-15
 #. Translators: git is a version-control system; see http://git-scm.com/about
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid ""
 "View detailed Git import logs for this course {link_start}by clicking "
 "here{link_end}."
 msgstr ""
+"Voyez les journaux de logs détaillés de l'import de Git  pour ce cours {link_start}en cliquant "
+"ici{link_end}."
 
 #: lms/templates/instructor/instructor_dashboard_2/course_info.html
 msgid "Course Warnings"
@@ -15652,6 +15655,7 @@ msgstr "Obtenir le CSV des IDs anonymes des étudiants"
 msgid "Reports"
 msgstr "Rapports"
 
+#. PM-15
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "For large courses, generating some reports can take several hours. When "
@@ -15660,12 +15664,19 @@ msgid ""
 "background, meaning it is OK to navigate away from this page while your "
 "report is generating."
 msgstr ""
+"Pour de gros courss, générer quelques rapports peut prendre plusieurs heures. Quand "
+"la génération des rapports est complète, un line incluant la date et l'heure de "
+"cette génération apparait dans le tableau ci-bas. Ces rapports sont générés en arrière-plan, "
+"vous pouvez donc quitter cette page pendant que vos rapports sont générés."
 
+#. PM-15
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
 "Please be patient and do not click these buttons multiple times. Clicking "
 "these buttons multiple times will significantly slow the generation process."
 msgstr ""
+"Soyez patient et ne cliquer pas plusieurs fois sur ces boutons. Cliquer "
+"plusieurs fois sur ces boutons va considérablement ralentir le processus de génération."
 
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
 msgid ""
@@ -16169,12 +16180,13 @@ msgstr ""
 "dernière date est toujours prise : vous ne pouvez utiliser cet outil pour "
 "assigner une date d'échéance anticipée à un étudiant."
 
+#. PM-15
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
 #: lms/templates/instructor/instructor_dashboard_2/student_admin.html
 msgid ""
 "Specify the {platform_name} email address or username of a student here:"
 msgstr ""
-"Spécifiez l'adresse e-mail {platform_name} ou le nom d'utilisateur d'un "
+"Spécifiez l'adresse courriel {platform_name} ou le nom d'utilisateur d'un "
 "étudiant ici :"
 
 #: lms/templates/instructor/instructor_dashboard_2/extensions.html
@@ -16395,6 +16407,28 @@ msgstr ""
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html
 msgid "Change the status of an enrollment code."
 msgstr ""
+
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid "Batch Enrollment"
+msgstr "Inscription Automatique"
+
+#. PM-15
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"Enter email addresses and/or usernames separated by new lines or commas."
+msgstr ""
+"Entrez des adresses courriels et/ou des noms d'utilisateurs séparés par des "
+"retours à la ligne ou des virgules."
+
+#. PM-15
+#: lms/templates/instructor/instructor_dashboard_2/membership.html
+msgid ""
+"You will not get notification for emails that bounce, so please double-check"
+" spelling."
+msgstr ""
+"Vous ne recevrez pas de notification pour les courriels rejetés, donc soyez "
+"doublement attentif à l'orthographe."
 
 #: lms/templates/instructor/instructor_dashboard_2/invalidate_registration_code_modal.html
 #: lms/templates/shoppingcart/receipt.html
