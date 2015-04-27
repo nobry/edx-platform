@@ -5380,11 +5380,14 @@ msgstr ""
 "le bon de réduction avec l'identifiant ({coupon_id}) a été mis à jour avec "
 "succès"
 
+#. PM-14
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid ""
 "To gain insights into student enrollment and participation {link_start}visit"
 " {analytics_dashboard_name}, our new course analytics product{link_end}."
 msgstr ""
+"Pour mieux comprendre les effectifs étudiants et la participation au cours, {link_start}visitez"
+" {analytics_dashboard_name}, notre nouveau produit d'analyse de cours{link_end}."
 
 #: lms/djangoapps/instructor/views/instructor_dashboard.py
 msgid "E-Commerce"
@@ -14019,28 +14022,31 @@ msgstr "(128 caractères max)"
 msgid "Message:"
 msgstr "Message :"
 
+#. PM-14
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid ""
 "Please try not to email students more than once per week. Before sending "
 "your email, consider:"
 msgstr ""
-"Veuillez éviter d'envoyer plus d'un email par semaine aux étudiants. Avant "
+"Veuillez éviter d'envoyer plus d'un courriel par semaine aux étudiants. Avant "
 "un envoi, merci de prendre en considération :"
 
+#. PM-14
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid ""
 "Have you read over the email to make sure it says everything you want to "
 "say?"
 msgstr ""
-"Avez-vous relu l'e-mail pour vous assurer qu'il dit tout ce que vous voulez "
+"Avez-vous relu le courriel pour vous assurer qu'il dit tout ce que vous voulez "
 "dire ?"
 
+#. PM-14
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid ""
 "Have you sent the email to yourself first to make sure you're happy with how"
 " it's displayed, and that embedded links and images work properly?"
 msgstr ""
-"Vous êtes-vous d'abord envoyé l'email à vous-même pour vérifier si son "
+"Vous êtes-vous d'abord envoyé le courriel à vous-même pour vérifier si son "
 "affichage est satisfaisant et si les liens et images fonctionnent "
 "correctement ?"
 
@@ -14056,9 +14062,10 @@ msgstr ""
 "Une fois que le bouton \"Envoyer le courriel\" est cliqué, votre courriel sera mis "
 "en file d'attente pour l'envoi."
 
+#. PM-14
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "A queued email CANNOT be cancelled."
-msgstr "Un email mis en fil d'attente NE PEUT PAS être annulé."
+msgstr "Un courriel mis en fil d'attente NE PEUT PAS être annulé."
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid ""
@@ -14087,12 +14094,13 @@ msgstr "Historique des courriels envoyés"
 msgid "To read an email, click its subject."
 msgstr "Pour lire un courriel, cliquer sur son sujet"
 
+#. PM-14
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid ""
 "To see the status for all bulk email tasks ever submitted for this course, "
 "click on this button:"
 msgstr ""
-"Pour consulter l'état de toutes les tâches d'emailing réalisées pour ce "
+"Pour consulter l'état de toutes les tâches de courriels réalisées pour ce "
 "cours, cliquer sur ce bouton :"
 
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
