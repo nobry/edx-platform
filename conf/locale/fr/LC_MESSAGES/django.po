@@ -354,9 +354,10 @@ msgstr ""
 msgid "Username must be minimum of two characters long"
 msgstr "Le nom d'utilisateur doit contenir au-moins deux caractères"
 
+#. PM-17
 #: common/djangoapps/student/forms.py
 msgid "A properly formatted e-mail is required"
-msgstr "Une adresse e-mail valide est requise"
+msgstr "Une adresse courriel valide est requise"
 
 #: common/djangoapps/student/forms.py
 msgid "A valid password is required"
@@ -4829,18 +4830,20 @@ msgstr "Vous devez fournir un nom complet"
 msgid "Email address must end in {domain}"
 msgstr "L'adresse courriel doit se terminer par {domain}"
 
+#. PM-17
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Failed - email {email_addr} already exists as {external_id}"
-msgstr "Échec - l'adresse e-mail {email_addr} existe déjà pour {external_id}"
+msgstr "Échec - l'adresse courriel {email_addr} existe déjà pour {external_id}"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Password must be supplied if not using certificates"
 msgstr ""
 "Le mot de passe doit être fourni s'il n'y a pas de certificats utilisés"
 
+#. PM-17
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "email address required (not username)"
-msgstr "adresse email requise (pas de nom d'utilisateur)"
+msgstr "adresse courriel requise (pas de nom d'utilisateur)"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Oops, failed to create user {user}, {error}"
@@ -4890,9 +4893,10 @@ msgstr "Cours chargés dans le modulestore"
 msgid "username"
 msgstr "nom d'utilisateur"
 
+#. PM-17
 #: lms/djangoapps/dashboard/sysadmin.py lms/djangoapps/dashboard/sysadmin.py
 msgid "email"
-msgstr "e-mail"
+msgstr "courriel"
 
 #: lms/djangoapps/dashboard/sysadmin.py
 msgid "Repair Results"
@@ -5656,11 +5660,12 @@ msgstr "Réinitialisé"
 msgid "deleted"
 msgstr "supprimé"
 
+#. PM-17
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
 #: lms/djangoapps/instructor_task/tasks.py
 msgid "emailed"
-msgstr "envoyé par e-mail"
+msgstr "envoyé par courriel"
 
 #. Translators: This is a past-tense verb that is inserted into task progress
 #. messages as {action}.
@@ -7226,12 +7231,13 @@ msgid "Please go to the following page and choose a new password:"
 msgstr ""
 "Veuillez aller à la page suivante et choisissez un nouveau mot de passe :"
 
+#. PM-17
 #: lms/templates/registration/password_reset_email.html
 msgid ""
 "If you didn't request this change, you can disregard this email - we have "
 "not yet reset your password."
 msgstr ""
-"Si vous n'avez pas demandé ce changement, vous pouvez ignorer cet email - "
+"Si vous n'avez pas demandé ce changement, vous pouvez ignorer ce courriel - "
 "nous n'avons pas encore réinitialisé votre mot de passe."
 
 #: lms/templates/registration/password_reset_email.html
@@ -8063,9 +8069,10 @@ msgstr "Les transcriptions ne sont supportées que pour les modules \"vidéo\"."
 msgid "Insufficient permissions"
 msgstr "Permissions insuffisantes"
 
+#. PM-17
 #: cms/djangoapps/contentstore/views/user.py
 msgid "Could not find user by email address '{email}'."
-msgstr "Impossible de trouver un utilisateur avec l'adresse email '{email}'."
+msgstr "Impossible de trouver un utilisateur avec l'adresse courriel '{email}'."
 
 #: cms/djangoapps/contentstore/views/user.py
 msgid "User {email} has registered but has not yet activated his/her account."
@@ -8553,9 +8560,10 @@ msgstr "Erreurs de chargement du cours"
 msgid "Email Settings for {course_number}"
 msgstr "Paramètres de messagerie pour {course_number}"
 
+#. PM-17
 #: lms/templates/dashboard.html
 msgid "Receive course emails"
-msgstr "Recevoir les e-mails du cours"
+msgstr "Recevoir les courriels du cours"
 
 #: lms/templates/dashboard.html
 msgid "Save Settings"
@@ -8565,33 +8573,36 @@ msgstr "Enregistrer les paramètres"
 msgid "Password Reset Email Sent"
 msgstr "Courriel de réinitialisation de mot de passe envoyé"
 
+#. PM-17
 #: lms/templates/dashboard.html
 msgid ""
 "An email has been sent to {email}. Follow the link in the email to change "
 "your password."
 msgstr ""
-"Un mail a été envoyé à {email}. Suivez le lien dans le mail pour changer "
+"Un courriel a été envoyé à {email}. Suivez le lien dans le courriel pour changer "
 "votre mot de passe."
 
 #: lms/templates/dashboard.html lms/templates/dashboard.html
 msgid "Change Email"
 msgstr "Changer l'adresse courriel"
 
+#. PM-17
 #: lms/templates/dashboard.html
 msgid "Please enter your new email address:"
-msgstr "Renseigner votre nouvelle adresse email :"
+msgstr "Entrez votre nouvelle adresse courriel :"
 
 #: lms/templates/dashboard.html
 msgid "Please confirm your password:"
 msgstr "Confirmer votre mot de passe :"
 
+#. PM-17
 #: lms/templates/dashboard.html
 msgid ""
 "We will send a confirmation to both {email} and your new email address as "
 "part of the process."
 msgstr ""
 "Nous vous enverrons une confirmation à la fois à l'adresse {email} et à "
-"votre nouvelle adresse email dans le cadre de ce processus."
+"votre nouvelle adresse courriel dans le cadre de ce processus."
 
 #: lms/templates/dashboard.html
 msgid "Change your name"
@@ -8650,9 +8661,10 @@ msgstr "Voir l'unité dans Studio"
 msgid "E-mail change failed"
 msgstr "Changement d'adresse courriel échoué"
 
+#. PM-17
 #: lms/templates/email_change_failed.html
 msgid "We were unable to send a confirmation email to {email}"
-msgstr "Impossible d'envoyer le mail de confirmation à {email}"
+msgstr "Impossible d'envoyer le courriel de confirmation à {email}"
 
 #: lms/templates/email_change_failed.html lms/templates/email_exists.html
 #: lms/templates/invalid_email_key.html
@@ -8664,16 +8676,18 @@ msgstr "Retour à {link_start}l'accueil{link_end}"
 msgid "E-mail change successful!"
 msgstr "Adresse courriel modifiée avec succès !"
 
+#. PM-17
 #: lms/templates/email_change_successful.html
 #: lms/templates/emails_change_successful.html
 msgid "You should see your new email in your {link_start}dashboard{link_end}."
 msgstr ""
-"Vous devez voir votre nouvelle adresse email sur votre {link_start}Tableau "
+"Vous devez voir votre nouvelle adresse courriel sur votre {link_start}Tableau "
 "de bord{link_end}."
 
+#. PM-17
 #: lms/templates/email_exists.html
 msgid "An account with the new e-mail address already exists."
-msgstr "Un compte avec la nouvelle adresse email existe déjà."
+msgstr "Un compte avec la nouvelle adresse courriel existe déjà."
 
 #: lms/templates/enroll_students.html
 msgid "Student Enrollment Form"
@@ -8886,22 +8900,24 @@ msgstr "Site réalisé avec Open edX"
 msgid "Password Reset"
 msgstr "Réinitialisation du mot de passe"
 
+#. PM-17
 #: lms/templates/forgot_password_modal.html
 msgid ""
 "Please enter your e-mail address below, and we will e-mail instructions for "
 "setting a new password."
 msgstr ""
-"Merci d'entrer votre adresse email ci-dessous, nous vous enverrons des "
+"Merci d'entrer votre adresse courriel ci-dessous, nous vous enverrons des "
 "instructions pour choisir un nouveau mot de passe"
 
 #: lms/templates/forgot_password_modal.html
 msgid "Your E-mail Address"
 msgstr "Votre adresse courriel"
 
+#. PM-17
 #: lms/templates/forgot_password_modal.html lms/templates/login.html
 msgid "This is the e-mail address you used to register with {platform}"
 msgstr ""
-"Voici l'adresse email que vous avez utilisée pour vous inscrire sur "
+"Voici l'adresse courriel que vous avez utilisée pour vous inscrire sur "
 "{platform}"
 
 #: lms/templates/forgot_password_modal.html
@@ -9058,9 +9074,10 @@ msgstr "Bref résumé de votre question"
 msgid "An error has occurred."
 msgstr "Une erreur s'est produite."
 
+#. PM-17
 #: lms/templates/help_modal.html
 msgid "Please {link_start}send us e-mail{link_end}."
-msgstr "Veuillez {link_start}nous envoyer un email{link_end}."
+msgstr "Veuillez {link_start}nous envoyer un courriel{link_end}."
 
 #: lms/templates/help_modal.html
 msgid "Please try again later."
@@ -9092,21 +9109,24 @@ msgstr ""
 "Ça marche! Ceci est la page d'accueil par défaut pour cette plateforme Open "
 "edX."
 
+#. PM-17
 #: lms/templates/invalid_email_key.html
 msgid "Invalid email change key"
-msgstr "Clé de changement de mail invalide"
+msgstr "Clé de changement de courriel invalide"
 
+#. PM-17
 #: lms/templates/invalid_email_key.html
 msgid "This e-mail key is not valid. Please check:"
-msgstr "Cette clé email n'est pas valide. Merci de vérifier :"
+msgstr "Cette clé courriel n'est pas valide. Merci de vérifier :"
 
+#. PM-17
 #: lms/templates/invalid_email_key.html
 msgid ""
 "Was this key already used? Check whether the e-mail change has already "
 "happened."
 msgstr ""
 "Est ce que cette clé a déjà été utilisée ? Verifiez si le changement "
-"d'adresse email a déjà eu lieu."
+"d'adresse courriel a déjà eu lieu."
 
 #: lms/templates/invalid_email_key.html
 msgid "Did your e-mail client break the URL into two lines?"
@@ -9199,9 +9219,10 @@ msgstr ""
 msgid "We couldn't log you in."
 msgstr "Nous n'avons pas pu vous connecter."
 
+#. PM-17
 #: lms/templates/login.html
 msgid "Your email or password is incorrect"
-msgstr "Votre adresse email ou mot de passe est incorrect"
+msgstr "Votre adresse courriel ou mot de passe est incorrect"
 
 #: lms/templates/login.html
 msgid ""
@@ -9665,12 +9686,13 @@ msgstr "Créer mon compte"
 msgid "Re-subscribe Successful!"
 msgstr "Réinscription réussie !"
 
+#. PM-17
 #: lms/templates/resubscribe.html
 msgid ""
 "You have re-enabled forum notification emails from {platform_name}. Click "
 "{dashboard_link_start}here{link_end} to return to your dashboard. "
 msgstr ""
-"Vous avez réactivé les notifications par mail de {platform_name}. Cliquez "
+"Vous avez réactivé les notifications par courriel de {platform_name}. Cliquez "
 "{dashboard_link_start}ici{link_end} pour retourner à votre tableau de bord."
 
 #: lms/templates/seq_module.html lms/templates/seq_module.html
@@ -10003,6 +10025,7 @@ msgstr "type"
 msgid "Unsubscribe Successful!"
 msgstr "Désinscription réussie !"
 
+#. PM-17
 #: lms/templates/unsubscribe.html
 msgid ""
 "You will no longer receive forum notification emails from {platform_name}. "
@@ -10010,7 +10033,7 @@ msgid ""
 "you did not mean to do this, click {undo_link_start}here{link_end} to re-"
 "subscribe."
 msgstr ""
-"Vous ne recevrez plus de notifications par mail de {platform_name}. Cliquez "
+"Vous ne recevrez plus de notifications par courriel de {platform_name}. Cliquez "
 "{dashboard_link_start}ici{link_end} pour retourner à votre tableau de bord. "
 "Si vous avez effectué cette action par erreur, cliquez "
 "{undo_link_start}ici{link_end} pour les recevoir à nouveau."
@@ -11909,12 +11932,13 @@ msgstr "Recevoir les mises à jour"
 msgid "Toggle Notifications Setting"
 msgstr "Changer les paramètres des notifications"
 
+#. PM-17
 #: lms/templates/discussion/_underscore_templates.html
 msgid ""
 "Check this box to receive an email digest once a day notifying you about "
 "new, unread activity from posts you are following."
 msgstr ""
-"Cocher cette case pour recevoir une fois par jour un email récapitulatif des"
+"Cocher cette case pour recevoir une fois par jour un courriel récapitulatif des"
 " nouveautés dans les fils de discussion que vous suivez."
 
 #. Translators: This labels the selector for which group of students can view
@@ -12181,9 +12205,10 @@ msgstr ""
 "Pour commencer, rendez-vous sur https://{site_name}. Les informations "
 "d'identification pour votre compte vont suivre. "
 
+#. PM-17
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt
 msgid "email: {email}"
-msgstr "email: {email}"
+msgstr "courriel: {email}"
 
 #: lms/templates/emails/account_creation_and_enroll_emailMessage.txt
 msgid "password: {password}"
@@ -12230,6 +12255,7 @@ msgstr "Nous espérons que vous appréciez d'apprendre avec {platform_name} !"
 msgid "The {platform_name} Team"
 msgstr "L'équipe de  {platform_name}"
 
+#. PM-17
 #: lms/templates/emails/activation_email.txt
 msgid ""
 "This email was automatically sent by {site_name} because someone attempted "
@@ -12237,11 +12263,12 @@ msgid ""
 "not attempt to create this account and do not activate the account, you will"
 " no longer receive emails from {platform_name}."
 msgstr ""
-"Cet e-mail a été envoyé automatiquement par {site_name} parce que quelqu'un "
+"Cet courriel a été envoyé automatiquement par {site_name} parce que quelqu'un "
 "a tenté de créer un compte sur {platform_name} en utilisant cette adresse "
 "électronique. Si vous n'avez pas essayé de créer ce compte et n'avez pas "
 "activé ce compte, vous ne recevrez plus de courriels de  {platform_name}."
 
+#. PM-17
 #: lms/templates/emails/activation_email.txt
 #: lms/templates/emails/email_change.txt
 msgid ""
@@ -12250,7 +12277,7 @@ msgid ""
 "assistance, check the about section of the {platform_name} Courses web site."
 msgstr ""
 "Si vous n'avez pas demandé ceci, ne faites rien. Vous ne recevrez pas "
-"d'autre mail de notre part. Merci de ne pas répondre à ce mail. Si vous "
+"d'autre courriel de notre part. Merci de ne pas répondre à ce courriel. Si vous "
 "cherchez de l'aide, consultez la section du site de cours {platform_name}."
 
 #: lms/templates/emails/activation_email.txt
@@ -12300,13 +12327,14 @@ msgstr ""
 "Aller sur la page  {site_name} pour s'inscrire au cours et commencer le beta"
 " test."
 
+#. PM-17
 #: lms/templates/emails/add_beta_tester_email_message.txt
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 #: lms/templates/emails/remove_beta_tester_email_message.txt
 #: lms/templates/emails/unenroll_email_allowedmessage.txt
 msgid "This email was automatically sent from {site_name} to {email_address}"
 msgstr ""
-"Cet email a été envoyé automatiquement de {site_name} à {email_address}"
+"Cet courriel a été envoyé automatiquement de {site_name} à {email_address}"
 
 #: lms/templates/emails/add_beta_tester_email_subject.txt
 msgid "You have been invited to a beta test for {course_name}"
@@ -12465,45 +12493,50 @@ msgstr ""
 msgid "<p>Sincerely,</p><p>[[Your Signature]]</p>"
 msgstr "<p>Cordialement,</p><p>[[Your Signature]]</p>"
 
+#. PM-17
 #: lms/templates/emails/confirm_email_change.txt
 msgid ""
 "This is to confirm that you changed the e-mail associated with "
 "{platform_name} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us at"
 msgstr ""
-"Ce message confirme que vous avez modifié l'adresse e-mail associée avec "
+"Ce message confirme que vous avez modifié l'adresse courriel associée avec "
 "{platform_name} depuis {old_email} vers {new_email}. Si vous n'avez pas "
 "demandé ce changement, merci de nous contacter à "
 
+#. PM-17
 #: lms/templates/emails/confirm_email_change.txt
 msgid ""
 "This is to confirm that you changed the e-mail associated with "
 "{platform_name} from {old_email} to {new_email}. If you did not make this "
 "request, please contact us immediately. Contact information is listed at:"
 msgstr ""
-"Ce message confirme que vous avez modifié l'adresse e-mail associée avec "
+"Ce message confirme que vous avez modifié l'adresse courriel associée avec "
 "{platform_name} depuis {old_email} vers {new_email}. Si vous n'avez pas "
 "demandé ce changement, merci de nous contacter immédiatement. Les "
 "informations de contact se trouvent sur : "
 
+#. PM-17
 #: lms/templates/emails/confirm_email_change.txt
 msgid ""
 "We keep a log of old e-mails, so if this request was unintentional, we can "
 "investigate."
 msgstr ""
-"Nous gardons les traces des anciens e-mails. Ainsi, si votre demande était "
+"Nous gardons les traces des anciens courriels. Ainsi, si votre demande était "
 "intentionnelle, nous pouvons investiguer. "
 
+#. PM-17
 #: lms/templates/emails/email_change.txt
 msgid ""
 "We received a request to change the e-mail associated with your "
 "{platform_name} account from {old_email} to {new_email}. If this is correct,"
 " please confirm your new e-mail address by visiting:"
 msgstr ""
-"Nous avons reçu une demande de modification de l'e-mail associé à votre "
+"Nous avons reçu une demande de modification du courriel associé à votre "
 "compte sur {platform_name} de {old_email}vers {new_email}. Si cette demande "
-"est correcte, merci de confirmer votre nouvelle adresse e-mail en visitant :"
+"est correcte, merci de confirmer votre nouvelle adresse courriel en visitant :"
 
+#. PM-17
 #: lms/templates/emails/email_change.txt
 msgid ""
 "If you didn't request this, you don't need to do anything; you won't receive"
@@ -12511,7 +12544,7 @@ msgid ""
 "assistance, check the help section of the {platform_name} web site."
 msgstr ""
 "Si vous n'avez pas demandé ceci, ne faites rien. Vous ne recevrez pas "
-"d'autre mail de notre part. Merci de ne pas répondre à ce mail. Si vous "
+"d'autre courriel de notre part. Merci de ne pas répondre à ce courriel. Si vous "
 "cherchez de l'aide, consultez la section d'aide du site {platform_name}."
 
 #: lms/templates/emails/email_change_subject.txt
@@ -12586,10 +12619,11 @@ msgstr ""
 "l'équipe pédagogique. Le cours devrait maintenant apparaitre dans votre "
 "tableau de bord {site_name} ."
 
+#. PM-17
 #: lms/templates/emails/enroll_email_enrolledmessage.txt
 #: lms/templates/emails/unenroll_email_enrolledmessage.txt
 msgid "This email was automatically sent from {site_name} to {full_name}"
-msgstr "Cet email a été envoyé automatiquement de {site_name} à {full_name}"
+msgstr "Ce courriel a été envoyé automatiquement de {site_name} à {full_name}"
 
 #: lms/templates/emails/enroll_email_enrolledsubject.txt
 msgid "You have been enrolled in {course_name}"
@@ -12759,6 +12793,7 @@ msgstr ""
 "Si vous avez des questions concernant le paiement, veuillez contacter "
 "{contact_email}"
 
+#. PM-17
 #: lms/templates/emails/reject_name_change.txt
 msgid ""
 "We are sorry. Our course staff did not approve your request to change your "
@@ -12767,7 +12802,7 @@ msgid ""
 msgstr ""
 "Nous sommes désolés. L'équipe pédagogique n'a pas approuvé votre demande de "
 "changement de nom de {old_name} à {new_name}. Si vous avez besoin d'aide, "
-"vous pouvez envoyer un e-mail au support à {email}"
+"vous pouvez envoyer un courriel au support à {email}"
 
 #: lms/templates/emails/reject_name_change.txt
 msgid ""
@@ -13157,6 +13192,7 @@ msgstr ""
 "donc les  réponses enregistrées après le démarrage du processus sont inclues"
 " dans un rapport ultérieur. Le rapport est généré plusieurs fois par jour."
 
+#. PM-17
 #. Translators: a table of URL links to report files appears after this
 #. sentence.
 #: lms/templates/instructor/instructor_dashboard_2/data_download.html
@@ -13165,7 +13201,7 @@ msgid ""
 "links for direct access. Copies of links expire within 5 minutes."
 msgstr ""
 "<b>Note</b>: Afin de conserver les données de l'étudiant en sécurité, vous "
-"ne pouvez pas enregistrer ou envoyer ces liens par e-mail pour un accès "
+"ne pouvez pas enregistrer ou envoyer ces liens par courriel pour un accès "
 "direct. Les copies des liens expirent au bout de 5 minutes."
 
 #: lms/templates/instructor/instructor_dashboard_2/e-commerce.html
@@ -13718,6 +13754,7 @@ msgstr "Cocher cette case n'a aucun effet si 'Se désinscrire' est coché."
 msgid "Notify users by email"
 msgstr "Prévenir les utilisateurs par courriel"
 
+#. PM-17
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
@@ -13725,12 +13762,13 @@ msgid ""
 "notification."
 msgstr ""
 "Si cette option est <em>cochée</em>, les utilisateurs recevront une "
-"notification par e-mail."
+"notification par courriel."
 
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Register/Enroll Students"
 msgstr "Inscrire/Enregistrer des étudiants "
 
+#. PM-17
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "To register and enroll a list of users in this course, choose a CSV file "
@@ -13740,7 +13778,7 @@ msgid ""
 msgstr ""
 "Pour enregistrer et inscrire une liste d'utilisateurs dans ce cours, "
 "choisissez un fichier csv qui contient les colonnes suivantes dans le même "
-"ordre: email, nom d'utilisateur, nom, et pays. Ne saisissez qu'un seul "
+"ordre: courriel, nom d'utilisateur, nom, et pays. Ne saisissez qu'un seul "
 "utilisateur par ligne et ne mettez pas d'en-têtes, pied de page ou de lignes"
 " vides. "
 
@@ -14557,6 +14595,7 @@ msgstr "Retour"
 msgid "Thanks for Registering!"
 msgstr "Merci pour votre inscription!"
 
+#. PM-17
 #: lms/templates/registration/activate_account_notice.html
 msgid ""
 "You've successfully created an account on {platform_name}. We've sent an "
@@ -14564,7 +14603,7 @@ msgid ""
 "enrolling in courses, click the link in the message."
 msgstr ""
 "Vous avez créé avec succès un compte sur {platform_name}. Nous venons de "
-"vous envoyer un message d'activation du compte par mail à {email}. Cliquez "
+"vous envoyer un message d'activation du compte par courriel à {email}. Cliquez "
 "sur le lien dans ce message pour activer votre compte et vous inscrire aux "
 "cours."
 
@@ -15077,6 +15116,7 @@ msgstr "Dans la presse"
 msgid "Currently the {platform_name} servers are down"
 msgstr "Les serveurs de {platform_name} sont actuellement hors-service"
 
+#. PM-17
 #: lms/templates/static_templates/server-down.html
 #: lms/templates/static_templates/server-overloaded.html
 msgid ""
@@ -15084,7 +15124,7 @@ msgid ""
 "Please email us at {tech_support_email} to report any problems or downtime."
 msgstr ""
 "Notre équipe travaille à remettre en route le site aussi vite que possible."
-"  Merci de nous envoyer un e-mail à {tech_support_email} pour signaler tout "
+"  Merci de nous envoyer un courriel à {tech_support_email} pour signaler tout "
 "problème ou panne."
 
 #: lms/templates/static_templates/server-error.html
@@ -17778,10 +17818,12 @@ msgstr ""
 msgid "Thanks for signing up, %(name)s!"
 msgstr "Merci pour votre inscription, %(name)s !"
 
+#. PM-17
 #: cms/templates/index.html
 msgid "We need to verify your email address"
-msgstr "Nous devons vérifier votre adresse email"
+msgstr "Nous devons vérifier votre adresse courriel"
 
+#. PM-17
 #: cms/templates/index.html
 msgid ""
 "Almost there! In order to complete your sign up we need you to verify your "
@@ -17789,22 +17831,23 @@ msgid ""
 "waiting for you there."
 msgstr ""
 "On y est presque ! Afin de finaliser votre inscription, nous devons vérifier"
-" votre adresse email (%(email)s). Un message d'activation et la suite de la "
+" votre adresse courriel (%(email)s). Un message d'activation et la suite de la "
 "procédure vous attendent dans votre messagerie."
 
 #: cms/templates/index.html
 msgid "Need help?"
 msgstr "Besoin d'aide ?"
 
+#. PM_16
 #: cms/templates/index.html
 msgid ""
 "Please check your Junk or Spam folders in case our email isn't in your "
 "INBOX. Still can't find the verification email? Request help via the link "
 "below."
 msgstr ""
-"Merci de vérifier votre corbeille ou votre dossier de Spam au cas où notre "
-"mail ne se trouve pas dans votre boite de réception. Vous ne trouvez "
-"toujours pas le mail de vérification ? Demandez de l'aide via le lien ci-"
+"Merci de vérifier votre corbeille ou votre dossier de pourriel au cas où notre "
+"courriel ne se trouve pas dans votre boite de réception. Vous ne trouvez "
+"toujours pas le courriel de vérification ? Demandez de l'aide via le lien ci-"
 "dessous."
 
 #: cms/templates/index.html
@@ -17924,12 +17967,13 @@ msgstr "Information du nouveau membre d'équipe"
 msgid "User's Email Address"
 msgstr "Adresse courriel utilisateur"
 
+#. PM-17
 #: cms/templates/manage_users.html
 msgid ""
 "Please provide the email address of the course staff member you'd like to "
 "add"
 msgstr ""
-"Merci de fournir l'adresse mail du membre de l'équipe pédagogique du cours "
+"Merci de fournir l'adresse courriel du membre de l'équipe pédagogique du cours "
 "que vous souhaitez ajouter"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
@@ -17946,9 +17990,10 @@ msgstr "Rôle en cours :"
 msgid "You!"
 msgstr "Vous !"
 
+#. PM-17
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "send an email message to {email}"
-msgstr "envoyer un mail à {email}"
+msgstr "envoyer un courriel à {email}"
 
 #: cms/templates/manage_users.html cms/templates/manage_users_lib.html
 msgid "Promote another member to Admin to remove your admin rights"
@@ -18244,9 +18289,10 @@ msgstr ""
 "pour l'inscription. S'il vous plaît naviguer sur ce cours à la page  "
 "{link_for_about_page}  pour vous inscrire."
 
+#. PM-17
 #: cms/templates/settings.html
 msgid "Send a note to students via email"
-msgstr "Envoyer une note aux étudiants par email"
+msgstr "Envoyer une note aux étudiants par courriel"
 
 #: cms/templates/settings.html
 msgid "Invite your students"
@@ -19570,9 +19616,10 @@ msgstr "Notifications"
 msgid "When this article is edited"
 msgstr "Quand cet article est édité"
 
+#. PM-17
 #: wiki/plugins/notifications/forms.py
 msgid "Also receive emails about article edits"
-msgstr "Recevoir aussi des e-mails concernant les éditions de l'article"
+msgstr "Recevoir aussi des courriels concernant les éditions de l'article"
 
 #: wiki/plugins/notifications/forms.py
 msgid "Your notification settings were updated."
