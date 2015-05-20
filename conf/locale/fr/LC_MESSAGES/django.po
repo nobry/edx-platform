@@ -12648,9 +12648,10 @@ msgstr "Je viens de m'inscrire pour {number} {title} via {platform} {url}"
 msgid "Post a Facebook message to say you've registered for this course"
 msgstr "Postez sur Facebook que vous êtes inscrits à ce cours"
 
+#. PM-16
 #: lms/templates/courseware/course_about.html
 msgid "Classes Start"
-msgstr "Début du Cours"
+msgstr "Début du cours"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes End"
@@ -13545,6 +13546,7 @@ msgid ""
 "refund."
 msgstr ""
 
+#. PM-16
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Email Settings"
 msgstr "Paramètres de messagerie"
