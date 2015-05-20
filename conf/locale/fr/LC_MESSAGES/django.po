@@ -10605,9 +10605,10 @@ msgstr "Je viens de m'inscrire pour {number} {title} via {platform} {url}"
 msgid "Post a Facebook message to say you've registered for this course"
 msgstr ""
 
+#. PM-16
 #: lms/templates/courseware/course_about.html
 msgid "Classes Start"
-msgstr "Début du Cours"
+msgstr "Début du cours"
 
 #: lms/templates/courseware/course_about.html
 msgid "Classes End"
@@ -11392,9 +11393,10 @@ msgstr "Cours débuté - {start_date}"
 msgid "Course has not yet started"
 msgstr "Ce cours n'a pas encore commencé"
 
+#. PM-16
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Course Starts - {start_date}"
-msgstr "Début du Cours - {start_date}"
+msgstr "Début du cours - {start_date}"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Verification not yet complete."
