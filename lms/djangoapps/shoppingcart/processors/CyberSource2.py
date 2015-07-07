@@ -230,6 +230,7 @@ def render_purchase_form_html(cart, callback_url=None, extra_data=None):
         unicode: The rendered HTML form.
 
     """
+    callback_url = 'https://test-cours.edulib.org/shoppingcart/postpay_callback/'
     return render_to_string('shoppingcart/cybersource_form.html', {
         'action': get_purchase_endpoint(),
         'params': get_signed_purchase_params(
@@ -257,6 +258,7 @@ def get_signed_purchase_params(cart, callback_url=None, extra_data=None):
         dict
 
     """
+    callback_url = 'https://test-cours.edulib.org/shoppingcart/postpay_callback/'
     return sign(get_purchase_params(cart, callback_url=callback_url, extra_data=extra_data))
 
 
@@ -279,6 +281,8 @@ def get_purchase_params(cart, callback_url=None, extra_data=None):
         dict
 
     """
+    callback_url = 'https://test-cours.edulib.org/shoppingcart/postpay_callback/'
+
     total_cost = cart.total_cost
     amount = "{0:0.2f}".format(total_cost)
     params = OrderedDict()
@@ -407,6 +411,11 @@ def _record_purchase(params, order):
     else:
         ccnum = "####"
 
+    if settings.FEATURES.get("LOG_POSTPAY_CALLBACKS"):
+        log.info(
+            "Order %d purchased with params: %s", order.id, json.dumps(params)
+        )
+
     # Mark the order as purchased and store the billing information
     order.purchase(
         first=params.get('req_bill_to_forename', ''),
@@ -433,6 +442,11 @@ def _record_payment_info(params, order):
     Returns:
         None
     """
+    if settings.FEATURES.get("LOG_POSTPAY_CALLBACKS"):
+        log.info(
+            "Order %d processed (but not completed) with params: %s", order.id, json.dumps(params)
+        )
+
     order.processor_reply_dump = json.dumps(params)
     order.save()
 
@@ -634,10 +648,9 @@ REASONCODE_MAP.update(
             Possible fix: retry with another form of payment
             """)),
         '233': _('General decline by the processor.  Possible fix: retry with another form of payment'),
-        '234': dedent(_(
-            """
-            There is a problem with the information in your CyberSource account.  Please let us know at {0}
-            """.format(settings.PAYMENT_SUPPORT_EMAIL))),
+        '234': _(
+            "There is a problem with the information in your CyberSource account.  Please let us know at {0}"
+        ).format(settings.PAYMENT_SUPPORT_EMAIL),
         '236': _('Processor Failure.  Possible fix: retry the payment'),
         '240': dedent(_(
             """

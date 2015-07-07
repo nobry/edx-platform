@@ -1,7 +1,9 @@
 from django.conf.urls import patterns, url
 from django.conf import settings
 
-urlpatterns = patterns('shoppingcart.views',  # nopep8
+urlpatterns = patterns(
+    'shoppingcart.views',
+
     url(r'^postpay_callback/$', 'postpay_callback'),  # Both the ~accept and ~reject callback pages are handled here
     url(r'^receipt/(?P<ordernum>[0-9]*)/$', 'show_receipt'),
     url(r'^donation/$', 'donate', name='donation'),
@@ -11,7 +13,7 @@ urlpatterns = patterns('shoppingcart.views',  # nopep8
     url(r'^clear/$', 'clear_cart'),
     url(r'^remove_item/$', 'remove_item'),
     url(r'^add/course/{}/$'.format(settings.COURSE_ID_PATTERN), 'add_course_to_cart', name='add_course_to_cart'),
-    url(r'^register/redeem/(?P<registration_code>[0-9A-Za-z]+)/$', 'register_code_redemption', name='register_code_redemption'),
+    #####url(r'^register/redeem/(?P<registration_code>[0-9A-Za-z]+)/$', 'register_code_redemption', name='register_code_redemption'),
     url(r'^use_code/$', 'use_code'),
     url(r'^update_user_cart/$', 'update_user_cart'),
     url(r'^reset_code_redemption/$', 'reset_code_redemption'),
