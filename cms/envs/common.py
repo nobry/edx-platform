@@ -148,6 +148,9 @@ FEATURES = {
 
     # Toggle course entrance exams feature
     'ENTRANCE_EXAMS': True,
+
+    # Enable the courseware search functionality
+    'ENABLE_COURSEWARE_INDEX': True,
 }
 
 ENABLE_JASMINE = False
