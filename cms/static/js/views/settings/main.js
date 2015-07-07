@@ -80,6 +80,7 @@ var DetailsView = ValidatingView.extend({
         else this.$el.find('.remove-course-introduction-video').hide();
 
         this.$el.find('#' + this.fieldToSelectorMap['effort']).val(this.model.get('effort'));
+        this.$el.find("#course-institution").val(this.model.get('org'));
 
         var imageURL = this.model.get('course_image_asset_path');
         this.$el.find('#course-image-url').val(imageURL);
@@ -113,6 +114,7 @@ var DetailsView = ValidatingView.extend({
         'short_description' : 'course-short-description',
         'intro_video' : 'course-introduction-video',
         'effort' : "course-effort",
+        'institution' : "course-institution",
         'course_image_asset_path': 'course-image-url',
         'pre_requisite_courses': 'pre-requisite-course',
         'entrance_exam_enabled': 'entrance-exam-enabled',
