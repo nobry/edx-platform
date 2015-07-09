@@ -7,6 +7,7 @@ http://stackoverflow.com/questions/10060069/safely-extract-zip-or-tar-using-pyth
 """
 from os.path import abspath, realpath, dirname, join as joinpath
 from django.core.exceptions import SuspiciousOperation
+from django.conf import settings
 import logging
 
 log = logging.getLogger(__name__)
@@ -35,12 +36,12 @@ def _is_bad_link(info, base):
     return _is_bad_path(info.linkname, base=tip)
 
 
-def safemembers(members):
+def safemembers(members, base):
     """
     Check that all elements of a tar file are safe.
     """
 
-    base = resolved(".")
+    base = resolved("base")
 
     for finfo in members:
         if _is_bad_path(finfo.name, base):
@@ -61,8 +62,8 @@ def safemembers(members):
     return members
 
 
-def safetar_extractall(tarf, *args, **kwargs):
+def safetar_extractall(tar_file, path=".", members=None):
     """
-    Safe version of `tarf.extractall()`.
+    Safe version of `tar_file.extractall()`.
     """
-    return tarf.extractall(members=safemembers(tarf), *args, **kwargs)
+    return tar_file.extractall(path, members=safemembers(tar_file, path))
