@@ -244,7 +244,7 @@ class ImportTestCase(CourseTestCase):
         try_tar(self._edx_platform_tar())
 
         # test trying to open a tar outside of the normal data directory
-        with self.settings(DATA_DIR='not/the/data/dir'):
+        with self.settings(DATA_DIR='/not/the/data/dir'):
             try_tar(self._edx_platform_tar())
 
         # Check that `import_status` returns the appropriate stage (i.e.,
