@@ -66,16 +66,8 @@ def safemembers(members, base):
     return members
 
 
-<<<<<<< HEAD
-def safetar_extractall(tar_file, path=".", members=None):
-    """
-    Safe version of `tar_file.extractall()`.
-    """
-    return tar_file.extractall(path, members=safemembers(tar_file, path))
-=======
 def safetar_extractall(tar_file, path=".", members=None):  # pylint: disable=unused-argument
     """
     Safe version of `tar_file.extractall()`.
     """
     return tar_file.extractall(path, safemembers(tar_file, path))
->>>>>>> named-release/birch.1
