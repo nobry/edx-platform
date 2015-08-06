@@ -10482,6 +10482,18 @@ msgstr "Historique des commandes"
 msgid "Email Settings for {course_number}"
 msgstr "Paramètres de messagerie pour {course_number}"
 
+#. PM-18
+#. Translators: note that {platform} {cert_name_short} will look something
+#. like: "edX certificate". Please do not change the order of these
+#. placeholders.
+#: lms/templates/dashboard.html
+msgid ""
+"Enter your desired full name, as it will appear on your {platform} "
+"{cert_name_short}:"
+msgstr ""
+"Entrez votre nom complet tel que vous souhaitez qu'il apparaisse sur votre "
+"certificat :"
+
 #: lms/templates/dashboard.html
 msgid "Receive course emails"
 msgstr "Recevoir les e-mails du cours"
@@ -13374,10 +13386,12 @@ msgstr ""
 msgid "Your final grade:"
 msgstr "Votre note finale :"
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Grade required for a {cert_name_short}:"
-msgstr "Note requise pour le {cert_name_short}:"
+msgstr "Note requise pour le certificat:"
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
 "Your verified {cert_name_long} is being held pending confirmation that the "
@@ -13387,14 +13401,15 @@ msgid ""
 "please let us know by contacting {email}. If you would like a refund on your"
 " {cert_name_long}, please contact our billing address {billing_email}"
 msgstr ""
-"Votre {cert_name_long} est en attente de confirmation que l'émission de "
-"votre {cert_name_short} respecte la législation des États-Unis concernant "
+"Votre certificat  est en attente de confirmation que l'émission de "
+"votre certificat respecte la législation des États-Unis concernant "
 "les embargos sur l'Iran, Cuba, la Syrie et le Soudan. Si vous pensez que "
 "notre système vous a identifié à tort comme relié à un de ces pays, faites-"
 "le nous savoir en nous contactant à l'adresse {email}. Si vous souhaitez un "
-"remboursement de votre {cert_name_long}, merci de contacter notre service de"
+"remboursement de votre certificat, merci de contacter notre service de"
 " paiement à l'adresse {billing_email}."
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
 "Your {cert_name_long} is being held pending confirmation that the issuance "
@@ -13403,15 +13418,16 @@ msgid ""
 "identified you as being connected with one of those countries, please let us"
 " know by contacting {email}."
 msgstr ""
-"Votre {cert_name_long} est en attente de confirmation que l'émission de "
-"votre {cert_name_short} respecte la législation des États-Unis concernant "
+"Votre certificat est en attente de confirmation que l'émission de "
+"votre certificat respecte la législation des États-Unis concernant "
 "les embargos sur l'Iran, Cuba, la Syrie et le Soudan. Si vous pensez que "
 "notre système vous a identifié à tort comme relié à un de ces pays, faites-"
 "le nous savoir en nous contactant à l'adresse {email}."
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Your {cert_name_short} is Generating"
-msgstr "Votre {cert_name_short} est en cours de préparation"
+msgstr "Votre certificat est en cours de préparation"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "This link will open the certificate web view"
@@ -13425,25 +13441,29 @@ msgstr ""
 msgid "This link will open/download a PDF document"
 msgstr "Ce lien ouvrira/téléchargera un document PDF"
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr ""
+msgstr "Télécharger votre certificat (PDF)"
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} (PDF)"
+msgstr "Télécharger votre certificat (PDF)"
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
 "This link will open/download a PDF document of your verified "
 "{cert_name_long}."
 msgstr ""
 "Ce lien ouvrira/téléchargera un document PDF contenant votre "
-"{cert_name_long} vérifié."
+"certificat vérifié."
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "Télécharger votre {cert_name_short} vérifié (PDF)"
+msgstr "Télécharger votre certificat vérifié (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
@@ -13457,6 +13477,7 @@ msgstr ""
 msgid "Share on LinkedIn"
 msgstr "Partager sur LinkedIn"
 
+#. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid ""
 "Since we did not have a valid set of verification photos from you when your "
@@ -13464,9 +13485,9 @@ msgid ""
 "{cert_name_short}. An honor code {cert_name_short} has been granted instead."
 msgstr ""
 "Comme nous ne disposions pas de jeu valide de photos de vérification de "
-"votre part lorsque votre {cert_name_long} a été généré, nous n'avons pas pu "
-"vous octroyer un certificat vérifié {cert_name_short}. Un certificat sur "
-"l'honneur {cert_name_short} vous a été délivré en remplacement. "
+"votre part lorsque votre certificat a été généré, nous n'avons pas pu "
+"vous octroyer un certificat vérifié. Un certificat sur "
+"l'honneur vous a été délivré en remplacement. "
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "{course_number} {course_name} Home Page"
