@@ -1722,35 +1722,6 @@ msgstr ""
 "Si vous utilisez l'éditeur avancé, ce problème sera converti en XML et vous ne serez plus en mesure de revenir à l'interface d'édition simple.\n"
 "Passer à l'éditeur avancé et convertir ce problème en XML?"
 
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-msgid "incorrect"
-msgstr "incorrect"
-
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-msgid "correct"
-msgstr "correct"
-
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-msgid "answer"
-msgstr "réponse"
-
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-msgid "Short explanation"
-msgstr "Brève explication"
-
-#: common/lib/xmodule/xmodule/js/src/problem/edit.js
-msgid ""
-"If you use the Advanced Editor, this problem will be converted to XML and you will not be able to return to the Simple Editor Interface.\n"
-"\n"
-"Proceed to the Advanced Editor and convert this problem to XML?"
-msgstr ""
-"Si vous utilisez l'éditeur avancé, ce problème sera converti en XML et vous ne serez plus en mesure de revenir à l'interface d'édition simple.\n"
-"Passer à l'éditeur avancé et convertir ce problème en XML?"
-
 #: common/lib/xmodule/xmodule/js/src/sequence/display.js
 msgid ""
 "Sequence error! Cannot navigate to %(tab_name)s in the current "
@@ -3395,10 +3366,6 @@ msgstr ""
 #: lms/templates/search/search_error.underscore
 msgid "There was an error, try searching again."
 msgstr "Il y a eu une erreur, renouvelez votre recherche."
-
-#: lms/static/js/edxnotes/plugins/accessibility.js
-msgid "Focus grabber"
-msgstr ""
 
 #: lms/static/js/edxnotes/plugins/accessibility.js
 msgid "Focus grabber"
@@ -5278,10 +5245,6 @@ msgstr "Voulez-vous confirmer votre identité plus tard?"
 msgid "Verify Now"
 msgstr "Vérifier Maintenant"
 
-#: lms/templates/dashboard/donation.underscore
-msgid "Donate"
-msgstr "Faire un don"
-
 #: lms/templates/discovery/filter_bar.underscore
 msgid "CLEAR ALL"
 msgstr ""
@@ -5766,10 +5729,6 @@ msgstr "ou en créer un nouveau ici"
 #: lms/templates/student_account/register.underscore
 msgid "Create a new account"
 msgstr "Créer un nouveau compte"
-
-#: lms/templates/student_account/register.underscore
-msgid "Create your account"
-msgstr "Créez votre compte"
 
 #: lms/templates/student_account/register.underscore
 msgid "Create your account"
@@ -6284,29 +6243,13 @@ msgid "New Cohort Name"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid "(Required Field)"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/add-cohort-form.underscore
 msgid "Enter Your New Cohort Group's Name"
 msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid "(contains %(student_count)s student)"
-msgid_plural "(contains %(student_count)s students)"
-msgstr[0] ""
-msgstr[1] ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "Students are added to this group only when you provide their email addresses"
 " or usernames on this page."
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid "What does this mean?"
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
@@ -6334,28 +6277,12 @@ msgid ""
 msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "You will not get notification for emails that bounce, so please double-check"
 " spelling."
 msgstr ""
 "Vous ne recevrez pas de notification pour les e-mails rejetés, donc soyez "
 "doublement attentif à l'orthographe."
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
-msgid "Add Students"
-msgstr "Ajouter des étudiants"
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
-msgid "Select a cohort group"
-msgstr ""
-
-#: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
-msgid "%(cohort_name)s (%(user_count)s)"
-msgstr ""
 
 #: lms/templates/instructor/instructor_dashboard_2/cohorts.underscore
 msgid "Cohort Management"
@@ -6398,27 +6325,6 @@ msgstr ""
 msgid "I am a returning user"
 msgstr ""
 
-#: lms/templates/student_account/account.underscore
-msgid "New Address"
-msgstr ""
-
-#: lms/templates/student_account/account.underscore
-msgid "Password"
-msgstr "Mot de passe"
-
-#: lms/templates/student_account/account.underscore
-msgid "Change My Email Address"
-msgstr ""
-
-#: lms/templates/student_account/account.underscore
-#: lms/templates/student_account/password_reset.underscore
-msgid "Reset Password"
-msgstr ""
-
-#: lms/templates/student_account/form_field.underscore
-msgid "Forgot password?"
-msgstr ""
-
 #: lms/templates/student_account/login.underscore
 msgid ""
 "You've successfully logged into %(currentProvider)s, but your "
@@ -6437,64 +6343,6 @@ msgstr ""
 #: lms/templates/student_account/login.underscore
 msgid "Log in using %(name)s"
 msgstr ""
-
-#: lms/templates/student_account/password_reset.underscore
-msgid ""
-"Enter the email address you used to create your account. We'll send you a "
-"link you can use to reset your password."
-msgstr ""
-
-#: lms/templates/student_account/password_reset.underscore
-msgid "An error occurred."
-msgstr ""
-
-#: lms/templates/student_account/password_reset.underscore
-msgid "Reset password"
-msgstr ""
-
-#: lms/templates/student_account/password_reset.underscore
-msgid "Password Reset Email Sent"
-msgstr ""
-
-#: lms/templates/student_account/password_reset.underscore
-msgid ""
-"We've sent instructions for resetting your password to the email address you"
-" provided."
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "You've successfully logged into %(currentProvider)s."
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid ""
-"We just need a little more information before you start learning with "
-"%(platformName)s."
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "Register using %(name)s"
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "We couldn't complete your registration."
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "Register"
-msgstr ""
-
-#: lms/templates/student_account/register.underscore
-msgid "Required field"
-msgstr ""
-
-#: lms/templates/student_profile/profile.underscore
-msgid "Full Name"
-msgstr "Nom complet"
-
-#: lms/templates/student_profile/profile.underscore
-msgid "Preferred Language"
-msgstr "Langue préférée"
 
 #: lms/templates/student_profile/profile.underscore
 msgid "Update Profile"
@@ -6694,10 +6542,6 @@ msgstr ""
 #: cms/templates/js/content-group-editor.underscore
 msgid "Content Group Name"
 msgstr "Nom du groupe de contenus"
-
-#: cms/templates/js/content-group-editor.underscore
-msgid "Content Group ID"
-msgstr ""
 
 #: cms/templates/js/content-group-editor.underscore
 msgid "Content Group ID"
@@ -7333,10 +7177,6 @@ msgstr "Modifier %(display_name)s (requis)"
 #: cms/templates/js/xblock-string-field-editor.underscore
 msgid "formLabel"
 msgstr "Étiquette du formulaire"
-
-#: cms/templates/js/video/metadata-translations-item.underscore
-msgid "Remove"
-msgstr "Enlever"
 
 #: cms/templates/js/video/transcripts/metadata-videolist-entry.underscore
 msgid "Add URLs for additional versions"
