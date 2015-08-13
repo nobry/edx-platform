@@ -4,7 +4,6 @@
 from django.core.urlresolvers import reverse
 from django.utils.http import urlquote_plus
 from django.utils.translation import ugettext as _
-from django.utils.translation import get_language_bidi
 from microsite_configuration import microsite
 from microsite_configuration import page_title_breadcrumbs
 from branding import api as branding_api
@@ -15,7 +14,9 @@ from branding import api as branding_api
 <head dir="${static.dir_rtl()}">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    % if responsive:
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    % endif
 
 ## Define a couple of helper functions to make life easier when
 ## embedding theme conditionals into templates. All inheriting
@@ -56,48 +57,62 @@ from branding import api as branding_api
       </script>
   % endif
 
-  <script type="text/javascript" src="/i18n.js"></script>
+  <script type="text/javascript" src="/jsi18n/"></script>
 
   <link rel="icon" type="image/x-icon" href="${static.url(microsite.get_value('favicon_path', settings.FAVICON_PATH))}" />
 
   <%static:css group='style-vendor'/>
-  ## We could do <%static:css group='style-main'/>, but that's only useful
-  ## if the group contains multiple files, and the 'style-main' group doesn't.
-  ## Instead, we'll construct this <link> element manually, to improve clarity.
-  ## When nothing in the system is referencing the 'style-main' group, it can
-  ## be removed from the environment file.
-  <%
-  application_css_path = "css/lms-main{rtl}.css".format(
-    rtl="-rtl" if get_language_bidi() else "",
-  )
-  %>
-  <link rel="stylesheet" href="${static.url(application_css_path)}" type="text/css" media="all" />
+  <%static:css group='style-main'/>
 
   % if disable_courseware_js:
     <%static:js group='base_vendor'/>
-    <%static:js group='base_application'/>
   % else:
     <%static:js group='main_vendor'/>
-    <%static:js group='application'/>
   % endif
 
   <script>
     window.baseUrl = "${settings.STATIC_URL}";
     (function (require) {
+    % if settings.DEBUG is True:
+        ## Using what amounts to a random number in the Development environment for cache-busting
+        var urlArgs = "bust=" + (new Date()).getTime();
+    % else:
+        var urlArgs = "v=${settings.EDX_PLATFORM_REVISION}";
+    % endif
       require.config({
-          baseUrl: window.baseUrl
+          baseUrl: baseUrl,
+          urlArgs: urlArgs
       });
     }).call(this, require || RequireJS.require);
   </script>
-  <script type="text/javascript" src="${static.url("lms/js/require-config.js")}"></script>
-
-  % if not disable_courseware_js:
-    <%static:js group='module-js'/>
-  % endif
+  <script type="text/javascript" src="${static.url("require-config-lms.js")}"></script>
 
   <%block name="headextra"/>
 
-  <%static:optional_include_mako file="head-extra.html" with_microsite="True" />
+<%
+  if theme_enabled() and not is_microsite():
+    header_extra_file = 'theme-head-extra.html'
+    header_file = 'theme-header.html'
+    google_analytics_file = 'theme-google-analytics.html'
+
+    style_overrides_file = None
+
+  else:
+    header_extra_file = None
+
+    if settings.FEATURES['IS_EDX_DOMAIN'] and not is_microsite():
+        header_file = microsite.get_template_path('navigation-edx.html')
+    else:
+        header_file = microsite.get_template_path('navigation.html')
+
+    google_analytics_file = microsite.get_template_path('google_analytics.html')
+
+    style_overrides_file = microsite.get_value('css_overrides_file')
+%>
+
+  % if header_extra_file:
+    <%include file="${header_extra_file}" />
+  % endif
 
   <%include file="widgets/optimizely.html" />
   <%include file="widgets/segment-io.html" />
@@ -105,43 +120,28 @@ from branding import api as branding_api
   <meta name="path_prefix" content="${EDX_ROOT_URL}">
   <meta name="google-site-verification" content="_mipQ4AtZQDNmbtOkwehQDOgCxUUV2fb_C0b6wbiRHY" />
 
-<% ga_acct = microsite.get_value("GOOGLE_ANALYTICS_ACCOUNT", settings.GOOGLE_ANALYTICS_ACCOUNT) %>
-% if ga_acct:
-    <script type="text/javascript">
-    var _gaq = _gaq || [];
-    _gaq.push(['_setAccount', '${ga_acct}']);
-    _gaq.push(['_trackPageview']);
+  <%include file="${google_analytics_file}" />
 
-    (function() {
-      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-    })();
-    </script>
+% if style_overrides_file:
+  <link rel="stylesheet" type="text/css" href="${static.url(style_overrides_file)}" />
 % endif
 
 </head>
 
 <body class="${static.dir_rtl()} <%block name='bodyclass'/> lang_${LANGUAGE_CODE}">
-<%static:optional_include_mako file="body-initial.html" with_microsite="True" />
-<div id="page-prompt"></div>
 % if not disable_window_wrap:
   <div class="window-wrap" dir="${static.dir_rtl()}">
 % endif
     <a class="nav-skip" href="<%block name="nav_skip">#content</%block>">${_("Skip to main content")}</a>
 
     % if not disable_header:
-        <%include file="${microsite.get_template_path('header.html')}" />
+        <%include file="${header_file}" />
     % endif
 
     <div class="content-wrapper" id="content">
       ${self.body()}
       <%block name="bodyextra"/>
     </div>
-
-    % if not disable_footer:
-        <%include file="themable-footer.html" />
-    % endif
 
     #### nouveau code cypress 
     ####% if not disable_footer:
@@ -157,7 +157,6 @@ from branding import api as branding_api
     ####    </%block>
     ####% endif
     #### nouveau code cypress 
-
     <%block name="footer">
       ## Can be overridden by child templates wanting to hide the footer. 
       <%
@@ -175,11 +174,13 @@ from branding import api as branding_api
   </div>
 % endif
 
+  % if not disable_courseware_js:
+    <%static:js group='application'/>
+    <%static:js group='module-js'/>
+  % endif
+
   <%block name="js_extra"/>
-  <%include file="widgets/segment-io-footer.html" />
   <script type="text/javascript" src="${static.url('js/vendor/noreferrer.js')}" charset="utf-8"></script>
-  <script type="text/javascript" src="${static.url('js/utils/navigation.js')}" charset="utf-8"></script>
-  <%static:optional_include_mako file="body-extra.html" with_microsite="True" />
 </body>
 </html>
 
