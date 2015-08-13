@@ -33,19 +33,19 @@ from microsite_configuration import microsite
             % endif
           % endif
         </hgroup>
-        ##### new code cypress
-        ####% if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
-        ####  <div class="course-search">
-        ####    <form method="get" action="/courses">
-        ####      <input class="search-input" name="search_query" type="text" placeholder="${_("Search for a course")}"></input>
-        ####      <button class="search-button" type="submit">
-        ####        <i class="icon fa fa-search" aria-hidden="true"></i>
-        ####      </button>
-        ####    </form>
-        ####  </div>
-        ####% endif
-        ##### new code cypress
+        % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+          <div class="course-search">
+            <form method="get" action="/courses">
+              <input class="search-input" name="search_query" type="text" placeholder="${_("Search for a course")}"></input>
+              <button class="search-button" type="submit">
+                <i class="icon fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        % endif
+
       </div>
+
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
           <div class="hero">
@@ -78,14 +78,12 @@ from microsite_configuration import microsite
             %endfor
             </ul>
         </section>
-        #### new code cypress
-        ###### in case there are courses that are not shown on the homepage, a 'View all Courses' link should appear
-        ####% if settings.HOMEPAGE_COURSE_MAX and len(courses) > settings.HOMEPAGE_COURSE_MAX:
-        ####  <div class="courses-more">
-        ####    <a class="courses-more-cta" href="${marketing_link('COURSES')}" > ${_("View all Courses")} </a>
-        ####  </div>
-        ####% endif
-        #### new code cypress
+        ## in case there are courses that are not shown on the homepage, a 'View all Courses' link should appear
+        % if settings.HOMEPAGE_COURSE_MAX and len(courses) > settings.HOMEPAGE_COURSE_MAX:
+          <div class="courses-more">
+            <a class="courses-more-cta" href="${marketing_link('COURSES')}" > ${_("View all Courses")} </a>
+          </div>
+        % endif
       % endif
 
     </section>
