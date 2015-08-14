@@ -19,6 +19,7 @@ from instructor.views.gradebook_api import calculate_page_info
 from common.test.utils import XssTestMixin
 from student.tests.factories import AdminFactory
 from xmodule.modulestore.tests.django_utils import ModuleStoreTestCase
+from xmodule.modulestore.tests.utils import XssTestMixin
 from xmodule.modulestore.tests.factories import CourseFactory
 from shoppingcart.models import PaidCourseRegistration, Order, CourseRegCodeItem
 from course_modes.models import CourseMode
