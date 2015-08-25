@@ -1911,9 +1911,10 @@ msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr ""
 "Ce nom apparaît dans le menu de navigation horizontal en haut de la page. "
 
+#. PM-Cypress 01
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
-msgstr ""
+msgstr "Problème avancé vide"
 
 #: common/lib/xmodule/xmodule/capa_base.py
 #: common/lib/xmodule/xmodule/combined_open_ended_module.py
@@ -18149,7 +18150,7 @@ msgid ""
 "date. When you configure a subsection, you can also set the grading policy "
 "and due date."
 msgstr ""
-"Sélectionnez l'icone Configure pour une section ou une sous-secting afin de spécifier "
+"Sélectionnez l'icone Configure pour une section ou une sous-section afin de spécifier "
 "sa date de publication. Quand vous configurez une sous-section, vous pouvez aussi "
 "fixer les politiques de notation et les dates d'échéances."
 
