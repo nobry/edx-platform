@@ -1911,7 +1911,7 @@ msgid "This name appears in the horizontal navigation at the top of the page."
 msgstr ""
 "Ce nom apparaît dans le menu de navigation horizontal en haut de la page. "
 
-#. PM-Cypress 01
+#. PM-Cypress 001
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid "Blank Advanced Problem"
 msgstr "Problème avancé vide"
@@ -12895,13 +12895,15 @@ msgstr ""
 msgid "{earned:.3n} of {total:.3n} possible points"
 msgstr "{earned:.3n} point(s) sur {total:.3n}"
 
+#. PM-Cypress 001
 #: lms/templates/courseware/progress.html
 msgid "Problem Scores: "
-msgstr "Score aux exercices:"
+msgstr "Score aux exercices: "
 
+#. PM-Cypress 001
 #: lms/templates/courseware/progress.html
 msgid "Practice Scores: "
-msgstr "Scores d'entrainement :"
+msgstr "Scores d'entrainement: "
 
 #: lms/templates/courseware/progress.html
 msgid "No problem scores in this section"
@@ -13554,17 +13556,19 @@ msgstr "Comment utiliser les discussions {platform_name}"
 msgid "Find discussions"
 msgstr "Trouver des discussions"
 
+#. PM-Cypress 001
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Focus in on specific topics"
-msgstr "Se concentrer sur des sujets spécifiques."
+msgstr "Se concentrer sur des sujets spécifiques"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Search for specific posts "
 msgstr "Chercher des sujets spécifiques"
 
+#. PM-Cypress 001
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Sort by date, vote, or comments"
-msgstr "Trier par date, vote, ou commentaires"
+msgstr "Trier par date, vote ou commentaires"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Engage with posts"
