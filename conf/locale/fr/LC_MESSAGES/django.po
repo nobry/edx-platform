@@ -956,10 +956,11 @@ msgstr ""
 msgid "Username"
 msgstr "Nom d'utilisateur"
 
+#. PM-Cypress 02
 #: openedx/core/djangoapps/user_api/views.py
 #: common/djangoapps/user_api/views.py
 msgid "The name that will identify you in your courses"
-msgstr ""
+msgstr "Le nom qui vous identifiera dans vos cours"
 
 #: lms/templates/register.html
 msgid "Highest Level of Education Completed"
@@ -9179,11 +9180,12 @@ msgstr ""
 msgid "username@domain.com"
 msgstr "utilisateur@domain.com"
 
+#. PM-Cypress 02
 #. Translators: This example name is used as a placeholder in
 #. a field on the registration form meant to hold the user's name.
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Jane Doe"
-msgstr ""
+msgstr "Jean Dupont"
 
 #: lms/templates/register.html
 msgid "Needed for any certificates you may earn"
@@ -9195,17 +9197,20 @@ msgstr "Nécessaire pour tous certificats que vous pourriez obtenir"
 msgid "Public username"
 msgstr "Nom d'utilisateur public"
 
+#. PM-Cypress 02
 #: openedx/core/djangoapps/user_api/views.py
 msgid ""
 "The name that will identify you in your courses - {bold_start}(cannot be "
 "changed later){bold_end}"
-msgstr ""
+msgstr "Le nom qui vous identifiera dans vos cours - {bold_start}(ne peut "
+"être modifié plus tard){bold_end}"
 
+#. PM-Cypress 02
 #. Translators: This example username is used as a placeholder in
 #. a field on the registration form meant to hold the user's username.
 #: openedx/core/djangoapps/user_api/views.py
 msgid "JaneDoe"
-msgstr ""
+msgstr "JeanDupont"
 
 #. Translators: This label appears above a dropdown menu on the registration
 #. form used to select the user's highest completed level of education.
@@ -9221,9 +9226,10 @@ msgstr "Année de naissance"
 msgid "Mailing address"
 msgstr "Adresse postale"
 
+#. PM-Cypress 02
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Tell us why you're interested in {platform_name}"
-msgstr ""
+msgstr "Dites nous pourquoi vous êtes intéressé par {platform_name}"
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Please select your Country."
@@ -11018,6 +11024,8 @@ msgstr ""
 msgid "Please complete the following fields to register for an account. "
 msgstr "Complétez les champs suivants pour créer votre compte."
 
+#: openedx/core/djangoapps/user_api/views.py
+#: common/djangoapps/user_api/views.py
 #: lms/templates/register.html
 msgid "cannot be changed later"
 msgstr "ne pourra pas être modifié ultérieurement"
