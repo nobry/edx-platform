@@ -11732,10 +11732,11 @@ msgstr ""
 "Vous ne recevrez pas de notification pour les courriels rejetés, donc soyez "
 "doublement attentif à l'orthographe."
 
+#. PM-Cypress 03
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Email Addresses/Usernames"
-msgstr "Adresses e-mail/nom d'utilisateurs"
+msgstr "Adresses courriels/nom d'utilisateurs"
 
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
@@ -11767,19 +11768,21 @@ msgstr ""
 msgid "Checking this box has no effect if 'Unenroll' is selected."
 msgstr "Cocher cette case n'a aucun effet si 'Se désinscrire' est coché."
 
+#. PM-Cypress 03
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid "Notify users by email"
-msgstr "Notifier les utilisateurs par e-mail"
+msgstr "Avertir les utilisateurs par courriel"
 
+#. PM-Cypress 03
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/instructor/instructor_dashboard_2/membership.html
 msgid ""
 "If this option is <em>checked</em>, users will receive an email "
 "notification."
 msgstr ""
-"Si cette option est <em>cochée</em>, les utilisateurs recevront une "
-"notification par e-mail."
+"Si cette option est <em>cochée</em>, les utilisateurs recevront un "
+"avertissement par courriel."
 
 #: lms/templates/ccx/enrollment.html
 #: lms/templates/courseware/course_about.html
@@ -12201,9 +12204,10 @@ msgstr "Partager avec ses amis et sa famille !"
 msgid "Tweet that you've registered for this course"
 msgstr "Tweetez que vous êtes inscrits pour ce cours"
 
+#. PM-Cypress 03
 #: lms/templates/courseware/course_about.html
 msgid "Email someone to say you've registered for this course"
-msgstr "Envoyez par e-mail que vous êtes inscrits à ce cours"
+msgstr "Envoyez par courriel que vous êtes inscrits à ce cours"
 
 #. Translators: This text will be automatically posted to the student's
 #. Twitter account. {url} should appear at the end of the text.
@@ -12604,10 +12608,11 @@ msgstr ""
 "Pour la gestion des beta testeurs, visitez la section Membership de l'onglet"
 " Instructeur."
 
+#. PM-Cypress 03
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "To send email, visit the Email section of the Instructor Dashboard."
 msgstr ""
-"Pour envoyer un e-mail, visitez la section E-mail de l'onglet Instructeur."
+"Pour envoyer un courriel, visitez la section courriel de l'onglet Instructeur."
 
 #: lms/templates/courseware/legacy_instructor_dashboard.html
 msgid "No Analytics are available at this time."
@@ -13602,13 +13607,13 @@ msgstr "Recevoir les mises à jour"
 msgid "Toggle Notifications Setting"
 msgstr "Changer les paramètres des notifications"
 
-#. PM-17
+#. PM-Cypress 03
 #: lms/templates/discussion/_underscore_templates.html
 msgid ""
 "Check this box to receive an email digest once a day notifying you about "
 "new, unread activity from posts you are following."
 msgstr ""
-"Cocher cette case pour recevoir une fois par jour un e-mail récapitulatif "
+"Cocher cette case pour recevoir une fois par jour un courriel récapitulatif "
 "des nouveautés dans les fils de discussion que vous suivez."
 
 #. Translators: This labels the selector for which group of students can view
@@ -13931,7 +13936,7 @@ msgstr "Nous espérons que vous appréciez d'apprendre avec {platform_name} !"
 #: lms/templates/emails/activation_email.txt
 #: lms/templates/emails/order_confirmation_email.txt
 msgid "The {platform_name} Team"
-msgstr "L'équipe de  {platform_name}"
+msgstr "L'équipe de {platform_name}"
 
 #: lms/templates/emails/activation_email.txt
 msgid ""
@@ -13976,6 +13981,7 @@ msgstr ""
 "d'autre courriel de notre part. Merci de ne pas répondre à ce courriel. Si vous "
 "cherchez de l'aide, consultez la section du site de cours {platform_name}."
 
+#. PM-Cypress 03
 #: lms/templates/emails/activation_email.txt
 msgid ""
 "If you didn't request this, you don't need to do anything; you won't receive"
@@ -13984,7 +13990,7 @@ msgid ""
 msgstr ""
 "Si vous n'avez pas demandé ceci, vous n'avez pas besoin de faire quoi que ce"
 " soit; vous ne recevrez plus de courriers électroniques de notre part. Merci"
-" de ne pas répondre à cet e-mail; si vous avez besoin d'obtenir une "
+" de ne pas répondre à ce courriel; si vous avez besoin d'obtenir une "
 "assistance, consultez la section d'aide du site web {platform_name}."
 
 #: lms/templates/emails/activation_email_subject.txt
@@ -14280,10 +14286,11 @@ msgstr ""
 "d'autre courriel de notre part. Merci de ne pas répondre à ce courriel. Si vous "
 "cherchez de l'aide, consultez la section d'aide du site {platform_name}."
 
+#. PM-Cypress 03
 #: lms/templates/emails/email_change_subject.txt
 msgid "Request to change {platform_name} account e-mail"
 msgstr ""
-"Demande de modification de l'adresse e-mail du compte sur {platform_name}"
+"Demande de modification de l'adresse courriel du compte sur {platform_name}"
 
 #: lms/templates/emails/enroll_email_allowedmessage.txt
 msgid "Dear student,"
@@ -16217,13 +16224,15 @@ msgstr ""
 "Pour voir le contenu de tous les messages envoyés précédemment, cliquez sur "
 "ce bouton :"
 
+#. PM-Cypress 03
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "Sent Email History"
-msgstr "Historique des e-mails envoyés"
+msgstr "Historique des courriels envoyés"
 
+#. PM-Cypress 03
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
 msgid "To read an email, click its subject."
-msgstr "Pour lire un e-mail, cliquer sur son sujet"
+msgstr "Pour lire un courriel, cliquer sur son sujet"
 
 #. PM-14
 #: lms/templates/instructor/instructor_dashboard_2/send_email.html
@@ -16704,6 +16713,7 @@ msgstr "Vous pouvez maintenant vous {link_start}connecter{link_end}."
 msgid "Activation Invalid"
 msgstr "Activation invalide"
 
+#. PM-Cypress 03
 #: lms/templates/registration/activation_invalid.html
 msgid ""
 "Something went wrong. Check to make sure the URL you went to was correct -- "
@@ -16712,7 +16722,7 @@ msgid ""
 msgstr ""
 "Un problème est survenu. Merci de vérifier que l'URL entrée est correcte. Il"
 " arrive que cette URL soit divisée en deux lignes par votre fournisseur "
-"d'e-mail . Si le problème persiste, contactez-nous à l'adresse {email}."
+"de messagerie. Si le problème persiste, contactez-nous à l'adresse {email}."
 
 #: lms/templates/registration/activation_invalid.html
 msgid "Or you can go back to the {link_start}home page{link_end}."
@@ -16756,9 +16766,10 @@ msgstr ""
 msgid "Purchase order number (if any)"
 msgstr ""
 
+#. PM-Cypress 03
 #: lms/templates/shoppingcart/billing_details.html
 msgid "email@example.com"
-msgstr "email@exemple.com"
+msgstr "courriel@exemple.com"
 
 #: lms/templates/shoppingcart/billing_details.html
 msgid "Additional Receipt Recipient"

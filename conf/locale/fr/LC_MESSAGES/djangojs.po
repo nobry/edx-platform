@@ -1535,6 +1535,7 @@ msgstr "Couleur du texte"
 msgid "Text to display"
 msgstr "Texte à afficher"
 
+#. PM-Cypress 03
 #. Translators: this is a message from the raw HTML editor displayed in the
 #. browser when a user needs to edit HTML
 #: common/lib/xmodule/xmodule/js/src/html/edit.js
@@ -1542,7 +1543,7 @@ msgid ""
 "The URL you entered seems to be an email address. Do you want to add the "
 "required mailto: prefix?"
 msgstr ""
-"L'URL que vous avez entrée semble être une adresse e-mail. Voulez-vous "
+"L'URL que vous avez entrée semble être une adresse courriel. Voulez-vous "
 "ajouter le prefix requis mailto: ?"
 
 #. Translators: this is a message from the raw HTML editor displayed in the
@@ -2542,24 +2543,27 @@ msgstr "Email"
 msgid "Revoke access"
 msgstr "Retirer l'accès"
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Enter username or email"
-msgstr "Veuillez saisir un nom d'utilisateur ou un email."
+msgstr "Veuillez saisir un nom d'utilisateur ou un courriel."
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Please enter a username or email."
-msgstr "Veuillez saisir un nom d'utilisateur ou un email."
+msgstr "Veuillez saisir un nom d'utilisateur ou un courriel."
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Error changing user's permissions."
 msgstr "Erreur lors du changement des permissions de l'utilisateur."
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid ""
 "Could not find a user with username or email address '<%= identifier %>'."
 msgstr ""
-"Impossible de trouver un utilisateur ayant  un nom d'utilisateur ou "
-"l'adresse email '<%= identifier %>'."
+"Impossible de trouver un utilisateur ayant un nom d'utilisateur ou "
+"l'adresse courriel '<%= identifier %>'."
 
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid ""
@@ -2650,28 +2654,31 @@ msgstr ""
 msgid "Error enrolling/unenrolling users."
 msgstr "Erreur lors de l'inscription/désinscription d'utilisateurs."
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "The following email addresses and/or usernames are invalid:"
 msgstr ""
-"Les adresses email et/ou noms d'utilisateurs suivants sont invalides :"
+"Les adresses courriels et/ou noms d'utilisateurs suivants sont invalides :"
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Successfully enrolled and sent email to the following users:"
 msgstr ""
-"Inscriptions et envoi d'e-mail réussis pour les utilisateurs suivants :"
+"Inscriptions et envoi de courriels réussis pour les utilisateurs suivants :"
 
 #. Translators: A list of users appears after this sentence;
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid "Successfully enrolled the following users:"
 msgstr "Inscription réussie pour les utilisateurs suivants :"
 
+#. PM-Cypress 03
 #. Translators: A list of users appears after this sentence;
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid ""
 "Successfully sent enrollment emails to the following users. They will be "
 "allowed to enroll once they register:"
 msgstr ""
-"Envoi d'e-mails d'inscription réussi pour les utilisateurs suivants. Ils "
+"Envoi de courriels d'inscription réussi pour les utilisateurs suivants. Ils "
 "seront autorisés à s'inscrire au cours une fois qu'ils se seront enregistrés"
 " sur la plateforme : "
 
@@ -2698,13 +2705,14 @@ msgstr ""
 "Les utilisateurs suivants seront inscrits dès leur enregistrement sur la "
 "plate-forme :"
 
+#. PM-Cypress 03
 #. Translators: A list of users appears after this sentence;
 #: lms/static/coffee/src/instructor_dashboard/membership.js
 msgid ""
 "Emails successfully sent. The following users are no longer enrolled in the "
 "course:"
 msgstr ""
-"Les e-mails ont été envoyés avec succès. Les utilisateurs suivants ont été "
+"Les courriels ont été envoyés avec succès. Les utilisateurs suivants ont été "
 "désinscrits du cours :"
 
 #. Translators: A list of users appears after this sentence;
@@ -2738,49 +2746,55 @@ msgstr ""
 "Votre courriel contient des mots-clés invalides. Veuillez consulter la liste"
 " de mots-clés ci-dessous et essayer de nouveau:"
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid "Your email was successfully queued for sending."
-msgstr "Votre e-mail est en attente d’envoi."
+msgstr "Votre courriel est en attente d’envoi."
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
 "You are about to send an email titled '<%= subject %>' to yourself. Is this "
 "OK?"
 msgstr ""
-"Vous êtes sur le point d'envoyer un e-mail intitulé  '<%= subject %>' à "
+"Vous êtes sur le point d'envoyer un courriel intitulé  '<%= subject %>' à "
 "vous-même. Voulez-vous continuer ?"
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
 "You are about to send an email titled '<%= subject %>' to everyone who is "
 "staff or instructor on this course. Is this OK?"
 msgstr ""
-"Vous êtes sur le point d'envoyer un e-mail intitulé  '<%= subject %>' à tous"
+"Vous êtes sur le point d'envoyer un courriel intitulé  '<%= subject %>' à tous"
 " les membres du staff et enseignants. Voulez-vous continuer ?"
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
 "You are about to send an email titled '<%= subject %>' to ALL (everyone who "
 "is enrolled in this course as student, staff, or instructor). Is this OK?"
 msgstr ""
-"Vous êtes sur le point d'envoyer un e-mail intitulé '<%= subject %>' à TOUS "
+"Vous êtes sur le point d'envoyer un courriel intitulé '<%= subject %>' à TOUS "
 "(n'importe quelle personne inscrite au cours en tant qu'étudiant, professeur"
 " ou membre du staff). Voulez-vous continuer ? "
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid ""
 "Your email was successfully queued for sending. Please note that for large "
 "classes, it may take up to an hour (or more, if other courses are "
 "simultaneously sending email) to send all emails."
 msgstr ""
-"Votre e-mail a été ajouté avec succès dans la file d'envoi. Attention, pour "
+"Votre courriel  a été ajouté avec succès dans la file d'envoi. Attention, pour "
 "des cours comprenant un grand nombre d'étudiants, le temps d'envoi de tous "
-"les e-mails peut prendre jusqu'à une heure (ou plus, si d'autres "
-"instructeurs envoient des e-mails simultanément)."
+"les courriels peut prendre jusqu'à une heure (ou plus, si d'autres "
+"instructeurs envoient des courriels simultanément)."
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid "Error sending email."
-msgstr "Erreur lors de l’envoi de l’e-mail."
+msgstr "Erreur lors de l’envoi du courriel."
 
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid "There is no email history for this course."
@@ -2792,17 +2806,19 @@ msgstr ""
 "Une erreur est survenue lors de l'obtention de l'historique des tâches de "
 "courriel pour ce cours."
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/send_email.js
 msgid "There was an error obtaining email content history for this course."
 msgstr ""
 "Il y a eu une erreur lors de l'obtention de l'historique du contenu des "
-"e-mails pour ce cours."
+"courriels pour ce cours."
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 #: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
 msgid "Please enter a student email address or username."
 msgstr ""
-"Merci d’entrer le nom d’utilisateur ou l’adresse e-mail d’un étudiant."
+"Merci d’entrer le nom d’utilisateur ou l’adresse courriel d’un étudiant."
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid ""
@@ -2911,10 +2927,11 @@ msgid ""
 "correct."
 msgstr ""
 
+#. PM-Cypress 03
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 #: lms/static/js/spec/instructor_dashboard/student_admin_spec.js
 msgid "Enter a student's username or email address."
-msgstr "Entrez un nom d'utilisateur et un email."
+msgstr "Entrez un nom d'utilisateur et une adresse courriel."
 
 #: lms/static/coffee/src/instructor_dashboard/student_admin.js
 msgid ""
@@ -3451,9 +3468,10 @@ msgstr "Cohorte enregistrée"
 msgid "Error adding students."
 msgstr "Problème lors de l'ajout des étudiants."
 
+#. PM-Cypress 03
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "Enter a username or email."
-msgstr "Entrez un nom d'utilisateur ou un email"
+msgstr "Entrez un nom d'utilisateur ou une adresse courriel"
 
 #: lms/static/js/groups/views/cohort_editor.js
 msgid "{numUsersAdded} student has been added to this cohort"
@@ -3621,31 +3639,35 @@ msgstr ""
 msgid "The data could not be saved."
 msgstr "Les données n'ont pas pu être enregistrées"
 
+#. PM-Cypress 03
 #: lms/static/js/student_account/account.js
 msgid "Please enter a valid email address"
-msgstr "Veuillez entrer une adresse email valide"
+msgstr "Veuillez entrer une adresse courriel valide"
 
 #: lms/static/js/student_account/account.js
 msgid "Please enter a valid password"
 msgstr "Veuillez entrer un mot de passe valide"
 
+#. PM-Cypress 03
 #: lms/static/js/student_account/account.js
 msgid ""
 "Password reset email sent. Follow the link in the email to change your "
 "password."
 msgstr ""
-"Email de réinitialisation du mot de passe envoyé. Suivez le lien dans "
-"l'email pour changer votre mot de passe."
+"Courriel de réinitialisation du mot de passe envoyé. Suivez le lien dans "
+"le courriel pour changer votre mot de passe."
 
+#. PM-Cypress 03
 #: lms/static/js/student_account/account.js
 msgid "We weren't able to send you a password reset email."
 msgstr ""
-"Il ne nous a pas été possible de vous envoyer un mail de réinitialisation du"
+"Il ne nous a pas été possible de vous envoyer un courriel de réinitialisation du"
 " mot de passe."
 
+#. PM-Cypress 03
 #: lms/static/js/student_account/account.js
 msgid "Please check your email to confirm the change"
-msgstr "Veuillez vérifier votre email pour confirmer les changements"
+msgstr "Veuillez vérifier votre courriel pour confirmer les changements"
 
 #: lms/static/js/student_account/views/FinishAuthView.js
 msgid "Saving your email preference"
@@ -3687,16 +3709,18 @@ msgstr ""
 "Le nom complet visible sur vos certificats. Les autres étudiants ne pourront"
 " pas voir votre nom complet."
 
+#. PM-Cypress 03
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid "Email Address"
-msgstr "Adresse email"
+msgstr "Adresse courriel"
 
+#. PM-Cypress 03
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "The email address you use to sign in. Communications from {platform_name} "
 "and your courses are sent to this address."
 msgstr ""
-"L'adresse email utilisée à l'inscription. Les communications de "
+"L'adresse courriel utilisée à l'inscription. Les communications de "
 "{platform_name} et des cours sont envoyées à cette adresse."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -3713,13 +3737,14 @@ msgstr "Réinitialiser votre mot de passe"
 msgid "Reset Password"
 msgstr "Réinitialiser le mot de passe"
 
+#. PM-Cypress 03
 #: lms/static/js/student_account/views/account_settings_factory.js
 msgid ""
 "When you click \"Reset Password\", a message will be sent to your email "
 "address. Click the link in the message to reset your password."
 msgstr ""
 "En cliquant sur \"Réinitialiser votre mot de passe\", un message vous sera "
-"envoyé à votre adresse email. Cliquez sur le lien dans le message pour "
+"envoyé à votre adresse courriel. Cliquez sur le lien dans le message pour "
 "réinitialiser votre mot de passe."
 
 #: lms/static/js/student_account/views/account_settings_factory.js
@@ -5172,6 +5197,7 @@ msgstr "supprimer"
 msgid "Thank you! We have received your payment."
 msgstr "Merci ! Nous avons reçu votre paiement."
 
+#. PM-Cypress 03
 #: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
@@ -5179,7 +5205,7 @@ msgid ""
 " also receive an email with the same information."
 msgstr ""
 "Veuillez imprimer et conserver cette page; elle vous servira de reçu. Vous "
-"recevrez également un e-mail avec les mêmes informations."
+"recevrez également un courriel avec les mêmes informations."
 
 #: lms/templates/commerce/receipt.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
@@ -5373,12 +5399,13 @@ msgstr ""
 "d'étudiants à ce groupe prévaut sur toute affectation précédente à d'autres "
 "groupes."
 
+#. PM-Cypress 03
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "Enter email addresses and/or usernames, separated by new lines or commas, "
 "for the students you want to add. *"
 msgstr ""
-"Entrez les adresses électroniques et / ou les noms d'utilisateurs , séparés "
+"Entrez les adresses courriels et / ou les noms d'utilisateurs , séparés "
 "par des retours à la ligne ou des virgules, pour les étudiants que vous "
 "voulez ajouter. *"
 
@@ -5391,12 +5418,13 @@ msgstr "(Champ requis)"
 msgid "e.g. johndoe@example.com, JaneDoe, joeydoe@example.com"
 msgstr "ex: johndoe@example.com, JaneDoe, joeydoe@example.com"
 
+#. PM-Cypress 03
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "You will not receive notification for emails that bounce, so double-check "
 "your spelling."
 msgstr ""
-"Vous ne recevrez pas de notification pour les e-mails rejetés, donc soyez "
+"Vous ne recevrez pas d'avertissement pour les courriels rejetés, donc soyez "
 "doublement attentif à l'orthographe."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
@@ -5466,13 +5494,14 @@ msgid_plural "(contains %(student_count)s students)"
 msgstr[0] "(contient %(student_count)s étudiant)"
 msgstr[1] "(contient %(student_count)s étudiants)"
 
+#. PM-Cypress 03
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid ""
 "Students are added to this cohort only when you provide their email "
 "addresses or usernames on this page."
 msgstr ""
 "Les étudiants sont ajoutées à cette cohorte lorsque vous ajoutez leurs "
-"adresses emails ou noms d'utilisateurs dans cette page."
+"adresses courriels ou noms d'utilisateurs dans cette page."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-group-header.underscore
 msgid "What does this mean?"
@@ -5546,9 +5575,10 @@ msgstr "Retour au tableau de bord"
 msgid "New Address"
 msgstr "Nouvelle adresse"
 
+#. PM-Cypress 03
 #: lms/templates/student_account/account.underscore
 msgid "Change My Email Address"
-msgstr "Changer mon adresse email"
+msgstr "Changer mon adresse courriel"
 
 #: lms/templates/student_account/account_settings.underscore
 msgid "Account Settings"
@@ -5690,12 +5720,13 @@ msgstr "Une erreur est survenue."
 msgid "Password assistance"
 msgstr "Aide mot de passe"
 
+#. PM-Cypress 03
 #: lms/templates/student_account/password_reset.underscore
 msgid ""
 "Please enter your email address below and we will send you instructions for "
 "setting a new password."
 msgstr ""
-"Merci d'entrer votre adresse email ci dessous afin de recevoir les "
+"Merci d'entrer votre adresse courriel ci dessous afin de recevoir les "
 "instructions pour créer un nouveau mot de passe."
 
 #: lms/templates/student_account/password_reset.underscore
@@ -5984,6 +6015,7 @@ msgstr ""
 msgid "Thanks for returning to verify your ID in: %(courseName)s"
 msgstr ""
 
+#. PM-Cypress 03
 #: lms/templates/verify_student/intro_step.underscore
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
@@ -5992,7 +6024,7 @@ msgid ""
 "return and refresh this page."
 msgstr ""
 "Vous devez activer votre compte avant de pouvoir vous inscrire aux cours. "
-"Vérifier votre boîte de réception pour un email d'activation. Après "
+"Vérifier votre boîte de réception pour un courriel d'activation. Après "
 "l'activation vous pouvez revenir et rafraichir cette page."
 
 #: lms/templates/verify_student/intro_step.underscore
@@ -6001,10 +6033,11 @@ msgstr ""
 msgid "Activate Your Account"
 msgstr "Activez votre compte"
 
+#. PM-Cypress 03
 #: lms/templates/verify_student/intro_step.underscore
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid "Check Your Email"
-msgstr "Vérifiez votre email"
+msgstr "Vérifiez votre courriel"
 
 #: lms/templates/verify_student/intro_step.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
@@ -6085,9 +6118,10 @@ msgstr ""
 msgid "Next Step: Confirm your identity"
 msgstr ""
 
+#. PM-Cypress 03
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Check your email"
-msgstr "Vérifiez votre email"
+msgstr "Vérifiez votre courriel"
 
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid ""
@@ -6276,12 +6310,13 @@ msgid ""
 "students to add. *"
 msgstr ""
 
+#. PM-Cypress 03
 #: lms/templates/instructor/instructor_dashboard_2/cohort-editor.underscore
 msgid ""
 "You will not get notification for emails that bounce, so please double-check"
 " spelling."
 msgstr ""
-"Vous ne recevrez pas de notification pour les e-mails rejetés, donc soyez "
+"Vous ne recevrez pas d'avertissement pour les courriels rejetés, donc soyez "
 "doublement attentif à l'orthographe."
 
 #: lms/templates/instructor/instructor_dashboard_2/cohort-selector.underscore
