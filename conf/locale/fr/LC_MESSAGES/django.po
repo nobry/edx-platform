@@ -536,49 +536,60 @@ msgstr ""
 msgid "Disabled Account"
 msgstr "Compte désactivé"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Male"
 msgstr "Homme"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Female"
 msgstr "Femme"
 
 #. Translators: 'Other' refers to the student's gender
 #. Translators: 'Other' refers to the student's level of education
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Other"
 msgstr "Autre"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Doctorate"
 msgstr "Doctorat"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Master's or professional degree"
 msgstr "Master ou diplôme professionnel"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Bachelor's degree"
 msgstr "Diplôme de premier cycle supérieur"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Associate degree"
 msgstr ""
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Secondary/high school"
 msgstr "Lycée / enseignement secondaire"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Junior secondary/junior high/middle school"
 msgstr "Collège / enseignement secondaire inférieur"
 
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 msgid "Elementary/primary school"
 msgstr "Enseignement primaire"
 
 #. Translators: 'None' refers to the student's level of education
+#. PM-Cypress 04
 #: common/djangoapps/student/models.py
 #: common/lib/xmodule/xmodule/course_module.py
 msgid "None"
@@ -1021,6 +1032,11 @@ msgstr "Ville"
 #: lms/templates/shoppingcart/receipt.html
 msgid "Country"
 msgstr "Pays"
+
+#. PM-Cypress 04
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Consent. I agree to the {platform_name} {terms_of_service}."
+msgstr "Dans le cadre de l'initiative EDUlib (ou FUN), des équipes de chercheurs vont recueillir et analyser les traces informatiques des activités de tous les participants, dans le but de produire des connaissances scientifiques et d'améliorer les cours. Les traces auxquelles auront accès les chercheurs seront anonymisées, par une équipe de l'Université de Montréal sous la supervision du Pr. Poellhuber, par un processus informatique retirant des données tout renseignement personnel permettant de vous identifier et transformant votre identifiant de manière non réversible. J'acccepte les {terms_of_service} {platform_name}."
 
 #: lms/templates/footer-edx-new.html lms/templates/footer-legacy.html
 #: openedx/core/djangoapps/user_api/views.py
@@ -2221,10 +2237,11 @@ msgstr "Le problème doit être réinitialisé avant d'être enregistré. "
 msgid "Your answers have been saved."
 msgstr "Vos réponses ont été sauvegardées."
 
+#. PM-Cypress 05
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
 "Your answers have been saved but not graded. Click 'Check' to grade them."
-msgstr ""
+msgstr "Votre réponse a été enregistrée, mais n’a pas encore été notée. Cliquez sur ‘Valider’ pour recevoir une note."
 
 #. Translators: A student must "make an attempt" to solve the problem on the
 #. page before they can reset it.
@@ -9231,9 +9248,30 @@ msgstr "Adresse postale"
 msgid "Tell us why you're interested in {platform_name}"
 msgstr "Dites nous pourquoi vous êtes intéressé par {platform_name}"
 
+#. PM-Cypress 04
 #: openedx/core/djangoapps/user_api/views.py
 msgid "Please select your Country."
-msgstr "Sélectionnez votre Pays."
+msgstr "Veuillez sélectionner votre Pays."
+
+#. PM-Cypress 04
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Please enter your Email."
+msgstr "Veuillez entrer votre Courriel."
+
+#. PM-Cypress 04
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Please enter your Full Name."
+msgstr "Veuillez entrer votre Nom complet."
+
+#. PM-Cypress 04
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Please enter your Public Username."
+msgstr "Veuillez entrer votre Nom d'utilisateur public."
+
+#. PM-Cypress 04
+#: openedx/core/djangoapps/user_api/views.py
+msgid "Please enter your Password."
+msgstr "Veuillez entrer votre Mot de passe."
 
 #: openedx/core/djangoapps/user_api/views.py
 msgid "I agree to the {platform_name} {terms_of_service}."
@@ -10024,6 +10062,11 @@ msgstr "Cacher les annotations"
 #: lms/templates/course.html
 msgid "LEARN MORE"
 msgstr "EN SAVOIR PLUS"
+
+#. PM-Cypress 005
+#: lms/templates/course.html
+msgid "New"
+msgstr "Nouveau"
 
 #: lms/templates/course.html
 msgid "Starts"
