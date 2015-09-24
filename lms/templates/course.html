@@ -4,7 +4,16 @@ from django.utils.translation import ugettext as _
 from django.core.urlresolvers import reverse
 %>
 <%page args="course" />
-<article class="course" id="${course.id | h}" role="region" aria-label="${course.display_name_with_default}">
+<<<<<<< a3a3cff5b9b1f90547d39722bd58a453f067f7b9
+##### nouveau code Dogwood
+#####<article class="course" id="${course.id | h}" role="region" aria-label="${course.display_name_with_default}">
+##### nouveau code Dogwood
+##### code Cypress
+<article class="course" id="${course.id | h}" role="region" aria-label="${get_course_about_section(course, 'title')}">
+%if course.is_newish:
+  <span class="status">${_("New")}</span>
+%endif
+##### code Cypress
   <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
     <header class="course-image">
       <div class="cover-image">
