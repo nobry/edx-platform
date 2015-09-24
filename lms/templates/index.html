@@ -18,8 +18,10 @@ from microsite_configuration import microsite
 %>
 
 <section class="home">
-  <section class="header-edulib">
-      <section class="title-edulib">
+	<header class="edulib">
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
@@ -30,8 +32,8 @@ from microsite_configuration import microsite
               <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
             % endif
           % endif
-        ##### new code cypress
-        ####% if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
+        </hgroup>
+        #### % if settings.FEATURES.get('ENABLE_COURSE_DISCOVERY'):
         ####  <div class="course-search">
         ####    <form method="get" action="/courses">
         ####      <input class="search-input" name="search_query" type="text" placeholder="${_("Search for a course")}"></input>
@@ -40,9 +42,10 @@ from microsite_configuration import microsite
         ####      </button>
         ####    </form>
         ####  </div>
-        ####% endif
-        ##### new code cypress
-      </section>
+        #### % endif
+
+      </div>
+
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
           <div class="hero">
@@ -50,7 +53,10 @@ from microsite_configuration import microsite
           </div>
         </a>
       % endif
-  </section>
+    </div>
+
+  </header>
+  
 
   <section class="courses-container">
     <section class="highlighted-courses">

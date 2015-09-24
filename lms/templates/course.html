@@ -6,6 +6,9 @@ from courseware.courses import course_image_url, get_course_about_section
 %>
 <%page args="course" />
 <article class="course" id="${course.id | h}" role="region" aria-label="${get_course_about_section(course, 'title')}">
+%if course.is_newish:
+  <span class="status">${_("New")}</span>
+%endif
   <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
     <header class="course-image">
       <div class="cover-image">
