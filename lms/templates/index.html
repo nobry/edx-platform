@@ -18,8 +18,10 @@ from microsite_configuration import microsite
 %>
 
 <section class="home">
-  <section class="header-edulib">
-      <section class="title-edulib">
+	<header class="edulib">
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
@@ -43,6 +45,8 @@ from microsite_configuration import microsite
         #####    </form>
         #####  </div>
         #####% endif
+        </hgroup>
+      </div>
 
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
@@ -51,7 +55,10 @@ from microsite_configuration import microsite
           </div>
         </a>
       % endif
-  </section>
+    </div>
+
+  </header>
+  
 
   <section class="courses-container">
     <section class="highlighted-courses">

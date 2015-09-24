@@ -54,8 +54,10 @@ logo_alt_text = "EDUlib Logo"
 %>
 
 <section class="home">
-  <section class="header-edulib">
-      <section class="title-edulib">
+  <header class="edulib">
+    <div class="outer-wrapper">
+      <div class="title">
+        <hgroup>
           % if homepage_overlay_html:
             ${homepage_overlay_html}
           % else:
@@ -66,7 +68,9 @@ logo_alt_text = "EDUlib Logo"
               <h1>Notre expertise, <strong>vos comp&eacute;tences</strong>.</h1>
             % endif
           % endif
-      </section>
+        </hgroup>
+
+      </div>
 
       % if show_homepage_promo_video:
         <a href="#video-modal" class="media" rel="leanModal">
@@ -75,7 +79,9 @@ logo_alt_text = "EDUlib Logo"
           </div>
         </a>
       % endif
-  </section>
+    </div>
+
+  </header>
 
   #####  % if course_discovery_enabled:
   #####  <div id="discovery-form" role="search" aria-label="course">
@@ -121,11 +127,10 @@ logo_alt_text = "EDUlib Logo"
   %>
 
   %if counter !=0 :
-      <h1>&Agrave; venir</h1>
+      <h1 class="edulib">&Agrave; venir</h1>
   %endif
 
   <section class="courses-container">
-<<<<<<< a3d23babe579ad43becd76ca72faef012093480b
     ##### nouveau code Dogwood
     #####% if course_discovery_enabled:
     #####<div id="discovery-form" role="search" aria-label="course" class="wrapper-search-context">
