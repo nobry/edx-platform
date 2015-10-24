@@ -408,7 +408,8 @@ def _get_source_address(course_id, course_title):
     #    re.sub(r"[^\w.-]", '_', course_id.course),
     #    settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
     #)
-    from_addr = u'"{0}" Course Staff <{1}>'.format(
+    ####from_addr = u'"{0}" Course Staff <{1}>'.format(
+    from_addr = u'"{0}" <{1}>'.format(
         course_title_no_quotes,
         settings.BULK_EMAIL_DEFAULT_FROM_EMAIL
     )
