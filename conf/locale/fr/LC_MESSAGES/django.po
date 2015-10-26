@@ -11544,9 +11544,10 @@ msgstr "Nombre total de mots :"
 msgid "Open Calculator"
 msgstr "Afficher la calculatrice"
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Calculator Input"
-msgstr ""
+msgstr "Saisie de la calculatrice"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Calculator Input Field"
@@ -11578,23 +11579,28 @@ msgstr ""
 msgid "Tips"
 msgstr "Conseils"
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid ""
 "Use parentheses () to make expressions clear. You can use parentheses inside"
 " other parentheses."
 msgstr ""
+"Utiliser les parenthèses () afin de rendre les expressions plus claires. Vous pouvez"
+" utiliser des parenthèses à l'intérieur d'autres parenthèses."
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Do not use spaces in expressions."
 msgstr "Ne pas utiliser d'espaces dans ces expressions."
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid "For constants, indicate multiplication explicitly (example: 5*c)."
-msgstr ""
+msgstr "Pour les constantes, indiquer la multiplication explicitement (example: 5*c)."
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid "For affixes, type the number and affix without a space (example: 5c)."
-msgstr ""
+msgstr "Pour les suffixes, indiquer le nombre et le suffixe sans espace (example: 5c)."
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid ""
@@ -11646,30 +11652,34 @@ msgstr "+ - * / (additionner, soustraire, multiplier, diviser)"
 msgid "^ (raise to a power)"
 msgstr "^ (élever à la puissance)"
 
+#. PM-Cypress 06
 #. Translators: Please do not translate mathematical symbols.
 #: lms/templates/calculator/toggle_calculator.html
 msgid "|| (parallel resistors)"
-msgstr ""
+msgstr "|| (résistances parallèles)"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Greek letters"
 msgstr "Lettres grecques"
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Name of letter"
-msgstr ""
+msgstr "Nom de la lettre"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Constants"
 msgstr "Constantes"
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Affixes"
-msgstr "Affixes"
+msgstr "Suffixes"
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Percent sign (%) and metric affixes (d, c, m, u, n, p, k, M, G, T)"
-msgstr ""
+msgstr "Pourcentage (%) et suffixes métriques (d, c, m, u, n, p, k, M, G, T)"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Basic functions"
@@ -11684,10 +11694,11 @@ msgstr "Fonctions trigonométriques"
 msgid "Scientific notation"
 msgstr "Notation scientifique"
 
+#. PM-Cypress 06
 #. Translators: 10^ is a mathematical symbol. Please do not translate.
 #: lms/templates/calculator/toggle_calculator.html
 msgid "10^ and the exponent"
-msgstr ""
+msgstr "10^ et l'exposant"
 
 #. Translators: this is part of scientific notation. Please see
 #. http://en.wikipedia.org/wiki/Scientific_notation#E_notation
@@ -11695,18 +11706,20 @@ msgstr ""
 msgid "e notation"
 msgstr "e notation"
 
+#. PM-Cypress 06
 #. Translators: 1e is a mathematical symbol. Please do not translate.
 #: lms/templates/calculator/toggle_calculator.html
 msgid "1e and the exponent"
-msgstr ""
+msgstr "1e et l'exposant"
 
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Calculate"
 msgstr "Calculer"
 
+#. PM-Cypress 06
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Calculator Output"
-msgstr ""
+msgstr "Sortie de la calculatrice"
 
 #: lms/templates/ccx/_dashboard_ccx_listing.html
 msgid "{course_number} {ccx_name} Cover Image"
