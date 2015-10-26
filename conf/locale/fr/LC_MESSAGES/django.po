@@ -11540,6 +11540,11 @@ msgstr "Vos mots :"
 msgid "Total number of words:"
 msgstr "Nombre total de mots :"
 
+#. PM-Cypress 06
+#: lms/templates/calculator/toggle_calculator.html
+msgid "_ (add a subscript)"
+msgstr "_ (ajouter un indice)"
+
 #: lms/templates/calculator/toggle_calculator.html
 msgid "Open Calculator"
 msgstr "Afficher la calculatrice"
