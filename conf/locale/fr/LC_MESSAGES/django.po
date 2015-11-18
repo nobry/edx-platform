@@ -2186,12 +2186,13 @@ msgstr ""
 msgid "You must wait at least {wait} seconds between submissions."
 msgstr "Vous devez attendre au moins {wait} secondes entre les soumissions."
 
+#. PM-Cypress 20151118
 #: common/lib/xmodule/xmodule/capa_base.py
 msgid ""
 "You must wait at least {wait_secs} between submissions. {remaining_secs} "
 "remaining."
 msgstr ""
-"Vous devez attendre au moins  {wait_secs}  entre deux soumissions. Reste  "
+"Vous devez attendre au moins  {wait_secs}  entre deux soumissions. Il reste  "
 "{remaining_secs}  secondes."
 
 #. Translators: {msg} will be replaced with a problem's error message.
@@ -13566,9 +13567,10 @@ msgstr "Éditer la réponse"
 msgid "Update response"
 msgstr "Mettre à jour la réponse"
 
+#. PM-Cypress 20151118
 #: lms/templates/discussion/_underscore_templates.html
 msgid "posted %(time_ago)s by %(author)s"
-msgstr "posté %(time_ago)s par %(author)s"
+msgstr "postée %(time_ago)s par %(author)s"
 
 #: lms/templates/discussion/_underscore_templates.html
 msgid "Editing comment"

@@ -6248,9 +6248,10 @@ msgstr "Ce message est visible seulement par %(group_name)s."
 msgid "This post is visible to everyone."
 msgstr "Ce message est visible par tous."
 
+#. PM-Cypress 20151118
 #: common/templates/js/discussion/thread-show.underscore
 msgid "%(post_type)s posted %(time_ago)s by %(author)s"
-msgstr "%(post_type)s posté %(time_ago)s par %(author)s"
+msgstr "%(post_type)s postées %(time_ago)s par %(author)s"
 
 #: common/templates/js/discussion/thread-show.underscore
 msgid "Pinned"
