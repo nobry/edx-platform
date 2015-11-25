@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 """URL handlers related to certificate handling by LMS"""
 from microsite_configuration import microsite
 from datetime import datetime
@@ -320,7 +321,8 @@ def _update_certificate_context(context, course, user, user_certificate):
 
     # Translators:  The format of the date includes the full name of the month
     context['certificate_date_issued'] = _('{month} {day}, {year}').format(
-        month=user_certificate.modified_date.strftime("%B"),
+        #####month=user_certificate.modified_date.strftime("%B"),
+        month=_(user_certificate.modified_date.strftime("%B")),
         day=user_certificate.modified_date.day,
         year=user_certificate.modified_date.year
     )
@@ -486,7 +488,7 @@ def render_html_view(request, user_id, course_id):
 
     # Translators:  'All rights reserved' is a legal term used in copyrighting to protect published content
     reserved = _("All rights reserved")
-    context['copyright_text'] = '&copy; {year} {platform_name}. {reserved}.'.format(
+    context['copyright_text'] = u'&copy; {year} {platform_name}. {reserved}.'.format(
         year=settings.COPYRIGHT_YEAR,
         platform_name=context.get('platform_name'),
         reserved=reserved

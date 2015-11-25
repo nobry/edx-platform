@@ -1304,98 +1304,122 @@ msgctxt "abbreviated month name"
 msgid "Dec"
 msgstr "déc"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "January 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "January"
 msgstr "janvier"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "February 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "February"
 msgstr "février"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "March 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "March"
 msgstr "mars"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "April 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "April"
 msgstr "avril"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "May 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "May"
 msgstr "mai"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "June 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "June"
 msgstr "juin"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "July 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "July"
 msgstr "juillet"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "August 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "August"
 msgstr "août"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "September 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "September"
-msgstr "eptembre"
+msgstr "septembre"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "October 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "October"
 msgstr "octobre"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "November 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "November"
 msgstr "novembre"
 
+#. PM-Cypress 20151125
 #. Translators: this is a month name that will be used when displaying
 #. dates, as in "December 10, 2014". It is used for the %B directive in
 #. date-time formats. See http://strftime.org for details.
 #: common/djangoapps/util/date_utils.py
+#: lms/djangoapps/certificates/views.py
 msgctxt "month name"
 msgid "December"
 msgstr "décembre"
@@ -5060,86 +5084,115 @@ msgid ""
 " rerun of this course in the studio to allow this action."
 msgstr ""
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/badge_handler.py
 msgid ""
 "Completed the course \"{course_name}\" ({course_mode}, {start_date} - "
 "{end_date})"
 msgstr ""
+"A complété le  \"{course_name}\" ({course_mode}, {start_date} - "
+"{end_date})"
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/badge_handler.py
 msgid "Completed the course \"{course_name}\" ({course_mode})"
-msgstr ""
+msgstr "A complété le cours \"{course_name}\" ({course_mode})"
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid ""
 "A human-readable description of the example certificate.  For example, "
 "'verified' or 'honor' to differentiate between two types of certificates."
 msgstr ""
+"Une description lisible du certificat d'exemple.  Par exemple, "
+"'vérifié' or 'honneur' afin de différencier entre deux types de certificats."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid ""
 "A unique identifier for the example certificate.  This is used when we "
 "receive a response from the queue to determine which example certificate was"
 " processed."
 msgstr ""
+"Un identificateur unique pour le certificat d'exemple. Ceci est utilise quand "
+"nous recevons une réponse de de la queue de traitement afin de déterminer quel type de certificat a été"
+" traité."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid ""
 "An access key for the example certificate.  This is used when we receive a "
 "response from the queue to validate that the sender is the same entity we "
 "asked to generate the certificate."
 msgstr ""
+"Une clé d'accès pour le certificat d'exemple.  Celle-ci est utilisée quand nous recevons "
+"une réponse de la queue de traitement afin de valider que l'expediteur est la meme entité à qui "
+"nous avons demandé de générer le certificat."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The full name that will appear on the certificate."
-msgstr ""
+msgstr "Le nom complet qui apparaitra sur le certificat."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The template file to use when generating the certificate."
-msgstr ""
+msgstr "Le gabarit qui sera utilisé afin de générer le certificat."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The status of the example certificate."
-msgstr ""
+msgstr "Le statut du certificat d'exemple."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The reason an error occurred during certificate generation."
-msgstr ""
+msgstr "La raison pour laquelle est survenue une erreur durant la génération du certificat."
 
 #. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The download URL for the generated certificate."
-msgstr "Le URL de téléchargement pour le certificat généré"
+msgstr "Le URL de téléchargement pour le certificat généré."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The badge image must be square."
-msgstr ""
+msgstr "L'image du badge doit etre carrée."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The badge image file size must be less than 250KB."
-msgstr ""
+msgstr "La taille du fichier contenant l'image du badge doit faire moins de 250KB."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The course mode for this badge image. For example, \"verified\" or \"honor\"."
-msgstr ""
+msgstr "Le mode de cours pour ce badge. Par exemple, \"verifie\" or \"honneur\"."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid ""
 "Badge images must be square PNG files. The file size should be under 250KB."
 msgstr ""
+"Les images de badges doivent être des fichiers PNG carrés. La taille du fichier doit faire moinds de 250KB."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid ""
 "Set this value to True if you want this image to be the default image for "
 "any course modes that do not have a specified badge image. You can have only"
 " one default image."
 msgstr ""
+"Définissez cette valeur à True si vous voulez que cette image soit l'image par défaut pour"
+"tout mode de cours qui ne dispose pas d'une image de badges. Vous pouvez avoir seulement "
+"une image par défaut."
 
 #. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "There can be only one default image."
 msgstr "Il ne peut y avoir qu'une image de défaut."
 
+#. PM-Cypress 20151124
 #. Translators:  This text describes the 'Honor' course certificate type.
 #: lms/djangoapps/certificates/views.py
 msgid ""
@@ -5147,19 +5200,28 @@ msgid ""
 "agreed to abide by {platform_name}'s honor code and completed all of the "
 "required tasks for this course under its guidelines."
 msgstr ""
+"Un certificat {cert_type} signifie que l'étudiant a convenu"
+"de respecter le code d'honneur {platform_name} et a complété"
+"toutes les tâches requises pour ce cours tout en respectant les lignes directrices de celui-ci."
 
+#. PM-Cypress 20151124
 #. Translators:  This text describes the 'ID Verified' course certificate
 #. type, which is a higher level of
 #. verification offered by edX.  This type of verification is useful for
 #. professional education/certifications
 #: lms/djangoapps/certificates/views.py
 msgid ""
-"An {cert_type} Certificate signifies that an {platform_name} learner has "
+"{cert_type} Certificate signifies that an {platform_name} learner has "
 "agreed to abide by {platform_name}'s honor code and completed all of the "
 "required tasks for this course under its guidelines, as well as having their"
 " photo ID checked to verify their identity."
 msgstr ""
+"Un certificat {cert_type} signifie que l'étudiant a convenu"
+"de respecter le code d'honneur {platform_name} et a complété"
+"toutes les täches requises pour ce cours tout en respectant les lignes directrices de celui-ci et"
+"en se soumettant a une vérification de son identité."
 
+#. PM-Cypress 20151124
 #. Translators:  This text describes the 'XSeries' course certificate type.
 #. An XSeries is a collection of
 #. courses related to each other in a meaningful way, such as a specific topic
@@ -5169,41 +5231,49 @@ msgid ""
 "An {cert_type} Certificate demonstrates a high level of achievement in a "
 "program of study, and includes verification of the student's identity."
 msgstr ""
+"Un certificat {cert_type} démontre un haut niveau d'accomplissement dans "
+"un programme d'études, et inclut la vérification de l'identité de l'étudiant."
 
+#. PM-Cypress 20151124
 #. Translators:  The format of the date includes the full name of the month
 #: lms/djangoapps/certificates/views.py
 msgid "{month} {day}, {year}"
-msgstr ""
+msgstr "{day} {month}, {year}"
 
+#. PM-Cypress 20151124
 #. Translators: This line appears on the certificate after the name of a
 #. course, and provides more
 #. information about the organizations providing the course material to
 #. platform users
 #: lms/djangoapps/certificates/views.py
 msgid "a course of study offered by {partner_name}, through {platform_name}."
-msgstr ""
+msgstr "un cours offert par {partner_name} via {platform_name}."
 
+#. PM-Cypress 20151124
 #. Translators: Accomplishments describe the awards/certifications obtained by
 #. students on this platform
 #: lms/djangoapps/certificates/views.py
 msgid "About {platform_name} Accomplishments"
-msgstr ""
+msgstr "A propos des accomplissements {platform_name}"
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "More Information About {user_name}'s Certificate:"
-msgstr ""
+msgstr "Plus d'information sur le certificat de {user_name}:"
 
+#. PM-Cypress 20151124
 #. Translators:  This line appears on the page just before the generation date
 #. for the certificate
 #: lms/djangoapps/certificates/views.py
 msgid "Issued On:"
-msgstr ""
+msgstr "Émis le:"
 
+#. PM-Cypress 20151124
 #. Translators:  The Certificate ID Number is an alphanumeric value unique to
 #. each individual certificate
 #: lms/djangoapps/certificates/views.py
 msgid "Certificate ID Number"
-msgstr ""
+msgstr "Numéro d'identification du certificat"
 
 #. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
@@ -5223,11 +5293,16 @@ msgid ""
 "require completing additional steps, such as <a href='{verified_cert_url}'> "
 "verifying your identity</a>."
 msgstr ""
+"{platform_name} reconnaît les réalisations des étudiants par le biais de certificats qui sont attribués "
+"lorsque les étudiants complètent diverses activités suivant le cadre <a href='{tos_url}'>du code d'honneur {platform_name}</a>. "
+"Certains certificats exigent la réalisation d'étapes supplémentaires, telles que la vérification de l'identité des étudiants."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "How {platform_name} Validates Student Certificates"
-msgstr ""
+msgstr "Comment {platform_name} effectue la vaildation des certificats des étudiants"
 
+#. PM-Cypress 20151124
 #. Translators:  This text describes the validation mechanism for a
 #. certificate file (known as GPG security)
 #: lms/djangoapps/certificates/views.py
@@ -5237,11 +5312,17 @@ msgid ""
 "key. For independent verification, {platform_name} uses what is called a "
 "\"detached signature\"&quot;\"."
 msgstr ""
+"Les certificats émis par {platform_name} sont signés avec une clé gpg key de façon à ce qu'ils"
+"puissent être validés indépendamment par quiconque ayant la clé publique de {platform_name}. "
+"Pour une vérification indépendante, {platform_name} utilise ce qu'on appele une clé de "
+"\"signature détachée\"&quot;\"."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "Validate this certificate for yourself"
-msgstr ""
+msgstr "Validez ce certificat par vous-même"
 
+#. PM-Cypress 20151124
 #. Translators:  This text describes (at a high level) the mission and charter
 #. the edX platform and organization
 #: lms/djangoapps/certificates/views.py
@@ -5251,45 +5332,59 @@ msgid ""
 "and many others.  {platform_name} is a non-profit online initiative created "
 "by founding partners Harvard and MIT."
 msgstr ""
+"{platform_name} offre des cours en ligne et des MOOCs provenant de ses partenaires "
+"incluant l'Université de Montréal, HEC Montréal et Polytechnique Montréal."
+"{platform_name} est une initiative sans but lucratif créée par les partenaires fondateurs "
+"Université de Montréal, HEC Montréal et Polytechnique Montréal."
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "About {platform_name}"
-msgstr ""
+msgstr "A propos de {platform_name}"
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "Learn more about {platform_name}"
-msgstr ""
+msgstr "Apprenez en plus à propos de {platform_name}"
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "Learn with {platform_name}"
-msgstr ""
+msgstr "Apprenez avec {platform_name}"
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "Work at {platform_name}"
-msgstr ""
+msgstr "Travaillez à {platform_name}"
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "Contact {platform_name}"
-msgstr ""
+msgstr "Contactez {platform_name}"
 
+#. PM-Cypress 20151124
 #. Translators:  This text appears near the top of the certficate and
 #. describes the guarantee provided by edX
 #: lms/djangoapps/certificates/views.py
 msgid "{platform_name} acknowledges the following student accomplishment"
-msgstr ""
+msgstr "{platform_name} reconnait les accomplissements de l'étudiant suivant"
 
+#. PM-Cypress 20151124
 #. Translators:  This text represents the verification of the certificate
 #: lms/djangoapps/certificates/views.py
 msgid ""
 "This is a valid {platform_name} certificate for {user_name}, who "
 "participated in {partner_name} {course_number}"
 msgstr ""
+"Ceci est un certificat {platform_name} valide pour {user_name}, qui "
+"a participé dans le cours {course_number} de {partner_name}"
 
+#. PM-Cypress 20151124
 #. Translators:  This text is bound to the HTML 'title' element of the page
 #. and appears in the browser title bar
 #: lms/djangoapps/certificates/views.py
 msgid "{partner_name} {course_number} Certificate | {platform_name}"
-msgstr ""
+msgstr "Certificat {partner_name} {course_number} | {platform_name}"
 
 #. PM-Cypress 20151124
 #. Translators:  This text fragment appears after the student's name
@@ -5301,13 +5396,17 @@ msgid ""
 "successfully completed, received a passing grade, and was awarded a "
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
+"a complété avec succès, a reçu une note de passage, et a reçu un "
+"certificat de complétion {platform_name} {certificate_type} "
 
+#. PM-Cypress 20151124
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
 #: lms/djangoapps/certificates/views.py
 msgid "{fullname}, you've earned a certificate!"
-msgstr ""
+msgstr "{fullname}, vous avez mérité un certificat!"
 
+#. PM-Cypress 20151124
 #. Translators: This line congratulates the user and instructs them to share
 #. their accomplishment on social networks
 #: lms/djangoapps/certificates/views.py
@@ -5316,38 +5415,46 @@ msgid ""
 "accomplished. Show it off to family, friends, and colleagues in your social "
 "and professional networks."
 msgstr ""
+"Felicitations! Cette page résume tous les détails de ce que vous avez "
+"accompli. Montrez le à votre famille, vos amis, et vos collègues dans les réseaux "
+"sociaux et professionels."
 
+#. PM-Cypress 20151124
 #. Translators: This line leads the reader to understand more about the
 #. certificate that a student has been awarded
 #: lms/djangoapps/certificates/views.py
 msgid "More about {fullname}'s accomplishment"
-msgstr ""
+msgstr "Plus de détails sur les accomplissements de {fullname}"
 
+#. PM-Cypress 20151124
 #. Translators:  'All rights reserved' is a legal term used in copyrighting to
 #. protect published content
 #: lms/djangoapps/certificates/views.py
 msgid "All rights reserved"
-msgstr ""
+msgstr "Tous droits réservés"
 
+#. PM-Cypress 20151124
 #. Translators:  This text is bound to the HTML 'title' element of the page
 #. and appears
 #. in the browser title bar when a requested certificate is not found or
 #. recognized
 #: lms/djangoapps/certificates/views.py
 msgid "Invalid Certificate"
-msgstr ""
+msgstr "Certificat invalide"
 
+#. PM-Cypress 20151124
 #. Translators: The &amp; characters represent an ampersand character and can
 #. be ignored
 #: lms/djangoapps/certificates/views.py
 msgid "Terms of Service &amp; Honor Code"
-msgstr ""
+msgstr "Conditions d'utilisation &amp; code d'honneur"
 
+#. PM-Cypress 20151124
 #. Translators: This line appears as a byline to a header image and describes
 #. the purpose of the page
 #: lms/djangoapps/certificates/views.py
 msgid "Certificate Validation"
-msgstr ""
+msgstr "Validation du certificat"
 
 #: lms/djangoapps/class_dashboard/dashboard_data.py
 #: lms/templates/instructor/instructor_dashboard_2/metrics.html
@@ -11921,76 +12028,93 @@ msgstr ""
 msgid "Download student grades"
 msgstr "Télécharger les notes des étudiants"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print or share your certificate:"
-msgstr ""
+msgstr "Imprimer ou partager votre certificat:"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "I completed the {course_title} course on {platform_name}."
-msgstr ""
+msgstr "J'ai complété le cours {course_title} sur {platform_name}."
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Click the link to see my certificate."
-msgstr ""
+msgstr "Cliquer ce lien pour voir mon certificat."
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Post on Facebook"
-msgstr ""
+msgstr "Poster sur Facebook"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Add to LinkedIn Profile"
-msgstr ""
+msgstr "Ajouter à votre profile LinkedIn"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Add to Mozilla Backpack"
-msgstr ""
+msgstr "Ajouter à Mozilla Backpack"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-banner.html
 msgid "Print Certificate"
-msgstr ""
-"Cliquer sur ce bouton pour couper ou remettre le son de la vidéo ou appuyer "
-"sur les boutons UP ou DOWN pour augmenter ou diminuer le volume. "
+msgstr "Imprimer le certificat"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-header.html
 msgid "{platform_name} Home"
-msgstr ""
+msgstr "Page d'accueil {platform_name}"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-rendering.html
 msgid "Noted by"
-msgstr ""
+msgstr "Noté par"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/_accomplishment-rendering.html
 msgid "Supported by the following organizations"
-msgstr ""
+msgstr "Supporté par les organisations suivantes"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/invalid.html
 msgid "This is an invalid certificate number"
-msgstr ""
+msgstr "Ceci est un numéro d'identification de certificat invalide"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/invalid.html
 msgid "This Certificate Does Not Exist"
-msgstr ""
+msgstr "Ce certificat n'existe pas"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/invalid.html
-msgid ""
-"We cannot find a certificate on file that matches this URL or ID number."
-msgstr ""
+msgid "We cannot find a certificate on file that matches this URL or ID number."
+msgstr "Nous ne pouvons trouver un certificat qui répond à ce URL ou à ce numéro d'indentification."
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/invalid.html
 msgid "Looking for a Particular Certificate?"
-msgstr ""
+msgstr "Vous cherchez un certificat en particulier?"
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/invalid.html
 msgid ""
 "Ensure that the ID number is an exact match of the ID number on the PDF or "
 "print certificate you are referencing."
 msgstr ""
+"Assurez-vous que le numéro d'identification correspond exactement au numéro d'identification sur le fichier PDF ou "
+"sur le certificat imprimé vous référencez."
 
+#. PM-Cypress 20151125
 #: lms/templates/certificates/invalid.html
 msgid ""
 "If you are trying to validate a certificate with this ID number, it may be a"
 " forgery."
 msgstr ""
+"Si vous essayez de valider un certificat avec ce numéro d'identification, celui-ci a peut être été "
+"falsifié."
 
 #: lms/templates/chat/toggle_chat.html
 msgid "Open Chat"
