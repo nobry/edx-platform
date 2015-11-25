@@ -5106,11 +5106,10 @@ msgstr ""
 msgid "The reason an error occurred during certificate generation."
 msgstr ""
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "The download URL for the generated certificate."
-msgstr ""
-"Impossible de passer à la branche spécifiée. Veuillez s'il vous plaît "
-"vérifier le nom de votre branche."
+msgstr "Le URL de téléchargement pour le certificat généré"
 
 #: lms/djangoapps/certificates/models.py
 msgid "The badge image must be square."
@@ -5136,10 +5135,10 @@ msgid ""
 " one default image."
 msgstr ""
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/models.py
 msgid "There can be only one default image."
-msgstr ""
-"Aucune commande trouvée pour l'utilisateur {user} dans le cours {course_id}"
+msgstr "Il ne peut y avoir qu'une image de défaut."
 
 #. Translators:  This text describes the 'Honor' course certificate type.
 #: lms/djangoapps/certificates/views.py
@@ -5206,11 +5205,12 @@ msgstr ""
 msgid "Certificate ID Number"
 msgstr ""
 
+#. PM-Cypress 20151124
 #: lms/djangoapps/certificates/views.py
 msgid "About {platform_name} Certificates"
-msgstr ""
-"Impossible de trouver l’utilisateur avec l’adresse de courriel {email_addr}"
+msgstr "A propos des certificats {platform_name}"
 
+#. PM-Cypress 20151124
 #. Translators: This text describes the purpose (and therefore, value) of a
 #. course certificate
 #. 'verifying your identity' refers to the process for establishing the
@@ -5223,8 +5223,6 @@ msgid ""
 "require completing additional steps, such as <a href='{verified_cert_url}'> "
 "verifying your identity</a>."
 msgstr ""
-"Impossible de trouver l’utilisateur avec le nom d’utilisateur {username} - "
-"{error}"
 
 #: lms/djangoapps/certificates/views.py
 msgid "How {platform_name} Validates Student Certificates"
@@ -5293,6 +5291,7 @@ msgstr ""
 msgid "{partner_name} {course_number} Certificate | {platform_name}"
 msgstr ""
 
+#. PM-Cypress 20151124
 #. Translators:  This text fragment appears after the student's name
 #. (displayed in a large font) on the certificate
 #. screen.  The text describes the accomplishment represented by the
@@ -5302,8 +5301,6 @@ msgid ""
 "successfully completed, received a passing grade, and was awarded a "
 "{platform_name} {certificate_type} Certificate of Completion in "
 msgstr ""
-"Impossible de cloner ou télécharger le référentiel. veuillez s'il vous plaît"
-" vérifier votre URL. La sortie était: {0!r}"
 
 #. Translators: This line is displayed to a user who has completed a course
 #. and achieved a certification
