@@ -1424,6 +1424,16 @@ msgctxt "month name"
 msgid "December"
 msgstr "décembre"
 
+#. PM-Cypress 20151125
+#: lms/djangoapps/certificates/views.py
+msgid "honor"
+msgstr "honneur"
+
+#. PM-Cypress 20151125
+#: lms/djangoapps/certificates/views.py
+msgid "verified"
+msgstr "vérifié"
+
 #: common/djangoapps/util/file.py
 msgid "The file must end with the extension '{file_types}'."
 msgid_plural ""
@@ -5294,7 +5304,7 @@ msgid ""
 "verifying your identity</a>."
 msgstr ""
 "{platform_name} reconnaît les réalisations des étudiants par le biais de certificats qui sont attribués "
-"lorsque les étudiants complètent diverses activités suivant le cadre <a href='{tos_url}'>du code d'honneur {platform_name}</a>. "
+"lorsque les étudiants complètent diverses activités suivant le cadre du code d'honneur {platform_name}</a>. "
 "Certains certificats exigent la réalisation d'étapes supplémentaires, telles que la vérification de l'identité des étudiants."
 
 #. PM-Cypress 20151124
