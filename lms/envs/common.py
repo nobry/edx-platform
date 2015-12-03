@@ -1201,7 +1201,9 @@ MIDDLEWARE_CLASSES = (
 )
 
 # Clickjacking protection can be enabled by setting this to 'DENY'
-X_FRAME_OPTIONS = 'ALLOW'
+#####X_FRAME_OPTIONS = 'ALLOW'
+#####To replace content of patch 20151203
+X_FRAME_OPTIONS = 'DENY'
 
 ############################### Pipeline #######################################
 
@@ -2574,3 +2576,15 @@ CREDIT_PROVIDER_TIMESTAMP_EXPIRATION = 15 * 60
 # not expected to be active; this setting simply allows administrators to
 # route any messages intended for LTI users to a common domain.
 LTI_USER_EMAIL_DOMAIN = 'lti.example.com'
+
+# An aggregate score is one derived from multiple problems (such as the
+# cumulative score for a vertical element containing many problems). Sending
+# aggregate scores immediately introduces two issues: one is a race condition
+# between the view method and the Celery task where the updated score may not
+# yet be visible to the database if the view has not yet returned (and committed
+# its transaction). The other is that the student is likely to receive a stream
+# of notifications as the score is updated with every problem. Waiting a
+# reasonable period of time allows the view transaction to end, and allows us to
+# collapse multiple score updates into a single message.
+# The time value is in seconds.
+LTI_AGGREGATE_SCORE_PASSBACK_DELAY = 15 * 60
