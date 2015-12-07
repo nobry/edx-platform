@@ -8696,12 +8696,16 @@ msgid ""
 "correctly."
 msgstr ""
 
+#. PM-Cypress 20151207
 #: lms/templates/registration/password_reset_confirm.html
 msgid ""
 "\n"
 "        Required fields are noted by %(bold_start)sbold text and an asterisk (*)%(bold_end)s.\n"
 "        "
 msgstr ""
+"\n"
+"        Les champs requis sont inscrits en %(bold_start)texte gras et avec un astérisque (*)%(bold_end)s.\n"
+"        "
 
 #: lms/templates/registration/password_reset_confirm.html
 #: lms/templates/forgot_password_modal.html lms/templates/login.html
