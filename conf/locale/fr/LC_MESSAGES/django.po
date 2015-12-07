@@ -8704,7 +8704,7 @@ msgid ""
 "        "
 msgstr ""
 "\n"
-"        Les champs requis sont inscrits en %(bold_start)texte gras et avec un astérisque (*)%(bold_end)s.\n"
+"        Les champs requis sont inscrits en %(bold_start)stexte gras et avec un astérisque (*)%(bold_end)s.\n"
 "        "
 
 #: lms/templates/registration/password_reset_confirm.html
