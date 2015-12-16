@@ -5039,9 +5039,10 @@ msgstr ""
 msgid "FAQs"
 msgstr ""
 
+#. PM-Cypress 20151210
 #: lms/templates/static_templates/contact.html
 msgid "Contact"
-msgstr "Contact"
+msgstr "Nous joindre"
 
 #: lms/templates/static_templates/jobs.html
 msgid "Jobs"
@@ -7252,9 +7253,10 @@ msgstr ""
 "Il n'y a pas de module de notation par les pairs créé pour ce cours qui vous permettrait d'évaluer les autres.\n"
 "Merci de revenir vérifier ceci plus tard."
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/shoppingcart/models.py
 msgid "Order Payment Confirmation"
-msgstr "Confirmation de payement"
+msgstr "Confirmation de paiement"
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
@@ -7324,12 +7326,16 @@ msgstr ""
 msgid "{mode_name} for course {course}"
 msgstr "{mode_name} pour le cours {course}"
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
 "If you haven't verified your identity yet, please start the verification "
 "process ({verification_url})."
 msgstr ""
+"Si vous n'avez pas encore vérifié votre identité, s'il vous plaît commencer "
+"le processus de vérification ({verification_url})."
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
 "You have up to two weeks into the course to unenroll and receive a full "
@@ -7337,6 +7343,10 @@ msgid ""
 "order number in your email. Please do NOT include your credit card "
 "information."
 msgstr ""
+"Vous disposez de deux semaines à partir du début du cours afin de vous désinscrire et recevoir un remboursement. "
+"Afin de recevoir votre remboursement, contactez {billing_email}. S'il vous plaît "
+"inscrivez votre numéro de commande dans votre courriel. S'il vous plaît NE PAS inclure vos informations "
+"de carte de crédit."
 
 #: lms/djangoapps/shoppingcart/models.py
 msgid ""
@@ -7509,9 +7519,10 @@ msgstr "Vérifier l'inscription"
 msgid "Honor Code Enrollment"
 msgstr "Inscriptions au Certificat sur l'honneur"
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Verified Enrollment"
-msgstr "Inscriptions au Certificat Vérifié"
+msgstr "Inscriptions au certificat vérifié"
 
 #: lms/djangoapps/shoppingcart/reports.py
 msgid "Gross Revenue"
@@ -7929,16 +7940,18 @@ msgstr ""
 "La demande d'autorisation a été approuvée par la banque émettrice, mais déclinée par CyberSource.\n"
 "Correction possible: réessayer avec un autre mode de paiement."
 
+#. PM-Cypress 20151210
 #. Translators: this text appears when an unfamiliar error code occurs during
 #. payment,
 #. for which we don't know a user-friendly message to display in advance.
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "UNKNOWN REASON"
-msgstr ""
+msgstr "RAISON INCONNUE"
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The payment processor did not return a required parameter: {parameter}"
-msgstr ""
+msgstr "Le traitement des paiements n'a pas retourné un paramètre requis: {parameter}"
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
@@ -7998,6 +8011,7 @@ msgstr ""
 "est: {msg}. Le montant a probablement été prélevé sur votre carte de crédit."
 " Contactez-nous pour les questions liées au paiement à l'adresse {email}."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "Sorry! Our payment processor sent us back a corrupted message regarding your"
@@ -8007,7 +8021,14 @@ msgid ""
 "action on your order. Your credit card may possibly have been charged. "
 "Contact us with payment-specific questions at {email}."
 msgstr ""
+"Désolé! Notre processeur de paiement nous a envoyé un message corrompu concernant "
+"votre paiement, de sorte que nous sommes incapables de valider que le message provenait "
+"en fait de celui-ci.  Le message d'erreur spécifique est: {msg}. Nous nous excusons "
+"de ne pouvoir vérifier si le montant vous a été facturé et prendre des mesures "
+"supplémentaires sur votre commande. Votre carte de crédit peut éventuellement avoir été facturé. "
+"Contactez-nous avec des questions spécifiques au paiement à {email}."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "Sorry! Our payment processor sent us back a message saying that you have "
@@ -8015,19 +8036,30 @@ msgid ""
 "future purchase. If you feel that this is in error, please contact us with "
 "payment-specific questions at {email}."
 msgstr ""
+"Désolé! Notre processeur de paiement nous a envoyé un message indiquant que vous avez "
+"annulé cette transaction. Les articles resteront dans votre panier pour "
+"un achat futur. Si vous croyez que cela est dans une erreur, s'il vous plaît contactez-nous pour "
+"questions spécifiques au paiement à {email}."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "We're sorry, but this payment was declined. The items in your shopping cart "
 "have been saved. If you have any questions about this transaction, please "
 "contact us at {email}."
 msgstr ""
+"Nous sommes désolés, mais ce paiement a été refusé. Les articles dans votre panier "
+"ont été sauvés. Si vous avez des questions au sujet de cette transaction, s'il vous plaît"
+"contactez-nous à {email}."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "Sorry! Your payment could not be processed because an unexpected exception "
 "occurred. Please contact us at {email} for assistance."
 msgstr ""
+"Désolé! Votre paiement n'a pu être traité en raison d'un problème inattendu. "
+"S'il vous plaît contactez-nous au {email} pour de l'aide."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
@@ -8044,10 +8076,12 @@ msgstr ""
 msgid "Only a partial amount was approved."
 msgstr "Seul un montant partiel a été approuvé"
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "General system failure."
-msgstr ""
+msgstr "Défaillance générale du système."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8055,11 +8089,15 @@ msgid ""
 "            client and the server.\n"
 "            "
 msgstr ""
+"\n"
+"La demande a été reçue, mais il y avait un délai d'attente du serveur. Cette erreur ne comprend pas les délais d'attente entre le Client et le serveur."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "The request was received, but a service did not finish running in time."
 msgstr ""
+"La demande a été reçue, mais un service n'a pas terminé dans les temps voulus."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
@@ -8072,6 +8110,7 @@ msgstr ""
 "La demande d'autorisation a été approuvée par la banque émettrice, mais refusée par CyberSource\n"
 "car elle n'a pas passé avec succès le système de vérification d'adresse (AVS)"
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8080,7 +8119,10 @@ msgid ""
 "            Possible action: retry with another form of payment.\n"
 "            "
 msgstr ""
+"\n"
+"La banque émettrice a des questions sur la demande. Vous ne recevez pas un code d'autorisation, mais vous pourriez recevoir un appel verbal du processeur. Action possible: réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8089,7 +8131,10 @@ msgid ""
 "            Possible action: retry with another form of payment.\n"
 "            "
 msgstr ""
+"\n"
+"Carte périmée. Vous pourriez également recevoir ce message si la date d'expiration fournie ne correspond pas à la date dossier de la banque émettrice. Action possible: réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8097,12 +8142,16 @@ msgid ""
 "            Possible action: retry with another form of payment.\n"
 "            "
 msgstr ""
+"\n"
+"Déclinaison de la carte. Aucune autre information fournie par la banque émettrice. Action possible: réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "Insufficient funds in the account. Possible action: retry with another form "
 "of payment."
 msgstr ""
+"Fonds insuffisant dans le compte. Action possible: réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "Stolen or lost card."
@@ -8118,6 +8167,7 @@ msgstr ""
 "{charged_amount_currency} est différent de celui du coût total de la "
 "commande {total_cost} {total_cost_currency}."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8125,16 +8175,21 @@ msgid ""
 "            Possible action: retry with another form of payment.\n"
 "            "
 msgstr ""
+"\n"
+"Carte inactive ou non autorisé pour les transactions sans carte présente. Action possible: réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "CVN did not match."
-msgstr ""
+msgstr "CVN ne correspond pas."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "The card has reached the credit limit. Possible action: retry with another "
 "form of payment."
 msgstr ""
+"La carte a atteint la limite de crédit. Action possible: réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
@@ -8155,6 +8210,7 @@ msgid "Account frozen. Possible action: retry with another form of payment."
 msgstr ""
 "Compte bloqué. Solution possible : réessayer avec un autre moyen de paiement"
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8163,12 +8219,17 @@ msgid ""
 "            Possible action: retry with another form of payment.\n"
 "            "
 msgstr ""
+"\n"
+"La demande d'autorisation a été approuvé par la banque émettrice, mais a été refusé par CyberSource, car elle n'a pas passé le contrôle de CVN. Action possible: réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "Invalid account number. Possible action: retry with another form of payment."
 msgstr ""
+"Numéro de compte invalide. Solution possible: réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8176,12 +8237,16 @@ msgid ""
 "            Possible action: retry with another form of payment.\n"
 "            "
 msgstr ""
+"\n"
+"Ce type de carte n'est acceptée par le processeur de paiement. Action possible: réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "General decline by the processor.  Possible action: retry with another form "
 "of payment."
 msgstr ""
+"Refus global par le processeur de paiement. Action possible: réessayer avec une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
@@ -8193,24 +8258,27 @@ msgstr ""
 "La banque émettrice a des questions sur la demande. Vous ne recevrez pas un code d'autorisation via le logiciel, mais vous pourriez en obtenir un  verbalement en appelant le responsable de la transaction.\n"
 "Solution possible : réessayer avec une autre forme de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The requested capture amount exceeds the originally authorized amount."
-msgstr ""
+msgstr "Le montant demandée dépasse le montant autorisé initialement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "Processor Failure.  Possible action: retry the payment"
-msgstr ""
+msgstr "Panne de processeur. Action possible: réessayer le paiement"
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The authorization has already been reversed."
-msgstr ""
-"Le client correspond à une entrée en liste rouge pour le responsable du "
-"traitement"
+msgstr "L'autoriation a déjà été renversée."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The authorization has already been captured."
-msgstr ""
+msgstr "L'autorisation a déjà été capturée."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8218,6 +8286,8 @@ msgid ""
 "            Possible action: retry with the same card or another form of payment.\n"
 "            "
 msgstr ""
+"\n"
+"Le type de carte envoyée est invalide ou ne correspond pas avec le numéro de carte de crédit. Action possible: réessayer avec la même carte ou une autre forme de paiement."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
@@ -8232,6 +8302,7 @@ msgstr ""
 "CyberSource car elle n'a pas passé avec succès le contrôle de CVN\n"
 "Solution possible: réessayer avec une autre forme de paiement"
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "\n"
@@ -8239,19 +8310,25 @@ msgid ""
 "            submitted to your processor, or you requested a void for a type of transaction that cannot be voided.\n"
 "            "
 msgstr ""
+"\n"
+"Soit la capture ou le crédit ne sont pas annulables parce que la capture ou l'information de crédit a déjà été soumise à votre processeur, ou vous avez demandé une annulation pour un type de transaction qui ne peut pas être annulée."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "You requested a credit for a capture that was previously voided."
-msgstr ""
+msgstr "Vous avez demandé un crédit pour une capture qui a été précédemment annulée."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid ""
 "The request was received, but there was a timeout at the payment processor."
 msgstr ""
+"La demande a été reçue, mais il y a eu un délai d'attente au niveau du processeur de paiement."
 
+#. PM-Cypress 20151210
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "Stand-alone credits are not allowed."
-msgstr ""
+msgstr "Les notes intrinsèques ne sont pas permises."
 
 #: lms/djangoapps/shoppingcart/processors/CyberSource2.py
 msgid "The cardholder is enrolled for payer authentication"
@@ -8396,17 +8473,20 @@ msgstr ""
 msgid "Payment confirmation"
 msgstr ""
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/verify_student/views.py
 msgid "Take photo"
-msgstr ""
+msgstr "Prendre une photo"
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/verify_student/views.py
 msgid "Take a photo of your ID"
-msgstr ""
+msgstr "Prendre une photo de votre ID"
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/verify_student/views.py
 msgid "Review your info"
-msgstr ""
+msgstr "Révisez vos informations"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Enrollment confirmation"
@@ -8445,9 +8525,10 @@ msgstr ""
 msgid "Image data is not valid."
 msgstr ""
 
+#. PM-Cypress 20151209
 #: lms/djangoapps/verify_student/views.py
 msgid "Verification photos received"
-msgstr ""
+msgstr "Photos de vérification reçues"
 
 #: lms/djangoapps/verify_student/views.py
 msgid "Invalid course location."
@@ -10061,9 +10142,10 @@ msgstr "Inscrit dans {} | Choisissez votre parcours"
 msgid "Sorry, there was an error when trying to enroll you"
 msgstr "Désolé, une erreur s'est produite en tentant de vous inscrire."
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid "Congratulations!  You are now enrolled in {course_name}"
-msgstr ""
+msgstr "Félicitations! Vous êtes maintenant inscrit au cours {course_name}"
 
 #: common/templates/course_modes/choose.html
 msgid "Pursue Academic Credit with a Verified Certificate"
@@ -10083,9 +10165,10 @@ msgstr ""
 " certificat code d'honneur puis cliquer sur le bouton \"choisir le "
 "certificat\" pour finaliser votre inscription. "
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid "Benefits of a Verified Certificate"
-msgstr ""
+msgstr "Avantages d'un certificat vérifié"
 
 #: common/templates/course_modes/choose.html
 msgid ""
@@ -10105,38 +10188,53 @@ msgid ""
 "or post it directly on LinkedIn"
 msgstr ""
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid "Pursue a Verified Certificate"
-msgstr "Poursuivre Certificat Vérifié"
+msgstr "Poursuivre un certificat vérifié"
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid ""
 "Highlight your new knowledge and skills with a verified certificate. Use "
 "this valuable credential to improve your job prospects and advance your "
 "career, or highlight your certificate in school applications."
 msgstr ""
+"Faites ressortir vos nouvelles connaissances et compétences avec un certificat vérifié. "
+"Utilisez cette attestation de compétences pour améliorer vos perspectives d'emploi et "
+"faire progresser votre carrière, ou mettre en évidence votre certificat lors de demandes d'admission."
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid ""
 "{b_start}Official: {b_end}Receive an instructor-signed certificate with the "
 "institution's logo"
 msgstr ""
+"{b_start}Officiel: {b_end}Recevoir un certificat d'instructeur-signé avec "
+"le logo de l'institution"
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid ""
 "{b_start}Easily shareable: {b_end}Add the certificate to your CV or resume, "
 "or post it directly on LinkedIn"
 msgstr ""
+"{b_start}Facilement partageable: {b_end}Ajouter le certificat à votre CV ou curriculum vitae, "
+"ou poster le directement sur les réseaux sociaux"
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid ""
 "{b_start}Motivating: {b_end}Give yourself an additional incentive to "
 "complete the course"
 msgstr ""
+"{b_start}Motivant: {b_end}Donnez-vous une incitation supplémentaire pour "
+"compléter le cours"
 
+#. PM-Cypress 20151209
 #: common/templates/course_modes/choose.html
 msgid "Audit This Course"
-msgstr "Suivre ce Cours"
+msgstr "Suivre ce cours"
 
 #: common/templates/course_modes/choose.html
 msgid ""
@@ -13312,17 +13410,23 @@ msgstr "Le montant payé ne vous sera pas remboursé."
 msgid "Are you sure you want to unenroll from %(course_number)s?"
 msgstr "Êtes-vous sûr de vouloir vous désinscrire de %(course_number)s ?"
 
+#. PM-Cypress 20151209
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
 "Are you sure you want to unenroll from the verified {cert_name_long} track "
 "of %(course_number)s?"
 msgstr ""
+"Êtes-vous sûr de vouloir vous désinscrire du certificat vérifié "
+"pour %(course_number)s?"
 
+#. PM-Cypress 20151209
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid ""
 "The refund deadline for this course has passed, so you will not receive a "
 "refund."
 msgstr ""
+"La date limite de remboursement pour ce cours est passée, de sorte que vous ne recevrez pas de "
+"remboursement."
 
 #. PM-16
 #: lms/templates/dashboard/_dashboard_course_listing.html
@@ -13343,13 +13447,15 @@ msgstr[1] "Il ne vous reste plus que {days} jours pour vérifier ce cours."
 msgid "Almost there!"
 msgstr "Vous y êtes presque!"
 
+#. PM-Cypress 20151209
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "You still need to verify for this course."
-msgstr "Vous devez encore vous vérifier pour ce cours."
+msgstr "Vous devez encore effectuer la vérification de votre identité pour ce cours."
 
+#. PM-Cypress 20151209
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "Verify Now"
-msgstr "Vérifier Maintenant"
+msgstr "Vérifier maintenant"
 
 #: lms/templates/dashboard/_dashboard_course_listing.html
 msgid "You have already verified your ID!"

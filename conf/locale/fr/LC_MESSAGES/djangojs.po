@@ -3919,17 +3919,19 @@ msgstr ""
 msgid "Professional Education"
 msgstr "Formation professionnelle"
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Verified Certificate upgrade"
-msgstr ""
+msgstr "Mise-à-jour à certificat vérifié"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Verified Certificate"
 msgstr "Certificat vérifié"
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Checkout"
-msgstr ""
+msgstr "Caisse"
 
 #: lms/static/js/verify_student/views/make_payment_step_view.js
 msgid "Checkout with PayPal"
@@ -3953,13 +3955,15 @@ msgstr ""
 msgid "Could not retrieve payment information"
 msgstr "Impossible de récupérer les informations de paiement"
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/reverify_view.js
 msgid "Take a photo of your ID"
-msgstr ""
+msgstr "Prenez une photo de votre pièce d'identité"
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/reverify_view.js
 msgid "Review your info"
-msgstr ""
+msgstr "Passez en revue vos informations"
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Confirm"
@@ -3969,9 +3973,10 @@ msgstr "Confirmer"
 msgid "An error has occurred. Please try reloading the page."
 msgstr "Une erreur est survenue. Essayez de rafraîchir la page."
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "Video Capture Error"
-msgstr ""
+msgstr "Erreur de capture vidéo"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid ""
@@ -3981,9 +3986,10 @@ msgstr ""
 "Vérifiez que votre webcam est bien connectée et que votre navigateur est "
 "autorisé à l'accéder."
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "No Webcam Detected"
-msgstr "Aucune Webcam détectée"
+msgstr "Aucune webcam détectée"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "You don't seem to have a webcam connected."
@@ -3993,13 +3999,15 @@ msgstr "Il semblerait que votre webcam n'est pas connectée."
 msgid "Double-check that your webcam is connected and working to continue."
 msgstr "Vérifiez que votre webcam est bien connectée avant de continuer."
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "Photo Captured successfully."
-msgstr ""
+msgstr "Photo capturée avec succès."
 
+#. PM-Cypress 20151209
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid "No Flash Detected"
-msgstr ""
+msgstr "Aucun flash détecté"
 
 #: lms/static/js/verify_student/views/webcam_photo_view.js
 msgid ""
@@ -5267,9 +5275,10 @@ msgstr ""
 msgid "Want to confirm your identity later?"
 msgstr "Voulez-vous confirmer votre identité plus tard?"
 
+#. PM-Cypress 20151209
 #: lms/templates/commerce/receipt.underscore
 msgid "Verify Now"
-msgstr "Vérifier Maintenant"
+msgstr "Vérifier maintenant"
 
 #: lms/templates/dashboard/donation.underscore
 msgid "Donate"
@@ -5785,9 +5794,10 @@ msgstr "Vous partagez actuellement votre profil restreint."
 msgid "This edX learner is currently sharing a limited profile."
 msgstr "Cette utilisateur partage actuellement un profil restreint."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "Congratulations! You are now verified on %(platformName)s!"
-msgstr "Félicitations! Vous êtes maintenant authentifié sur%(platformName)s!"
+msgstr "Félicitations! Vous êtes maintenant vérifié sur %(platformName)s!"
 
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid "You are now enrolled as a verified student for:"
@@ -5819,6 +5829,7 @@ msgstr "Aller à votre tableau de bord"
 msgid "Verified Status"
 msgstr "Statut vérifié"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/enrollment_confirmation_step.underscore
 msgid ""
 "Thank you for submitting your photos. We will review them shortly. You can "
@@ -5826,14 +5837,19 @@ msgid ""
 "certificates. Verification is good for one year. After one year, you must "
 "submit photos for verification again."
 msgstr ""
+"Merci de nous avoir envoyé vos photos. Nous allons les examiner sous peu. "
+"Vous pouvez maintenant vous inscrire à un cours %(platformName)s offrant des certificats "
+"vérifiés. La vérification de votre identité est bonne pour un an. Après un an, "
+"vous devrez soumettre de nouvelles photos pour une nouvelle vérification."
 
 #: lms/templates/verify_student/error.underscore
 msgid "Error:"
 msgstr "Erreur :"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "What You Need for Verification"
-msgstr ""
+msgstr "Ce dont vous aurez besoin"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/intro_step.underscore
@@ -5842,25 +5858,26 @@ msgstr ""
 msgid "Webcam"
 msgstr "Webcam"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "You need a computer that has a webcam. When you receive a browser prompt, "
 "make sure that you allow access to the camera."
 msgstr ""
-"Vous avez besoin d'un ordinateur doté d'une webcam. Lors que votre "
-"explorateur vous le demandera, assurez vous de lui donner l'autorisation "
-"d'accéder à la webcam."
+"Vous aurez besoin d'un ordinateur doté d'une webcam. Lorsque votre "
+"fureteur vous le demandera, assurez vous de lui donner l'autorisation d'accéder à la webcam."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Photo Identification"
-msgstr ""
+msgstr "Photo d'identification"
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "You need a driver's license, passport, or other government-issued ID that "
 "has your name and photo."
 msgstr ""
-"Vous avez besoin d'un permis de conduire, d'un passeport ou d'une pièce "
+"Vous aurez besoin d'un permis de conduire, d'un passeport ou d'une pièce "
 "d'identité avec votre nom et photo."
 
 #: lms/templates/verify_student/face_photo_step.underscore
@@ -5868,34 +5885,42 @@ msgstr ""
 msgid "Take Your Photo"
 msgstr "Prendre votre photo"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "When your face is in position, use the camera button %(icon)s below to take "
 "your photo."
 msgstr ""
+"Quand votre visage est en bonne position, utilisez le bouton camera %(icon)s ci-dessous "
+"afin de prendre votre photo."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "To take a successful photo, make sure that:"
 msgstr "Pour prendre une bonne photo, assurez-vous que: "
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Your face is well-lit."
-msgstr "Votre visage est bien éclairé"
+msgstr "votre visage est bien éclairé."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "Your entire face fits inside the frame."
-msgstr " Votre visage est entièrement dans le cadre."
+msgstr "votre visage est entièrement dans le cadre."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid "The photo of your face matches the photo on your ID."
-msgstr ""
-"La photo de votre visage concorde avec la photo sur votre pièce d'identité."
+msgstr "la photo de votre visage concorde avec la photo sur votre pièce d'identité."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 msgid ""
 "To use the current photo, select the camera button %(icon)s. To take another"
 " photo, select the retake button %(icon)s."
 msgstr ""
+"Pour utiliser la photo, sélectionnez le bouton de l'appareil photo %(icon)s. Pour prendre une autre photo, "
+"sélectionnez le bouton de reprise %(icon)s."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -5903,12 +5928,14 @@ msgstr ""
 msgid "Frequently Asked Questions"
 msgstr "Foire Aux Questions"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Why does %(platformName)s need my photo?"
-msgstr ""
+msgstr "Pourquoi %(platformName)s a besoin de ma photo?"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -5917,6 +5944,9 @@ msgid ""
 "a government-issued photo ID. Our authorization service confirms your "
 "identity by comparing the photo you take with the photo on your ID."
 msgstr ""
+"Dans le cadre du processus de vérification, vous prenez une photo de votre visage et "
+"à la fois d'une pièce d'identité valide émise par le gouvernement avec photo. Notre service d'autorisation confirme "
+"votre identité en comparant la photo que vous prenez avec la photo sur votre pièce d'identité."
 
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
@@ -5924,6 +5954,7 @@ msgstr ""
 msgid "What does %(platformName)s do with this photo?"
 msgstr "Que fait %(platformName)s avec cette photo ?"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
@@ -5933,53 +5964,68 @@ msgid ""
 "are not saved or visible anywhere on %(platformName)s after the verification"
 " process is complete."
 msgstr ""
+"Nous utilisons les plus hauts niveaux de sécurité disponibles pour chiffrer votre photo "
+"et l'envoyer à notre service d'autorisation pour examen. Votre photo et les informations "
+"ne sont pas enregistrés ou visibles sur %(platformName)s après que le processus de "
+"vérification soit terminé."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/face_photo_step.underscore
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/intro_step.underscore
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next: %(nextStepTitle)s"
-msgstr ""
+msgstr "Suivant: %(nextStepTitle)s"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Take a Photo of Your ID"
-msgstr ""
+msgstr "Prenez une photo de votre pièce d'identité"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "Use your webcam to take a photo of your ID. We will match this photo with "
 "the photo of your face and the name on your account."
 msgstr ""
+"Utilisez votre webcam afin de prendre une photo de votre pièce d'identité. Nous comparerons cette photo "
+"avec la photo de votre visage et le nom sur vore profil."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid ""
 "You need an ID with your name and photo. A driver's license, passport, or "
 "other government-issued IDs are all acceptable."
 msgstr ""
-"Vous avez besoin d'un permis de conduire, un passeport ou toute pièce "
+"Vous aurez besoin d'un permis de conduire, un passeport ou toute pièce "
 "d'identité avec votre nom et photo."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Tips on taking a successful photo"
-msgstr ""
+msgstr "Astuces pour prendre une photo réussie"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Ensure that you can see your photo and read your name"
-msgstr ""
+msgstr "Assurez-vous que vous pouvez voir votre photo et lire votre nom"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Make sure your ID is well-lit"
-msgstr ""
+msgstr "Assurez-vous que votre pièce d'identité est bien éclairée"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 msgid "Once in position, use the camera button %(icon)s to capture your ID"
-msgstr ""
+msgstr "Lorsqu'en position, utilisez le bouton de la caméra %(icon)s afin de capturer votre pièce d'identité"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/id_photo_step.underscore
 #: lms/templates/verify_student/incourse_reverify.underscore
 msgid "Use the retake photo button if you are not pleased with your photo"
-msgstr ""
+msgstr "Utilisez le bouton reprendre photo si vous n'êtes pas satisfait de votre photo"
 
 #: lms/templates/verify_student/image_input.underscore
 msgid "Preview of uploaded image"
@@ -6055,10 +6101,11 @@ msgstr ""
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid "You are enrolling in: %(courseName)s"
 msgstr "Vous vous inscrivez à : %(courseName)s"
-
+ 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid "You are upgrading your enrollment for: %(courseName)s"
-msgstr ""
+msgstr "Vous mettez à jour votre inscription pour: %(courseName)s"
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
@@ -6067,22 +6114,30 @@ msgstr ""
 "Vous pouvez maintenant entrer vos informations de paiement et terminer votre"
 " inscription."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these by %(date)s to qualify to earn a Verified "
 "Certificate."
 msgstr ""
+"Vous pouvez payer maintenant, même si les éléments suivants ne sont pas disponibles, mais "
+"vous aurez besoin de ceux-ci d'ici %(date) afin de vous qualifier pour obtenir un certificat vérifié."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
 "You can pay now even if you don't have the following items available, but "
 "you will need to have these to qualify to earn a Verified Certificate."
 msgstr ""
+"Vous pouvez payer maintenant, même si les éléments suivants ne sont pas disponibles, mais "
+"vous aurez besoin de ceux-ci afin de vous qualifier pour obtenir "
+"un certificat vérifié."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid "Government-Issued Photo ID"
-msgstr ""
+msgstr "Pièce d'identité valide émise par le gouvernement avec photo"
 
 #: lms/templates/verify_student/make_payment_step.underscore
 msgid ""
@@ -6110,13 +6165,15 @@ msgstr "Votre vérification est valable jusqu'au %(verificationGoodUntil)s."
 msgid "price"
 msgstr "prix"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Thank you! We have received your payment for %(courseName)s."
-msgstr ""
+msgstr "Merci. Nous avons reçu votre paiement pour %(courseName)s."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/payment_confirmation_step.underscore
 msgid "Next Step: Confirm your identity"
-msgstr ""
+msgstr "Prochaine étape: confirmez votre identité"
 
 #. PM-Cypress 03
 #: lms/templates/verify_student/payment_confirmation_step.underscore
@@ -6153,9 +6210,10 @@ msgstr ""
 msgid "Return to Your Dashboard"
 msgstr ""
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Review Your Photos"
-msgstr ""
+msgstr "Révisez vos photos"
 
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid ""
@@ -6173,46 +6231,57 @@ msgstr ""
 msgid "Photo of %(fullName)s's ID"
 msgstr ""
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photo requirements:"
-msgstr ""
+msgstr "Exigences photo:"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the photo of you show your whole face?"
-msgstr ""
+msgstr "Est-ce que la photo montre tout votre visage?"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the photo of you match your ID photo?"
-msgstr ""
+msgstr "Est-ce que votre photo correspond à la photo de votre pièce d'identité?"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Is your name on your ID readable?"
-msgstr ""
+msgstr "Est que le nom sur votre pièce d'identité est lisible?"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Does the name on your ID match your account name: %(fullName)s?"
-msgstr ""
+msgstr "Est-ce que le nom sur votre pièce d'identité correspond à celui de votre profil: %(fullName)s?"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Edit Your Name"
-msgstr ""
+msgstr "Editez votre nom"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid ""
 "Make sure that the full name on your account matches the name on your ID."
 msgstr ""
+"Assurez-vous que le nom complet de votre profil correspond au nom sur votre pièce d'identité."
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Photos don't meet the requirements?"
-msgstr ""
+msgstr "Les photos ne rencontrent pas les exigences?"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Retake Your Photos"
-msgstr ""
+msgstr "Reprendre vos photos"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/review_photos_step.underscore
 msgid "Before proceeding, please confirm that your details match"
-msgstr ""
+msgstr "Avant de continuer, svp confirmer que vos informations sont exactes"
 
 #: lms/templates/verify_student/webcam_photo.underscore
 msgid ""
@@ -6224,13 +6293,15 @@ msgstr ""
 msgid "Live view of webcam"
 msgstr ""
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/webcam_photo.underscore
 msgid "Retake Photo"
-msgstr ""
+msgstr "Reprendre la photo"
 
+#. PM-Cypress 20151209
 #: lms/templates/verify_student/webcam_photo.underscore
 msgid "Take Photo"
-msgstr ""
+msgstr "Prendre une photo"
 
 #: cms/templates/js/active-video-upload-list.underscore
 msgid "Drag and drop or click here to upload video files."
