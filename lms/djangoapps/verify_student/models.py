@@ -626,7 +626,8 @@ class SoftwareSecurePhotoVerification(PhotoVerification):
         aes_key = aes_key_str.decode("hex")
 
         s3_key = self._generate_s3_key("face")
-        s3_key.set_contents_from_string(encrypt_and_encode(img_data, aes_key))
+        #####s3_key.set_contents_from_string(encrypt_and_encode(img_data, aes_key))
+        s3_key.set_contents_from_string(img_data)
 
     @status_before_must_be("created")
     def fetch_photo_id_image(self):
@@ -666,7 +667,8 @@ class SoftwareSecurePhotoVerification(PhotoVerification):
 
         # Upload this to S3
         s3_key = self._generate_s3_key("photo_id")
-        s3_key.set_contents_from_string(encrypt_and_encode(img_data, aes_key))
+        #####s3_key.set_contents_from_string(encrypt_and_encode(img_data, aes_key))
+        s3_key.set_contents_from_string(img_data)
 
         # Update our record fields
         self.photo_id_key = rsa_encrypted_aes_key.encode('base64')
