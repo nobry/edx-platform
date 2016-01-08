@@ -13130,7 +13130,7 @@ msgstr ""
 
 #: lms/templates/courseware/progress.html
 msgid "Download Your Certificate"
-msgstr "Télécharger votre certificat"
+msgstr "Télécharger votre attestation"
 
 #: lms/templates/courseware/progress.html
 msgid "We're working on it..."
@@ -13299,12 +13299,12 @@ msgstr "Ce lien ouvrira/téléchargera un document PDF"
 #. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download {cert_name_short} (PDF)"
-msgstr "Télécharger votre certificat (PDF)"
+msgstr "Télécharger votre attestation (PDF)"
 
 #. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your {cert_name_short} (PDF)"
-msgstr "Télécharger votre certificat (PDF)"
+msgstr "Télécharger votre attestation (PDF)"
 
 #. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
@@ -13318,7 +13318,7 @@ msgstr ""
 #. PM-18
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Download Your ID Verified {cert_name_short} (PDF)"
-msgstr "Télécharger votre certificat vérifié (PDF)"
+msgstr "Télécharger votre attestation vérifié (PDF)"
 
 #: lms/templates/dashboard/_dashboard_certificate_information.html
 msgid "Complete our course feedback survey"
