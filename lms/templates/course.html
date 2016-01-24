@@ -5,13 +5,13 @@ from django.core.urlresolvers import reverse
 %>
 <%page args="course" />
 ##### nouveau code Dogwood
-#####<article class="course" id="${course.id | h}" role="region" aria-label="${course.display_name_with_default}">
+<article class="course" id="${course.id | h}" role="region" aria-label="${course.display_name_with_default}">
 ##### nouveau code Dogwood
 ##### code Cypress
-<article class="course" id="${course.id | h}" role="region" aria-label="${get_course_about_section(course, 'title')}">
-%if course.is_newish:
-  <span class="status">${_("New")}</span>
-%endif
+###########<article class="course" id="${course.id | h}" role="region" aria-label="${get_course_about_section(course, 'title')}">
+###########%if course.is_newish:
+###########  <span class="status">${_("New")}</span>
+###########%endif
 ##### code Cypress
   <a href="${reverse('about_course', args=[course.id.to_deprecated_string()])}">
     <header class="course-image">
