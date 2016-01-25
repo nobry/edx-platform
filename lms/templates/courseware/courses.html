@@ -1,45 +1,37 @@
-##### nouveau code Dogwood
-#####<%!
-#####  import json
-#####  from django.utils.translation import ugettext as _
-#####  from microsite_configuration import microsite
-#####  from openedx.core.lib.js_utils import escape_json_dumps
-#####  from xmodule.modulestore.django import modulestore
-#####  from xmodule.contentstore.django import contentstore
-#####%>
-#####<%inherit file="../main.html" />
-#####<%
-#####  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
-#####%>
-#####
-#####<%namespace name='static' file='../static_content.html'/>
-#####
-#####% if course_discovery_enabled:
-#####<%block name="header_extras">
-#####  % for template_name in ["course_card", "filter_bar", "filter", "facet", "facet_option"]:
-#####  <script type="text/template" id="${template_name}-tpl">
-#####      <%static:include path="discovery/${template_name}.underscore" />
-#####  </script>
-#####  % endfor
-#####  <%static:require_module module_name="js/discovery/discovery_factory" class_name="DiscoveryFactory">
-#####    DiscoveryFactory(
-#####      ${ escape_json_dumps(course_discovery_meanings) | n },
-#####      getParameterByName('search_query')
-#####    );
-#####  </%static:require_module>
-#####</%block>
-#####% endif
+<%!
+  import json
+  from django.utils.translation import ugettext as _
+  from microsite_configuration import microsite
+  from openedx.core.lib.js_utils import escape_json_dumps
+  from xmodule.modulestore.django import modulestore
+  from xmodule.contentstore.django import contentstore
+%>
+<%inherit file="../main.html" />
+<%
+  course_discovery_enabled = settings.FEATURES.get('ENABLE_COURSE_DISCOVERY')
+%>
 
-<%! from xmodule.modulestore.django import modulestore %>
+<%namespace name='static' file='../static_content.html'/>
 
-<%! from django.utils.translation import ugettext as _ %>
+% if course_discovery_enabled:
+<%block name="header_extras">
+  % for template_name in ["course_card", "filter_bar", "filter", "facet", "facet_option"]:
+  <script type="text/template" id="${template_name}-tpl">
+      <%static:include path="discovery/${template_name}.underscore" />
+  </script>
+  % endfor
+  <%static:require_module module_name="js/discovery/discovery_factory" class_name="DiscoveryFactory">
+    DiscoveryFactory(
+      ${ escape_json_dumps(course_discovery_meanings) | n },
+      getParameterByName('search_query')
+    );
+  </%static:require_module>
+</%block>
+% endif
+
 
 <%! from django.core.urlresolvers import reverse %>
 
-<%inherit file="../main.html" />
-<%namespace name='static' file='../static_content.html'/>
-
-<%! from microsite_configuration import microsite %>
 
 <%block name="pagetitle">Cours</%block>
 
