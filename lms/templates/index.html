@@ -4,6 +4,7 @@
 from django.utils.translation import ugettext as _
 from django.core.urlresolvers import reverse
 from microsite_configuration import microsite
+from xmodule.modulestore.django import modulestore
 %>
 
 <%
@@ -73,12 +74,12 @@ from microsite_configuration import microsite
             #####  </li>
             #####%endfor
             #####new code Dogwood
-            %for course in sorted(courses, key=lambda course: (course.start is None, course.start)):
-                % if not course.has_ended() and course.catalog_visibility=="both":
-                <li class="courses-listing-item">
-                    <%include file="course.html" args="course=course" />
-                </li>
-                % endif
+            %for course in sorted(modulestore().get_courses(), key=lambda x: (x.start is None, x.start), reverse=False):
+                 % if ((course.has_started() and not course.has_ended()) or (not course.has_started())) and course.catalog_visibility=="both":
+                     <li class="courses-listing-item">
+                         <%include file="course-edulib.html" args="course=course" />
+                     </li>
+                 %endif
             %endfor
             </ul>
         </section>
