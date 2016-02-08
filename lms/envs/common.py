@@ -2163,8 +2163,10 @@ REGISTRATION_EXTRA_FIELDS = {
 }
 
 ########################## CERTIFICATE NAME ########################
-CERT_NAME_SHORT = "Certificate"
-CERT_NAME_LONG = "Certificate of Achievement"
+#CERT_NAME_SHORT = "Certificate"
+CERT_NAME_SHORT = "attestation"
+#CERT_NAME_LONG = "Certificate of Achievement"
+CERT_NAME_LONG = "attestation de réussite"
 
 #################### Badgr OpenBadges generation #######################
 # Be sure to set up images for course modes using the BadgeImageConfiguration model in the certificates app.
