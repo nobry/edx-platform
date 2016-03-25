@@ -22,7 +22,7 @@ ${_("After you activate your account, you can sign up for "
 ${_("If you need help, please use our web form at "
     "{contact_us_url} or email {info_email_address}."
   ).format(
-    contact_us_url="https://www.edx.org/contact-us",
+    contact_us_url="https://cours.edulib.org/contact",
     info_email_address=settings.CONTACT_EMAIL
   )}
 
