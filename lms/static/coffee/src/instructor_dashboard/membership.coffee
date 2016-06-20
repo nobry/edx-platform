@@ -137,6 +137,7 @@ class AuthListWidget extends MemberListWidget
   # `cb` is called with cb(error, member_list)
   get_member_list: (cb) ->
     $.ajax
+      type: 'POST'
       dataType: 'json'
       url: @list_endpoint
       data: rolename: @rolename
@@ -151,6 +152,7 @@ class AuthListWidget extends MemberListWidget
   # `cb` is called with cb(error, data)
   modify_member_access: (unique_student_identifier, action, cb) ->
     $.ajax
+      type: 'POST'
       dataType: 'json'
       url: @modify_endpoint
       data:
@@ -644,6 +646,7 @@ class AuthList
     # fetch data from the endpoint
     # the endpoint comes from data-endpoint of the table
     $.ajax
+      type: 'POST'
       dataType: 'json'
       url: @$display_table.data 'endpoint'
       data: rolename: @rolename
@@ -663,6 +666,7 @@ class AuthList
   # action should be one of ['allow', 'revoke']
   access_change: (email, action, cb) ->
     $.ajax
+      type: 'POST'
       dataType: 'json'
       url: @$add_section.data 'endpoint'
       data:
