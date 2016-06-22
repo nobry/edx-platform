@@ -481,6 +481,7 @@ def create_and_enroll_user(email, username, name, country, password, course_id):
 
 
 @require_POST
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_level('staff')
@@ -805,7 +806,6 @@ def modify_access(request, course_id):
         'success': 'yes',
     }
     return JsonResponse(response_payload)
-
 
 @require_POST
 @ensure_csrf_cookie
@@ -2090,6 +2090,7 @@ def list_background_email_tasks(request, course_id):  # pylint: disable=unused-a
 
 
 @require_POST
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_level('staff')
@@ -2208,6 +2209,7 @@ def list_report_downloads(_request, course_id):
     return JsonResponse(response_payload)
 
 
+@require_POST
 @require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
@@ -2432,7 +2434,6 @@ def update_forum_role_membership(request, course_id):
     unique_student_identifier = request.POST.get('unique_student_identifier')
     rolename = request.POST.get('rolename')
     action = request.POST.get('action')
-
 
     # default roles require either (staff & forum admin) or (instructor)
     if not (has_forum_admin or has_instructor_access):
@@ -2667,6 +2668,7 @@ def mark_student_can_skip_entrance_exam(request, course_id):  # pylint: disable=
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_global_staff
@@ -2687,6 +2689,7 @@ def start_certificate_generation(request, course_id):
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_global_staff
@@ -2725,6 +2728,7 @@ def start_certificate_regeneration(request, course_id):
 
 
 @transaction.non_atomic_requests
+@require_POST
 @ensure_csrf_cookie
 @cache_control(no_cache=True, no_store=True, must_revalidate=True)
 @require_global_staff

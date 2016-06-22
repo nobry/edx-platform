@@ -648,6 +648,7 @@ class AuthList
     $.ajax
       type: 'POST'
       dataType: 'json'
+      type: 'POST'
       url: @$display_table.data 'endpoint'
       data: rolename: @rolename
       success: load_auth_list
@@ -668,6 +669,7 @@ class AuthList
     $.ajax
       type: 'POST'
       dataType: 'json'
+      type: 'POST'
       url: @$add_section.data 'endpoint'
       data:
         email: email
