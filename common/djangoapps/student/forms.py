@@ -18,7 +18,9 @@ from django.template import loader
 
 from django.conf import settings
 from microsite_configuration import microsite
+from student.models import CourseEnrollmentAllowed
 from util.password_policy_validators import validate_password_strength
+from openedx.core.djangoapps.theming import helpers as theming_helpers
 
 
 class PasswordResetFormNoActive(PasswordResetForm):
