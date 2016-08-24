@@ -42,14 +42,14 @@
 
             <tfoot>
               <tr>
-                <th scope="row" class="total-label" colspan="1">TPS</th>
+                <th scope="row" class="total-label" colspan="1">TPS (108160995 RT0001)</th>
                 <td class="total-value" colspan="3">
                   <span class="value-amount"><%- receipt.totalCost*.15 %></span>
                    <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
                 </td>
               </tr>
               <tr>
-                <th scope="row" class="total-label" colspan="1">TVQ</th>
+                <th scope="row" class="total-label" colspan="1">TVQ (1006011132 TQ0005)</th>
                 <td class="total-value" colspan="3">
                   <span class="value-amount"><%- receipt.totalCost*.20 %></span>
                    <span class="value-currency">(<%- receipt.currency.toUpperCase() %>)</span>
